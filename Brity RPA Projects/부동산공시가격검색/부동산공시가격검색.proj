@@ -1,0 +1,58 @@
+<Project id="04b4ff5e-2ac4-4e84-976d-d3378353460b" namespace="" name="부동산공시가격검색" category="project" workType="foreground" version="1.00" lastPublishedDate="" lastPublishedBy="" createdDate="2024-07-09 14:17:56" createdBy="" latestProcess="P_부동산공시가격검색" designerVersion="3.1.100.11228" DesignedBy="">
+  <SharedTask isExpended="false" />
+  <NormalTask isExpended="true">
+    <LinkItem id="b58cad97-e558-460a-91d5-4375e18c2bc3" category="NormalTask" isChanged="Y" desc="" stepCount="28" name="T_openChrome">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="e7458ea8-ca03-44c6-92a7-2f96d8340d31" category="NormalTask" isChanged="Y" desc="" stepCount="13" name="T_openExcell">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="d5bf7a21-2947-4500-aab8-db0410b0b8ee" category="NormalTask" isChanged="Y" desc="" stepCount="5" name="T_setExcell">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="acab22e4-ac26-43ec-aaa9-afeeb40880b9" category="NormalTask" isChanged="Y" desc="" stepCount="3" name="T_test">
+      <Properties />
+    </LinkItem>
+  </NormalTask>
+  <Event isExpended="false" />
+  <Process isExpended="true">
+    <LinkItem id="f5d5e78c-2c49-4e0c-a0f3-ff34a134bb02" category="Process" isChanged="Y" desc="default process" stepCount="3" name="P_부동산공시가격검색">
+      <Properties />
+    </LinkItem>
+  </Process>
+  <CustomLibraries isExpended="false" />
+  <LibraryTemplate isExpended="false" />
+  <Resources isExpended="false" />
+  <RemoteProcess isExpended="false" />
+  <RecorderData isExpended="false" />
+  <Asset />
+  <Library />
+  <Variables>
+    <Variable name="xlsx1" scope="Global" valueType="Any" formatType="Any" initValue="" desc="" colorValue="#FFFF731D" showMarker="False" />
+    <Variable name="resultDataArray" scope="Global" valueType="Any" formatType="Any" initValue="[]" desc="" colorValue="#FFF7C04A" showMarker="False" />
+    <Variable name="hosu" scope="Global" valueType="Any" formatType="Any" initValue="" desc="" colorValue="#FF1A4D2E" showMarker="False" />
+    <Variable name="dong" scope="Global" valueType="Any" formatType="Any" initValue="[]" desc="" colorValue="#FF94AF9F" showMarker="False" />
+    <Variable name="aptName" scope="Global" valueType="Any" formatType="Any" initValue="[]" desc="" colorValue="#FFA555EC" showMarker="False" />
+    <Variable name="loc3" scope="Global" valueType="Any" formatType="Any" initValue="[]" desc="" colorValue="#FFF07DEA" showMarker="False" />
+    <Variable name="loc2" scope="Global" valueType="Any" formatType="Any" initValue="[]" desc="" colorValue="#FF38E54D" showMarker="False" />
+    <Variable name="loc1" scope="Global" valueType="Any" formatType="Any" initValue="[]" desc="" colorValue="#FFEB455F" showMarker="False" />
+    <Variable name="cusName" scope="Global" valueType="Any" formatType="Any" initValue="[]" desc="" colorValue="#FF2DCDDF" showMarker="False" />
+    <Variable name="cusNum" scope="Global" valueType="Any" formatType="Any" initValue="[]" desc="" colorValue="#FF7AA874" showMarker="False" />
+  </Variables>
+  <Properties>
+    <Property key="PlayOption_StepInterval" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="1" />
+    <Property key="PlayOption_DisableDrawBounds" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_InvokeFirst" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_AllowUploadDumpScreenResult" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+  </Properties>
+  <DisplayLibraries>
+    <string>Flow</string>
+    <string>Win</string>
+    <string>Net</string>
+    <string>Excel</string>
+    <string>Desktop</string>
+    <string>Chrome</string>
+    <string>ImageRecognition</string>
+    <string>DataConverter</string>
+  </DisplayLibraries>
+</Project>

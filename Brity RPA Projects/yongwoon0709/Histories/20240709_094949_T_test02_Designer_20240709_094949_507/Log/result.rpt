@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="6a100b18-dfd5-433f-b1ed-51fa1ae93dd7" name="T_test02" result="Pass" detail="{}" start="2024-07-09T00:49:52.797" end="2024-07-09T00:49:58.950" jobId="Designer_20240709_094949_507">
+  <Step id="S2842c46fe66246d3858e933da1c22819" taskName="T_test02" type="Desktop" name="InputBox" displayName="InputBox" callDepth="1" depth="1" num="1" result="Pass" start="2024-07-09T00:49:52.873" end="2024-07-09T00:49:56.898" displayTime="4s">
+    <Variables>
+      <Variable name="inputNum" scope="Normal" owner="T_test02" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.inputNum : '2'" runtimeType="String" key="Conditions_Variable" displayKey="Variable" visible="true" required="true" />
+      <Property value="Text" runtimeType="String" key="Conditions_PromptType" displayKey="Prompt Type" visible="true" required="true" />
+      <Property value="''" runtimeType="String" key="Conditions_DefaultValue" displayKey="Default Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Conditions_DefaultItem" displayKey="Default Value" visible="false" required="false" />
+      <Property value="''" runtimeType="String" key="Conditions_PromptMessage" displayKey="Guide Message" visible="true" required="false" />
+      <Property value="600" runtimeType="Integer" key="Conditions_TimeoutSec" displayKey="Timeout(Sec)" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Se2ec00d06f8c495b9eded87a0f1f012f" taskName="T_test02" type="Flow" name="Decision" displayName="IfElse" callDepth="1" depth="1" num="2" result="Pass" start="2024-07-09T00:49:56.911" end="2024-07-09T00:49:56.914" displayTime="0s">
+    <Variables>
+      <Variable name="inputNum" scope="Normal" owner="T_test02" declareType="Any" isChanged="false" isChangable="false" runtimeType="String" value="'2'" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.inputNum==1" runtimeType="String" key="Conditions_Expression" displayKey="If Condition" visible="false" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S2777cb2515a049f195e97c432fa66171" taskName="T_test02" type="Flow" name="Else" displayName="Else" callDepth="1" depth="2" num="4" result="Pass" start="2024-07-09T00:49:56.927" end="2024-07-09T00:49:56.928" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd213e1e5423a4384a55858524fbe6c26" taskName="T_test02" type="Win" name="OpenApp" displayName="OpenApp" callDepth="1" depth="2" num="5" result="Pass" start="2024-07-09T00:49:56.944" end="2024-07-09T00:49:58.867" displayTime="1.9s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="RESULT : 8656" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="true" required="true" />
+      <Property value="'chrome'" runtimeType="String" key="Application_Command" displayKey="Command" visible="true" required="true" />
+      <Property value="''" runtimeType="String" key="Application_Arguments" displayKey="Arguments" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Application_DerivedApp" displayKey="Derived App" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Options_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="5" runtimeType="Integer" key="Options_WaitTimeSec" displayKey="WaitTime(Sec)" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S18af7a317e4443a5a91a5175c0c04889" taskName="T_test02" type="Flow" name="EndDecision" displayName="End-IfElse" callDepth="1" depth="2" num="6" result="Pass" start="2024-07-09T00:49:58.897" end="2024-07-09T00:49:58.934" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.100.11228" />
+    <Info name="Resolution" value="1920 x 1200" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-L9D9Y" />
+  </JobInfo>
+</Result>

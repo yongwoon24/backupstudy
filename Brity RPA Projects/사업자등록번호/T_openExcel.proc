@@ -1,0 +1,156 @@
+<Process id="f2901a36-5932-45cd-9185-cc5975f9e501" type="task" workType="foreground" name="T_openExcel" version="" designerVersion="3.1.100.11228" lastPublishedServer="" readonly="false" isValid="true" DesignedBy="Designer" Template="" StepCount="6" Orientation="horizontal">
+  <Properties>
+    <Property key="Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onBefore" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onAfter" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="Timeout" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="0" />
+    <Property key="RunningTime" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="11" />
+    <Property key="Os" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="Microsoft Windows 10 Pro64비트" />
+    <Property key="Resolution" controlType="String" valueType="System.String" formatType="String_Size" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="1920x1200" />
+    <Property key="CreatedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2024-07-09 10:25:11" />
+    <Property key="CreatedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+    <Property key="LastModifiedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2024-07-09 14:17:23" />
+    <Property key="LastModifiedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="" />
+    <Property key="LastPublishedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+    <Property key="LastPublishedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+  </Properties>
+  <LinkItems />
+  <Variables>
+    <Variable name="rowCount" scope="Normal" valueType="Any" formatType="Any" initValue="" desc="" colorValue="#FF7149C6" showMarker="False" />
+  </Variables>
+  <Steps>
+    <Step id="S7808cf7f4beb4f1d971398b471c20e76" ver="311231130" createVer="311231130" type="Excel" name="OpenExcel" dpName="OpenExcel" dpValue="C:\Users\3calss_15\Desktop&#xD;pa\실습과제 7 - 사업자등록번호.xlsx" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="ad8f7dff-e793-4487-8cd2-796e0fbbdfb2" type="Excel">
+        <Property type="Excel" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Excel" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Excel" key="Output_OutputExcel" controlType="OutputControlType" valueType="System.Object" formatType="Variable" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="RESULT" />
+        <Property type="Excel" key="File_Path" controlType="Excel" valueType="System.String" formatType="String_FilePath" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="'C:\\Users\\3calss_15\\Desktop\\rpa\\실습과제 7 - 사업자등록번호.xlsx'" order="11" />
+        <Property type="Excel" key="File_Invisible" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" order="12" />
+        <Property type="Excel" key="File_ReadOnly" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" order="16" />
+        <Property type="Excel" key="File_Maximize" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="True" order="13" />
+        <Property type="Excel" key="File_ExecuteShell" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" order="14" />
+        <Property type="Excel" key="File_Timeout" controlType="Int32" valueType="System.Int32" formatType="Integer" required="True" visible="False" readonly="False" encrypted="False" isChanged="N" value="60" order="15" />
+        <Property type="Excel" key="File_UsePassword" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" order="17" />
+        <Property type="Excel" key="File_OpenPassword" controlType="PropertyItemPasswordView" valueType="System.String" formatType="String" required="False" visible="False" readonly="False" encrypted="False" isChanged="Y" value="" order="18" />
+        <Property type="Excel" key="File_WritePassword" controlType="PropertyItemPasswordView" valueType="System.String" formatType="String" required="False" visible="False" readonly="False" encrypted="False" isChanged="Y" value="" order="19" />
+        <Property type="Excel" key="File_TextDelimiter" controlType="PropertyItemDropDownView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="Comma(,)" valuelist="Comma(,);Colon(:);Semicolon(;;);Caret(^);Pipe(|);Tab(&#x9;);Space( );Ampersand(&amp;);Ampersat(@);Asterisk(*);Backslash(\);Dollar($);Dot(.);Equals(=);Exclamation(!);Hyphen(-);Percent(%);Plus(+);Question(?);Sharp(#);Slash(/);Tilde(~);Underscore(_)" order="20" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[RESULT = StepPlayer.Run('Excel.OpenExcel', this.openexcel_info_1);]]></Script>
+    </Step>
+    <Step id="S0b3e446ed9d2411881635151a2ec7502" ver="311231130" createVer="311231130" type="Excel" name="GetRowCount" dpName="GetRowCount" dpValue="Global.sheetName" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="91609d2a-cf0d-4fdd-9035-91550c75d180" type="Excel">
+        <Property type="Excel" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Excel" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Excel" key="Input_InputExcel" controlType="InputControlType" valueType="System.Object" formatType="Variable" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="ACTIVE_EXCEL" />
+        <Property type="Excel" key="Output_OutputCount" controlType="OutputControlType" valueType="System.Int32" formatType="Variable" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.rowCount" />
+        <Property type="Excel" key="Sheet_SheetName" controlType="String" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="Global.sheetName" />
+        <Property type="Excel" key="Sheet_VisibleDataOnly" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[this.rowCount = StepPlayer.Run('Excel.GetRowCount', this.getrowcount_info_2);]]></Script>
+    </Step>
+    <Step id="Sd99a3a5f361141d4b69bebf15ee12130" ver="311231130" createVer="311231130" type="Flow" name="Loop" dpName="For" dpValue="this.i &lt; this.rowCount + 1" dpValue2="" dpImage="" tag="" depth="1" stmttype="OpenBlock" enabled="True" mainSet="0">
+      <Properties id="70624b54-b4fb-4b2d-85e6-21c5e30813f9" type="Flow">
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Conditions_InitializeIndex" controlType="Object" valueType="System.Object" formatType="Expression" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.i = 1" />
+        <Property type="Flow" key="Conditions_LoopCondition" controlType="Object" valueType="System.Object" formatType="Expression" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.i &lt; this.rowCount + 1" />
+        <Property type="Flow" key="Conditions_UpdateIndex" controlType="Object" valueType="System.Object" formatType="Expression" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.i++" />
+      </Properties>
+      <RelatedSteps>
+        <RelatedStep id="Sc951ad44b4494325bbb827c3a26a3f13" type="Flow" name="EndLoop" />
+      </RelatedSteps>
+      <Script><![CDATA[for (this.i = 1; this.i < this.rowCount + 1; this.i++) {]]></Script>
+    </Step>
+    <Step id="Sfb4fb9f414e0486c921c44f094d674e5" ver="311231130" createVer="311231130" type="Excel" name="ReadString" dpName="ReadString" dpValue="'A'+this.i" dpValue2="" dpImage="" tag="" depth="2" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="1b86ec89-5093-4c9d-afd4-3dba12e09d03" type="Excel">
+        <Property type="Excel" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Excel" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Excel" key="Output_ReadData" controlType="OutputControlType" valueType="System.String" formatType="Variable" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="Global.dataArray[this.i-1]" />
+        <Property type="Excel" key="Input_InputExcel" controlType="InputControlType" valueType="System.Object" formatType="Variable" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="ACTIVE_EXCEL" />
+        <Property type="Excel" key="Sheet_SheetName" controlType="String" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="Global.sheetName" />
+        <Property type="Excel" key="Sheet_Cell" controlType="String" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="'A'+this.i" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[Global.dataArray[this.i-1] = StepPlayer.Run('Excel.ReadString', this.readstring_info_4);]]></Script>
+    </Step>
+    <Step id="Sc951ad44b4494325bbb827c3a26a3f13" ver="311231130" createVer="311231130" type="Flow" name="EndLoop" dpName="End-For" dpValue="" dpValue2="" dpImage="" tag="" depth="2" stmttype="CloseBlock" enabled="True" mainSet="0">
+      <Properties id="0192a04f-6ace-44b1-a300-fe6053dbc165" type="Flow">
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+      </Properties>
+      <RelatedSteps>
+        <RelatedStep id="Sd99a3a5f361141d4b69bebf15ee12130" type="Flow" name="Loop" />
+      </RelatedSteps>
+      <Script><![CDATA[}]]></Script>
+    </Step>
+    <Step id="S26a48d8172e84289bba4cb293adbc173" ver="311231130" createVer="311231130" type="Desktop" name="MessageBox" dpName="MessageBox" dpValue="Global.dataArray" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="False" mainSet="0">
+      <Properties id="dbebae63-385a-4aaf-b089-80e277630331" type="Desktop">
+        <Property type="Desktop" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Desktop" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Desktop" key="Conditions_Arguments" controlType="Object" valueType="System.Object" formatType="Any" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="Global.dataArray" />
+        <Property type="Desktop" key="Command_Timeout" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[MsgBox(Global.dataArray);]]></Script>
+    </Step>
+  </Steps>
+  <JScript><![CDATA[function T_openExcel() {
+
+    this.rowCount;
+
+    this.RPAGOTOENABLE = false;
+    this.GotoStepRetryCntMap = {};
+    this.GotoBlockMap = {3:[5]};
+    this.GotoReverseBlockMap = {5:3};
+    this.GotoStepBlockTypeMap = {3:'Loop',5:'EndLoop'};
+
+
+    this.run = function() {
+
+        //------------------------------------------------
+        STEP('S7808cf7f4beb4f1d971398b471c20e76', '[1] OpenExcel');
+        RESULT = StepPlayer.Run('Excel.OpenExcel', this.openexcel_info_1);
+
+        //------------------------------------------------
+        STEP('S0b3e446ed9d2411881635151a2ec7502', '[2] GetRowCount');
+        this.rowCount = StepPlayer.Run('Excel.GetRowCount', this.getrowcount_info_2);
+
+        //------------------------------------------------
+        STEP('Sd99a3a5f361141d4b69bebf15ee12130', '[3] For');
+        for (this.i = 1; this.i < this.rowCount + 1; this.i++) {
+
+            //------------------------------------------------
+            STEP('Sfb4fb9f414e0486c921c44f094d674e5', '[4] ReadString');
+            Global.dataArray[this.i-1] = StepPlayer.Run('Excel.ReadString', this.readstring_info_4);
+
+        //------------------------------------------------
+        }
+        STEP('Sc951ad44b4494325bbb827c3a26a3f13', '[5] End-For');
+
+        ////------------------------------------------------
+        //STEP('S26a48d8172e84289bba4cb293adbc173', '[6] MessageBox');
+        //MsgBox(Global.dataArray);
+
+
+    }
+
+    this.execute = function() {
+        var result = null;
+        result = this.run()
+        if (result != null)
+            return result;
+    }
+}
+]]></JScript>
+  <Diagram version="1.300" nodesize="Normal">
+    <StepNodes>
+      <StepNode step_id="S7808cf7f4beb4f1d971398b471c20e76" group_name="39a68df2-c1c3-4646-97c5-da0d836a191a_Untitled" folded="False" color="" />
+      <StepNode step_id="S0b3e446ed9d2411881635151a2ec7502" group_name="cd6915f4-5a7d-4b3a-a005-99d54ef04fd6_Untitled" folded="False" color="" />
+      <StepNode step_id="Sd99a3a5f361141d4b69bebf15ee12130" group_name="" folded="False" color="" />
+      <StepNode step_id="Sfb4fb9f414e0486c921c44f094d674e5" group_name="66c4c8ff-e77e-42d0-b6ec-dc6317eee66c_Untitled" folded="False" color="" />
+      <StepNode step_id="Sc951ad44b4494325bbb827c3a26a3f13" group_name="" folded="False" color="" />
+      <StepNode step_id="S26a48d8172e84289bba4cb293adbc173" group_name="ba6b0014-b4cb-4ff3-ac96-47bee8ba5bb7_Untitled" folded="False" color="" />
+    </StepNodes>
+  </Diagram>
+</Process>

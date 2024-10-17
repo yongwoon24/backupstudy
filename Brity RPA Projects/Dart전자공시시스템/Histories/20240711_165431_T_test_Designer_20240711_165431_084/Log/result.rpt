@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="5ff96692-1d97-46c9-9b11-0b80cd3d8de5" name="T_test" result="Pass" detail="{}" start="2024-07-11T07:54:33.825" end="2024-07-11T07:54:36.745" jobId="Designer_20240711_165431_084">
+  <Step id="S4d861041ece24317b95631a44369d8d7" taskName="T_test" type="Net" name="SendMail" displayName="SendMail" callDepth="1" depth="1" num="1" result="Pass" start="2024-07-11T07:54:33.889" end="2024-07-11T07:54:36.723" displayTime="2.8s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'smtp.gmail.com'" runtimeType="String" key="Mail_HostName" displayKey="Host Name" visible="true" required="true" />
+      <Property value="587" runtimeType="Integer" key="Mail_Port" displayKey="Port" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Mail_UseSSL" displayKey="Use SSL" visible="true" required="true" />
+      <Property value="'yongwoon24@gmail.com'" runtimeType="String" key="Mail_ID" displayKey="ID" visible="true" required="true" />
+      <Property value="&lt;Secure Data&gt;" runtimeType="String" key="Mail_Password" displayKey="Password" visible="true" required="true" />
+      <Property value="'yongwoon24@gmail.com'" runtimeType="String" key="Mail_Sender" displayKey="Sender" visible="true" required="true" />
+      <Property value="'yongwoon24@naver.com'" runtimeType="String" key="Mail_Receivers" displayKey="Receivers" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Mail_CCs" displayKey="CCs" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Mail_BCCs" displayKey="BCCs" visible="true" required="false" />
+      <Property value="'test01'" runtimeType="String" key="Mail_Subject" displayKey="Subject" visible="true" required="true" />
+      <Property value="'asdasdasd'" runtimeType="String" key="Mail_Body" displayKey="Body" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Mail_IsHtml" displayKey="IsHtml" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Mail_Attachments" displayKey="Attachements" visible="true" required="false" />
+      <Property value="20" runtimeType="Integer" key="Mail_CheckFileSize" displayKey="File Size (MB)" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.100.11228" />
+    <Info name="Resolution" value="1920 x 1200" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-L9D9Y" />
+  </JobInfo>
+</Result>

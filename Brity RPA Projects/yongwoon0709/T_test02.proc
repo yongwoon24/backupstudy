@@ -1,0 +1,159 @@
+<Process id="6a100b18-dfd5-433f-b1ed-51fa1ae93dd7" type="task" workType="foreground" name="T_test02" version="" designerVersion="3.1.100.11228" lastPublishedServer="" readonly="false" isValid="true" DesignedBy="Designer" Template="" StepCount="6" Orientation="horizontal">
+  <Properties>
+    <Property key="Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onBefore" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onAfter" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="Timeout" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="0" />
+    <Property key="RunningTime" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="10" />
+    <Property key="Os" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="Microsoft Windows 10 Pro64비트" />
+    <Property key="Resolution" controlType="String" valueType="System.String" formatType="String_Size" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="1920x1200" />
+    <Property key="CreatedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2024-07-09 09:14:36" />
+    <Property key="CreatedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+    <Property key="LastModifiedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2024-07-09 10:06:06" />
+    <Property key="LastModifiedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="" />
+    <Property key="LastPublishedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+    <Property key="LastPublishedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+  </Properties>
+  <LinkItems />
+  <Variables>
+    <Variable name="var1" scope="Normal" valueType="Any" formatType="Any" initValue="" desc="" colorValue="#FFFB2576" showMarker="False" />
+    <Variable name="inputNum" scope="Normal" valueType="Any" formatType="Any" initValue="" desc="" colorValue="#FFF7DB6A" showMarker="False" />
+  </Variables>
+  <Steps>
+    <Step id="S2842c46fe66246d3858e933da1c22819" ver="311231130" createVer="311231130" type="Desktop" name="InputBox" dpName="InputBox" dpValue="this.inputNum" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="c814d629-0ebe-49a8-b0af-27df541e93c8" type="Desktop">
+        <Property type="Desktop" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Desktop" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Desktop" key="Conditions_Variable" controlType="OutputControlType" valueType="System.Object" formatType="Variable" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.inputNum" />
+        <Property type="Desktop" key="Conditions_PromptType" controlType="PropertyItemDropDownView" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="Text" valuelist="OK;OK/Cancel;Yes/No;Yes/No/Cancel;Abort/Retry/Ignore;Retry/Cancel;Text" />
+        <Property type="Desktop" key="Conditions_DefaultValue" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="''" />
+        <Property type="Desktop" key="Conditions_DefaultItem" controlType="String" valueType="System.String" formatType="String" required="False" visible="False" readonly="False" encrypted="False" isChanged="N" value="''" />
+        <Property type="Desktop" key="Conditions_PromptMessage" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="''" />
+        <Property type="Desktop" key="Conditions_TimeoutSec" controlType="Int32" valueType="System.Int32" formatType="Integer" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="600" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[this.inputNum = InputBox('','Text', '', 600);]]></Script>
+    </Step>
+    <Step id="Se2ec00d06f8c495b9eded87a0f1f012f" ver="311231130" createVer="311231130" type="Flow" name="Decision" dpName="IfElse" dpValue="(this.inputNum==1) &amp;&amp; (this.inputNum==2)" dpValue2="" dpImage="" tag="" depth="1" stmttype="OpenBlock" enabled="True" mainSet="0">
+      <Properties id="e40ff1ca-e42f-4b69-a144-c6db1a86335d" type="Flow">
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Conditions_Expression" controlType="PropertyItemTextEditorView" valueType="System.Object" formatType="Condition" required="True" visible="True" readonly="True" encrypted="False" isChanged="N" value="(this.inputNum==1) &amp;&amp; (this.inputNum==2)" order="1" />
+        <Property type="Flow" key="Conditions_CombineCondition" controlType="PropertyItemCombineConditionView" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="True" order="2" />
+        <Property type="Flow" key="Conditions_Expression1" controlType="PropertyItemExpressionView" valueType="System.Object" formatType="Condition" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.inputNum==1" order="3" />
+        <Property type="Flow" key="Conditions_AddCondition" controlType="PropertyItemAddConditionView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="IfElse_Condition2" controlType="PropertyItemExpressionView" valueType="System.Object" formatType="Condition" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.inputNum==2" order="4" />
+      </Properties>
+      <RelatedSteps>
+        <RelatedStep id="S2777cb2515a049f195e97c432fa66171" type="Flow" name="Else" />
+        <RelatedStep id="S18af7a317e4443a5a91a5175c0c04889" type="Flow" name="EndDecision" />
+      </RelatedSteps>
+      <Script><![CDATA[if ((this.inputNum==1) && (this.inputNum==2)) {]]></Script>
+    </Step>
+    <Step id="S1b22068cbd544c1d8b82ebaf79099da9" ver="311231130" createVer="311231130" type="Win" name="OpenApp" dpName="OpenApp" dpValue="notepad" dpValue2="" dpImage="" tag="" depth="2" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="a88ed7d1-98da-49eb-b4e1-e77eab6f0ecb" type="Win">
+        <Property type="Win" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Win" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Win" key="Application_PID" controlType="OutputControlType" valueType="System.Int32" formatType="Variable" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="RESULT" />
+        <Property type="Win" key="Application_Command" controlType="String" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="'notepad'" />
+        <Property type="Win" key="Application_Arguments" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="''" />
+        <Property type="Win" key="Application_DerivedApp" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="''" />
+        <Property type="Win" key="Options_Maximize" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+        <Property type="Win" key="Options_WaitTimeSec" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="5" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[RESULT = WinApplicationPlayer.OpenApp('notepad', '', false, 5, '');]]></Script>
+    </Step>
+    <Step id="S2777cb2515a049f195e97c432fa66171" ver="311231130" createVer="311231130" type="Flow" name="Else" dpName="Else" dpValue="" dpValue2="" dpImage="" tag="" depth="2" stmttype="CloseOpenBlock" enabled="True" mainSet="0">
+      <Properties id="e2cdb7f3-a240-4420-9ab7-29844c50f816" type="Flow">
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+      </Properties>
+      <RelatedSteps>
+        <RelatedStep id="Se2ec00d06f8c495b9eded87a0f1f012f" type="Flow" name="Decision" />
+      </RelatedSteps>
+      <Script><![CDATA[}else{]]></Script>
+    </Step>
+    <Step id="Sd213e1e5423a4384a55858524fbe6c26" ver="311231130" createVer="311231130" type="Win" name="OpenApp" dpName="OpenApp" dpValue="chrome" dpValue2="" dpImage="" tag="" depth="2" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="19d2ebe5-03dd-47f1-bb72-4753a95c08a6" type="Win">
+        <Property type="Win" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Win" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Win" key="Application_PID" controlType="OutputControlType" valueType="System.Int32" formatType="Variable" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="RESULT" />
+        <Property type="Win" key="Application_Command" controlType="String" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="'chrome'" />
+        <Property type="Win" key="Application_Arguments" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="''" />
+        <Property type="Win" key="Application_DerivedApp" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="''" />
+        <Property type="Win" key="Options_Maximize" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+        <Property type="Win" key="Options_WaitTimeSec" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="5" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[RESULT = WinApplicationPlayer.OpenApp('chrome', '', false, 5, '');]]></Script>
+    </Step>
+    <Step id="S18af7a317e4443a5a91a5175c0c04889" ver="311231130" createVer="311231130" type="Flow" name="EndDecision" dpName="End-IfElse" dpValue="" dpValue2="" dpImage="" tag="" depth="2" stmttype="CloseBlock" enabled="True" mainSet="0">
+      <Properties id="3fa8a2b1-9f62-46dc-bc5e-4b5423a5e75e" type="Flow">
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+      </Properties>
+      <RelatedSteps>
+        <RelatedStep id="Se2ec00d06f8c495b9eded87a0f1f012f" type="Flow" name="Decision" />
+      </RelatedSteps>
+      <Script><![CDATA[}]]></Script>
+    </Step>
+  </Steps>
+  <JScript><![CDATA[function T_test02() {
+
+    this.var1;
+    this.inputNum;
+
+    this.RPAGOTOENABLE = false;
+    this.GotoStepRetryCntMap = {};
+    this.GotoBlockMap = {2:[4,6]};
+    this.GotoReverseBlockMap = {4:2,6:2};
+    this.GotoStepBlockTypeMap = {2:'Decision',4:'Else',6:'EndDecision'};
+
+
+    this.run = function() {
+
+        //------------------------------------------------
+        STEP('S2842c46fe66246d3858e933da1c22819', '[1] InputBox');
+        this.inputNum = InputBox('','Text', '', 600);
+
+        //------------------------------------------------
+        STEP('Se2ec00d06f8c495b9eded87a0f1f012f', '[2] IfElse');
+        if ((this.inputNum==1) && (this.inputNum==2)) {
+
+            //------------------------------------------------
+            STEP('S1b22068cbd544c1d8b82ebaf79099da9', '[3] OpenApp');
+            RESULT = WinApplicationPlayer.OpenApp('notepad', '', false, 5, '');
+
+        //------------------------------------------------
+        }else{
+            STEP('S2777cb2515a049f195e97c432fa66171', '[4] Else');
+
+            //------------------------------------------------
+            STEP('Sd213e1e5423a4384a55858524fbe6c26', '[5] OpenApp');
+            RESULT = WinApplicationPlayer.OpenApp('chrome', '', false, 5, '');
+
+        //------------------------------------------------
+        }
+        STEP('S18af7a317e4443a5a91a5175c0c04889', '[6] End-IfElse');
+
+
+    }
+
+    this.execute = function() {
+        var result = null;
+        result = this.run()
+        if (result != null)
+            return result;
+    }
+}
+]]></JScript>
+  <Diagram version="1.300" nodesize="Normal">
+    <StepNodes>
+      <StepNode step_id="S2842c46fe66246d3858e933da1c22819" group_name="9c25dc38-ab26-454b-b77c-a3fbf0f9bd3a_Untitled" folded="False" color="" />
+      <StepNode step_id="Se2ec00d06f8c495b9eded87a0f1f012f" group_name="" folded="False" color="#0db2ad" />
+      <StepNode step_id="S1b22068cbd544c1d8b82ebaf79099da9" group_name="cdf96333-3a41-4adc-9a04-5ccdaeae8f32_Untitled" folded="False" color="" />
+      <StepNode step_id="S2777cb2515a049f195e97c432fa66171" group_name="" folded="False" color="" />
+      <StepNode step_id="Sd213e1e5423a4384a55858524fbe6c26" group_name="a7114702-d052-493b-921f-ccf7e96de049_Untitled" folded="False" color="" />
+      <StepNode step_id="S18af7a317e4443a5a91a5175c0c04889" group_name="" folded="False" color="#0db2ad" />
+    </StepNodes>
+  </Diagram>
+</Process>

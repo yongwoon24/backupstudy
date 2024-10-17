@@ -1,0 +1,48 @@
+<Project id="a89caa2b-44b5-4cfe-9dc4-41c9423785b0" namespace="" name="사업자등록번호" category="project" workType="foreground" version="1.00" lastPublishedDate="" lastPublishedBy="" createdDate="2024-07-09 10:06:22" createdBy="" latestProcess="P_사업자등록번호" designerVersion="3.1.100.11228" DesignedBy="">
+  <SharedTask isExpended="false" />
+  <NormalTask isExpended="true">
+    <LinkItem id="98697117-d7ee-463a-9cdf-242a6c65cde0" category="NormalTask" isChanged="Y" desc="" stepCount="15" name="T_openChrome">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="f2901a36-5932-45cd-9185-cc5975f9e501" category="NormalTask" isChanged="Y" desc="" stepCount="6" name="T_openExcel">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="eab94fbb-830d-46be-97b3-c41cf7fff434" category="NormalTask" isChanged="Y" desc="" stepCount="4" name="T_setExcel">
+      <Properties />
+    </LinkItem>
+  </NormalTask>
+  <Event isExpended="true" />
+  <Process isExpended="true">
+    <LinkItem id="08e029a9-7bcd-4f42-a0a6-92c88d8ed7a4" category="Process" isChanged="Y" desc="default process" stepCount="3" name="P_사업자등록번호">
+      <Properties />
+    </LinkItem>
+  </Process>
+  <CustomLibraries isExpended="false" />
+  <LibraryTemplate isExpended="false" />
+  <Resources isExpended="false" />
+  <RemoteProcess isExpended="false" />
+  <RecorderData isExpended="false" />
+  <Asset />
+  <Library />
+  <Variables>
+    <Variable name="sheetName" scope="Global" valueType="Any" formatType="Any" initValue="'사업자번호'" desc="" colorValue="#FF19A7CE" showMarker="False" />
+    <Variable name="resultDataArray" scope="Global" valueType="Any" formatType="Any" initValue="[]" desc="" colorValue="#FFAA77FF" showMarker="False" />
+    <Variable name="dataArray" scope="Global" valueType="Any" formatType="Any" initValue="[]" desc="" colorValue="#FF97DEFF" showMarker="False" />
+  </Variables>
+  <Properties>
+    <Property key="PlayOption_StepInterval" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="1" />
+    <Property key="PlayOption_DisableDrawBounds" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_InvokeFirst" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_AllowUploadDumpScreenResult" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+  </Properties>
+  <DisplayLibraries>
+    <string>Flow</string>
+    <string>Win</string>
+    <string>Net</string>
+    <string>Excel</string>
+    <string>Desktop</string>
+    <string>Chrome</string>
+    <string>ImageRecognition</string>
+    <string>DataConverter</string>
+  </DisplayLibraries>
+</Project>

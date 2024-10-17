@@ -1,0 +1,49 @@
+<Project id="395478da-34d6-4204-b45a-3d9181392ba4" namespace="" name="Dart전자공시시스템" category="project" workType="foreground" version="1.00" lastPublishedDate="" lastPublishedBy="" createdDate="2024-07-10 09:18:52" createdBy="" latestProcess="T_test" designerVersion="3.1.100.11228" DesignedBy="">
+  <SharedTask isExpended="false" />
+  <NormalTask isExpended="true">
+    <LinkItem id="b3e0392c-3643-44f2-8075-503dbf8a9493" category="NormalTask" isChanged="Y" desc="" stepCount="4" name="T_getDate">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="9967f698-d8a6-474f-924e-d4a7431f24dd" category="NormalTask" isChanged="Y" desc="" stepCount="46" name="T_openChrome">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="68d9f306-7fa2-4e37-9c38-bf856de5a814" category="NormalTask" isChanged="Y" desc="" stepCount="3" name="T_setExcell">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="5ff96692-1d97-46c9-9b11-0b80cd3d8de5" category="NormalTask" isChanged="Y" desc="" stepCount="12" name="T_test">
+      <Properties />
+    </LinkItem>
+  </NormalTask>
+  <Event isExpended="false" />
+  <Process isExpended="true">
+    <LinkItem id="86558eb0-a527-4f62-9177-21a78fbb79b1" category="Process" isChanged="Y" desc="default process" stepCount="2" name="P_Dart전자공시시스템">
+      <Properties />
+    </LinkItem>
+  </Process>
+  <CustomLibraries isExpended="false" />
+  <LibraryTemplate isExpended="false" />
+  <Resources isExpended="false" />
+  <RemoteProcess isExpended="false" />
+  <RecorderData isExpended="false" />
+  <Asset />
+  <Library />
+  <Variables>
+    <Variable name="dateToSearch" scope="Global" valueType="Any" formatType="Any" initValue="" desc="" colorValue="#FF7149C6" showMarker="False" />
+  </Variables>
+  <Properties>
+    <Property key="PlayOption_StepInterval" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="1" />
+    <Property key="PlayOption_DisableDrawBounds" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_InvokeFirst" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_AllowUploadDumpScreenResult" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+  </Properties>
+  <DisplayLibraries>
+    <string>Flow</string>
+    <string>Win</string>
+    <string>Net</string>
+    <string>Excel</string>
+    <string>Desktop</string>
+    <string>Chrome</string>
+    <string>ImageRecognition</string>
+    <string>DataConverter</string>
+  </DisplayLibraries>
+</Project>

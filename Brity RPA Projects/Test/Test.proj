@@ -1,0 +1,46 @@
+<Project id="bc9792c3-1203-473a-867d-0ba5e908c88e" namespace="" name="Test" category="project" workType="foreground" version="1.00" lastPublishedDate="" lastPublishedBy="" createdDate="2024-07-05 10:06:30" createdBy="" latestProcess="T_excel실습" designerVersion="3.1.100.11228" DesignedBy="">
+  <SharedTask isExpended="false" />
+  <NormalTask isExpended="true">
+    <LinkItem id="670e603a-d8bb-4026-8b4d-15b03a61d228" category="NormalTask" isChanged="Y" desc="" stepCount="15" name="T_excel실습">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="48c5749a-92e7-4e7c-9b39-e3a2cc9b991b" category="NormalTask" isChanged="Y" desc="" stepCount="9" name="T_test1">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="6280519b-4638-4fcf-b202-c8854fae4460" category="NormalTask" isChanged="Y" desc="" stepCount="0" name="T_test2">
+      <Properties />
+    </LinkItem>
+  </NormalTask>
+  <Event isExpended="false" />
+  <Process isExpended="true">
+    <LinkItem id="f76fd0ff-c2ce-4762-abc9-a297ef9017b5" category="Process" isChanged="Y" desc="default process" stepCount="2" name="P_Test">
+      <Properties />
+    </LinkItem>
+  </Process>
+  <CustomLibraries isExpended="false" />
+  <LibraryTemplate isExpended="false" />
+  <Resources isExpended="false" />
+  <RemoteProcess isExpended="false" />
+  <RecorderData isExpended="false" />
+  <Asset />
+  <Library />
+  <Variables>
+    <Variable name="var1" scope="Global" valueType="Any" formatType="Any" initValue="" desc="" colorValue="#FF19A7CE" showMarker="False" />
+  </Variables>
+  <Properties>
+    <Property key="PlayOption_StepInterval" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="1" />
+    <Property key="PlayOption_DisableDrawBounds" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_InvokeFirst" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_AllowUploadDumpScreenResult" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+  </Properties>
+  <DisplayLibraries>
+    <string>Flow</string>
+    <string>Win</string>
+    <string>Net</string>
+    <string>Excel</string>
+    <string>Desktop</string>
+    <string>Chrome</string>
+    <string>ImageRecognition</string>
+    <string>DataConverter</string>
+  </DisplayLibraries>
+</Project>

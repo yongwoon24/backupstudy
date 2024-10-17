@@ -1,0 +1,586 @@
+﻿2024-07-05 15:47:27,786 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.100.11228 at 2024-07-05 오후 3:47:27
+EngineID: D_20240705_154726_713
+PID : 9328
+PPID: 12764
+Working Directory: C:\Users\3calss_15\AppData\Roaming\Brity RPA Designer
+
+2024-07-05 15:47:27,826 [T1] INFO  EngineStarter
+System Language: ko-KR
+Resolution: 1920 x 1200
+
+2024-07-05 15:47:28,109 [T1] INFO  Config
+Initialize Config
+
+2024-07-05 15:47:28,154 [T1] DEBUG Config
+Config Loaded
+
+2024-07-05 15:47:28,154 [T1] DEBUG Config
+Backup config file.
+
+2024-07-05 15:47:28,164 [T1] INFO  Config
+Orchestrator Service => https://bwrpa.samsungsds.com:8777
+
+2024-07-05 15:47:28,168 [T1] INFO  Config
+Initialize Resource Config
+
+2024-07-05 15:47:28,194 [T1] DEBUG Config
+Refresh Language Information
+
+2024-07-05 15:47:28,290 [T1] INFO  Config
+All Config Initialized.
+
+2024-07-05 15:47:28,299 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2024-07-05 15:47:28,301 [T1] DEBUG KeyManager
+Load device unique id.
+
+2024-07-05 15:47:28,309 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2024-07-05 15:47:28,417 [T4] DEBUG JobService
+Connect to agent service
+
+2024-07-05 15:47:28,453 [T4] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2024-07-05 15:47:28,454 [T4] DEBUG JobService
+Open connection
+
+2024-07-05 15:47:28,455 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2024-07-05 15:47:28,463 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2024-07-05 15:47:28,471 [T4] DEBUG JobService
+Register engine to agent
+
+2024-07-05 15:47:28,482 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2024-07-05 15:47:28,484 [T4] DEBUG JobService
+Engine is connected to agent service.
+
+2024-07-05 15:47:28,484 [T4] DEBUG JobService
+Owner Process PID: 12764
+
+2024-07-05 15:47:28,487 [T4] INFO  JobService
+Start monitoring owner process is terminated.
+
+2024-07-05 15:47:28,717 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2024-07-05 15:47:28,934 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2024-07-05 15:47:29,107 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2024-07-05 15:47:29,220 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2024-07-05 15:47:29,313 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2024-07-05 15:47:29,375 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2024-07-05 15:47:29,556 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2024-07-05 15:47:29,613 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2024-07-05 15:47:29,698 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2024-07-05 15:47:29,776 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2024-07-05 15:47:30,021 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2024-07-05 15:47:30,117 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2024-07-05 15:47:30,217 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2024-07-05 15:47:30,373 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: 0,0,1920,1200
+
+2024-07-05 15:47:30,403 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2024-07-05 15:47:30,512 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2024-07-05 15:47:30,583 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2024-07-05 15:47:30,676 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2024-07-05 15:47:30,691 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2024-07-05 15:47:30,706 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2024-07-05 15:47:30,722 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2024-07-05 15:47:30,738 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2024-07-05 15:47:30,754 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2024-07-05 15:47:30,769 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2024-07-05 15:47:30,784 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2024-07-05 15:47:30,800 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2024-07-05 15:47:30,816 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2024-07-05 15:47:30,832 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2024-07-05 15:47:30,848 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2024-07-05 15:47:30,864 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2024-07-05 15:47:30,880 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2024-07-05 15:47:30,896 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2024-07-05 15:47:30,912 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2024-07-05 15:47:30,928 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2024-07-05 15:47:30,934 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2024-07-05 15:47:31,333 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2024-07-05 15:47:31,424 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20240705_154726_713 -runtype ProcRunner -ppid 12764
+
+2024-07-05 15:47:31,427 [T1] DEBUG Config
+Refresh Language Information
+
+2024-07-05 15:47:31,427 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2024-07-05 15:48:16,456 [T7] INFO  JobService
+Start Job: T_exel실습 (Foreground)
+{
+  "JobType": 1,
+  "State": 0,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "StartTime": "2024-07-05 15:48:16",
+  "EndTime": null,
+  "JobId": "Designer_20240705_154810_893",
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\Test\\T_exel실습.proc",
+  "ProcessId": "670e603a-d8bb-4026-8b4d-15b03a61d228",
+  "ProcessVer": "",
+  "ProcessArgs": null,
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 12764,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "EngineID": "D_20240705_154726_713",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobWorkDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\Test\\Histories\\20240705_154816_T_exel실습_Designer_20240705_154810_893",
+  "JobLogDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\Test\\Histories\\20240705_154816_T_exel실습_Designer_20240705_154810_893\\Log",
+  "JobScreenshotDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\Test\\Histories\\20240705_154816_T_exel실습_Designer_20240705_154810_893\\Log\\Screenshot"
+}
+
+2024-07-05 15:48:16,605 [T3] DEBUG JobService
+Waiting library loading...
+
+2024-07-05 15:48:16,608 [T3] DEBUG Config
+Reload User Settings
+
+2024-07-05 15:48:16,610 [T3] INFO  Config
+UserSettings Reloaded =>
+ - LastExecution : sh4cK/xGoGANqikjZmEJytFE7NhBm1R5XXNTR60ip8c= -> uri5PwBnH+iVntytb74jSO7FruMxt4IJGbUKxUePKY4=
+
+2024-07-05 15:48:16,610 [T3] INFO  JobService
+Config Loading Completed.
+
+2024-07-05 15:48:16,610 [T3] DEBUG JobService
+Config Loading Time: 4 ms.
+
+2024-07-05 15:48:16,614 [T3] DEBUG JobService
+Check Shared Token
+
+2024-07-05 15:48:16,615 [T3] DEBUG TokenManager
+Load connection token
+
+2024-07-05 15:48:16,618 [T3] DEBUG TokenManager
+Clear Connection Token - No Shared Token
+
+2024-07-05 15:48:16,767 [T1] DEBUG ServerInformationClient
+Request server feature list
+
+2024-07-05 15:48:16,922 [T1] INFO  ServerInformationClient
+Server feature update successful
+
+2024-07-05 15:48:16,926 [T1] INFO  ServerInformationClient
+It takes 264 milliseconds to try to update the server feature list.
+
+2024-07-05 15:48:16,927 [T1] INFO  Config
+Update server features to config.
+
+2024-07-05 15:48:16,962 [T3] INFO  JobService
+Shared Token - No Token
+
+2024-07-05 15:48:16,968 [T3] INFO  JobManager
+Create JobManager instance for job T_exel실습(Designer_20240705_154810_893)
+
+2024-07-05 15:48:16,976 [T3] INFO  JobRequest
+Job ID : Designer_20240705_154810_893
+Project Path  : C:\Users\3calss_15\Documents\Brity RPA Projects\Test\Test.proj
+Process Name  : T_exel실습
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 12764
+
+2024-07-05 15:48:16,979 [T10] INFO  JobRequest
+Start Callback Sender
+
+2024-07-05 15:48:16,979 [T10] DEBUG JobRequest
+Step Callback Interval: 500
+
+2024-07-05 15:48:17,027 [T3] DEBUG ProjectManager
+Set Project Information
+
+2024-07-05 15:48:17,051 [T3] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2024-07-05 15:48:17,052 [T3] INFO  JobRunner
+Initialize Script Engine
+
+2024-07-05 15:48:17,067 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2024-07-05 15:48:17,096 [T10] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2024-07-05 15:48:17,926 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2024-07-05 15:48:17,937 [T10] DEBUG JobRequest
+Callback - State: Ready
+
+
+2024-07-05 15:48:17,938 [T3] INFO  JobRunnerHook
+HotKey Hook Started
+
+2024-07-05 15:48:17,939 [T3] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2024-07-05 15:48:17,941 [T16-ScriptEngine] INFO  JobRunner
+RunProcess start
+
+2024-07-05 15:48:17,943 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2024-07-05 15:48:17,943 [T16-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2024-07-05 15:48:17,953 [T10] DEBUG JobRequest
+Callback - State: Starting
+
+
+2024-07-05 15:48:17,953 [T10] DEBUG JobRequest
+Callback - State: Running
+
+
+2024-07-05 15:48:18,955 [T16-ScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2024-07-05 15:48:19,028 [T16-ScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2024-07-05 15:48:19,061 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - T_exel실습
+##############################################################
+670e603a-d8bb-4026-8b4d-15b03a61d228
+T_exel실습
+
+
+2024-07-05 15:48:19,118 [T16-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_exel실습
+**************************************************************
+ - STEP 1: S8a4fb8b93ac449b9b852ed76477c9e6c (1/10) - (1/10)
+ - [1] CloseAll
+
+
+2024-07-05 15:48:19,233 [T16-ScriptEngine] DEBUG UIAHelper
+CloseAll: Chrome.exe
+
+2024-07-05 15:48:21,176 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 2: Sf0463f886d3246558fc9d2e5c470a938 (2/10) - (2/10)
+ - [2] ChromeOpen
+
+
+2024-07-05 15:48:24,283 [T3] DEBUG ChromeRemoteConnect
+GetRemoteBrowserUsingEndPoint Fail : 하나 이상의 오류가 발생했습니다.
+
+2024-07-05 15:48:24,339 [T3] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-07-05 15:48:24,580 [T3] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-07-05 15:48:27,450 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 3: S733d037c44d24c1cade8d5fa5e916efc (3/10) - (3/10)
+ - [3] SetText
+
+
+2024-07-05 15:48:27,650 [T5] INFO  UIAEventHandler
+Start UIA event handler
+
+2024-07-05 15:48:28,654 [T5] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-05 15:48:28,654 [T5] INFO  UIAEventHandler
+waiting for 933 msec during the screen structure is changing.
+
+2024-07-05 15:48:28,987 [T5] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-05 15:48:28,987 [T5] INFO  UIAEventHandler
+waiting for 102 msec during the screen structure is changing.
+
+2024-07-05 15:48:29,711 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 4: S136a28d60d2f47c3bb3c652108e0b6a8 (4/10) - (4/10)
+ - [4] Click
+
+
+2024-07-05 15:48:30,067 [T3] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-05 15:48:30,067 [T3] INFO  UIAEventHandler
+waiting for 251 msec during the screen structure is changing.
+
+2024-07-05 15:48:31,708 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 5: S24b50d909de04ce68ef10f24825bae4e (5/10) - (5/10)
+ - [5] Click
+
+
+2024-07-05 15:48:32,030 [T5] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-05 15:48:32,031 [T5] INFO  UIAEventHandler
+waiting for 281 msec during the screen structure is changing.
+
+2024-07-05 15:48:35,581 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 6: Sda3205bbc28d4100ae9765cca1d264c6 (6/10) - (6/10)
+ - [6] Click
+
+
+2024-07-05 15:48:35,958 [T23] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-05 15:48:35,958 [T23] INFO  UIAEventHandler
+waiting for 349 msec during the screen structure is changing.
+
+2024-07-05 15:48:36,149 [T23] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-05 15:48:36,149 [T23] INFO  UIAEventHandler
+waiting for 75 msec during the screen structure is changing.
+
+2024-07-05 15:48:36,780 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 7: S9eb55814423d4a0f95256d92aef51288 (7/10) - (7/10)
+ - [7] Click
+
+
+2024-07-05 15:48:37,041 [T3] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-05 15:48:37,041 [T3] INFO  UIAEventHandler
+waiting for 206 msec during the screen structure is changing.
+
+2024-07-05 15:48:40,048 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 8: S797abead588d494490b1b14a08c3f9e5 (8/10) - (8/10)
+ - [8] Click
+
+
+2024-07-05 15:48:40,236 [T3] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-05 15:48:40,236 [T3] INFO  UIAEventHandler
+waiting for 162 msec during the screen structure is changing.
+
+2024-07-05 15:48:40,408 [T3] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-05 15:48:40,408 [T3] INFO  UIAEventHandler
+waiting for 69 msec during the screen structure is changing.
+
+2024-07-05 15:48:41,019 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 9: S9ea97235eb5f4cfc88e69095da8ae971 (9/10) - (9/10)
+ - [9] Click
+
+
+2024-07-05 15:48:41,319 [T24] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-05 15:48:41,319 [T24] INFO  UIAEventHandler
+waiting for 282 msec during the screen structure is changing.
+
+2024-07-05 15:48:41,490 [T24] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-05 15:48:41,490 [T24] INFO  UIAEventHandler
+waiting for 71 msec during the screen structure is changing.
+
+2024-07-05 15:48:42,103 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 10: S6ee3afde6d854abc88b7c434bd476f21 (10/10) - (10/10)
+ - [10] SetText
+
+
+2024-07-05 15:48:42,400 [T22] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-05 15:48:42,400 [T22] INFO  UIAEventHandler
+waiting for 251 msec during the screen structure is changing.
+
+2024-07-05 15:48:46,954 [T22] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-05 15:48:46,954 [T22] INFO  UIAEventHandler
+waiting for 67 msec during the screen structure is changing.
+
+2024-07-05 15:48:47,606 [T16-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_exel실습
+
+2024-07-05 15:48:47,613 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - T_exel실습
+##############################################################
+670e603a-d8bb-4026-8b4d-15b03a61d228
+T_exel실습
+
+
+2024-07-05 15:48:47,718 [T16-ScriptEngine] INFO  JobRunner
+RunProcess - Job Result: {}
+
+2024-07-05 15:48:47,723 [T16-ScriptEngine] DEBUG JobManager
+Set Result State: Completed
+
+2024-07-05 15:48:47,767 [T16-ScriptEngine] INFO  JobRunner
+Make report.
+
+2024-07-05 15:48:47,917 [T16-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-07-05 15:48:47,919 [T5] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2024-07-05 15:48:47,921 [T16-ScriptEngine] DEBUG JobRunner
+OnProcessCompleted
+
+2024-07-05 15:48:47,952 [T16-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-07-05 15:48:47,956 [T16-ScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2024-07-05 15:48:47,975 [T16-ScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2024-07-05 15:48:47,977 [T16-ScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2024-07-05 15:48:47,979 [T16-ScriptEngine] DEBUG UIAEventHandler
+Stop UIA event handler
+
+2024-07-05 15:48:47,990 [T16-ScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2024-07-05 15:48:47,991 [T16-ScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2024-07-05 15:48:47,996 [T16-ScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2024-07-05 15:48:47,998 [T16-ScriptEngine] DEBUG JobRunner
+SendJobResult: Completed
+
+2024-07-05 15:48:47,999 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Completed
+##############################################################
+{}
+
+
+2024-07-05 15:48:47,999 [T16-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Completed
+
+2024-07-05 15:48:48,014 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2024-07-05 15:48:48,015 [T10] DEBUG JobRequest
+Callback - State: Completed
+{}
+
+2024-07-05 15:48:48,028 [T10] INFO  JobRequest
+Callback - EngineClosed
+
+2024-07-05 15:48:48,029 [T10] INFO  JobService
+Disconnect agent service
+
+2024-07-05 15:48:48,030 [T16-ScriptEngine] INFO  JobRunner
+RunProcess end
+
+2024-07-05 15:48:48,031 [T1] INFO  JobService
+Exit - Shutdown Engine BOT
+
+2024-07-05 15:48:48,037 [T10] DEBUG JobRequest
+End of Callback Sender
+

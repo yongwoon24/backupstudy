@@ -1,0 +1,131 @@
+<Process id="b3e0392c-3643-44f2-8075-503dbf8a9493" type="task" workType="foreground" name="T_getDate" version="" designerVersion="3.1.100.11228" lastPublishedServer="" readonly="false" isValid="true" DesignedBy="Designer" Template="" StepCount="4" Orientation="horizontal">
+  <Properties>
+    <Property key="Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onBefore" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onAfter" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="Timeout" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="0" />
+    <Property key="RunningTime" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="7" />
+    <Property key="Os" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="Microsoft Windows 10 Pro64비트" />
+    <Property key="Resolution" controlType="String" valueType="System.String" formatType="String_Size" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="1920x1200" />
+    <Property key="CreatedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2024-07-10 09:45:15" />
+    <Property key="CreatedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+    <Property key="LastModifiedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2024-07-11 11:04:22" />
+    <Property key="LastModifiedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="" />
+    <Property key="LastPublishedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+    <Property key="LastPublishedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+  </Properties>
+  <LinkItems />
+  <Variables>
+    <Variable name="yesterday" scope="Normal" valueType="Any" formatType="Any" initValue="" desc="" colorValue="#FFAA77FF" showMarker="False" />
+    <Variable name="today" scope="Normal" valueType="Any" formatType="Any" initValue="" desc="" colorValue="#FF2DCDDF" showMarker="False" />
+    <Variable name="date" scope="Normal" valueType="Any" formatType="Any" initValue="" desc="" colorValue="#FF3C79F5" showMarker="False" />
+  </Variables>
+  <Steps>
+    <Step id="Safc6156f196c4ba9b07df22b76e8ad23" ver="311231130" createVer="311231130" type="Flow" name="ExecuteScript" dpName="ExecuteScript" dpValue="" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="6789fb55-a477-4064-906c-a982e4c98509" type="Flow">
+        <Property type="Flow" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Conditions_Title" controlType="String" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="getDate" />
+        <Property type="Flow" key="Key_Script" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.today = new Date();  &#xD;&#xA;this.yesterday = new Date(this.today.setDate(this.today.getDate()-1));" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[this.today = new Date();  
+this.yesterday = new Date(this.today.setDate(this.today.getDate()-1));]]></Script>
+    </Step>
+    <Step id="S14d2e7da9f3d4e128fe295ba5885bf43" ver="311231130" createVer="311231130" type="Flow" name="ExecuteScript" dpName="ExecuteScript" dpValue="" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="6789fb55-a477-4064-906c-a982e4c98509" type="Flow">
+        <Property type="Flow" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Conditions_Title" controlType="String" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="getDate" />
+        <Property type="Flow" key="Key_Script" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="Global.dateToSearch = this.yesterday" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[Global.dateToSearch = this.yesterday]]></Script>
+    </Step>
+    <Step id="S276d9c3a55174a7fb177ac46a4182a0b" ver="311231130" createVer="311231130" type="Flow" name="CustomLibrary" dpName="DateTime_DateFormat" dpValue="Global.dateToSearch" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="e36ad864-8319-4573-a7c4-b7ad8c34edb8" type="Flow">
+        <Property type="Flow" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Conditions_LibraryScope" controlType="String" valueType="System.String" formatType="String" required="False" visible="False" readonly="False" encrypted="False" isChanged="N" value="Global" />
+        <Property type="Flow" key="Conditions_LibraryNamespace" controlType="String" valueType="System.String" formatType="String" required="False" visible="False" readonly="False" encrypted="False" isChanged="N" value="DataConverter" />
+        <Property type="Flow" key="Conditions_LibraryName" controlType="String" valueType="System.String" formatType="String" required="False" visible="False" readonly="True" encrypted="False" isChanged="N" value="DateTime_DateFormat" />
+        <Property type="Flow" key="Conditions_LibraryType" controlType="String" valueType="System.String" formatType="String" required="False" visible="False" readonly="True" encrypted="False" isChanged="N" value="DotNetDll" />
+        <Property type="Flow" key="Conditions_Result" controlType="OutputControlType" valueType="System.Object" formatType="Variable" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="Global.dateToSearch" />
+        <Property type="Flow" key="Options_Instance" controlType="InputControlType" valueType="System.Object" formatType="Variable" required="False" visible="False" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Arguments_date" controlType="String" valueType="System.String" formatType="String_DateTime" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.yesterday" order="1" />
+        <Property type="Flow" key="Arguments_format" controlType="String" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="'yyyyMMdd'" order="2" />
+        <Property type="Flow" key="Conditions_TargetAssembly" controlType="String" valueType="System.String" formatType="String" required="False" visible="False" readonly="True" encrypted="False" isChanged="N" value="IPA.Custom.ExtendLibrary.dll" />
+        <Property type="Flow" key="Conditions_TargetClass" controlType="String" valueType="System.String" formatType="String" required="False" visible="False" readonly="True" encrypted="False" isChanged="N" value="RPAGO.Custom.ExtendLibrary.DataConverter_DateTime" />
+        <Property type="Flow" key="Conditions_TargetMethod" controlType="String" valueType="System.String" formatType="String" required="False" visible="False" readonly="True" encrypted="False" isChanged="N" value="System.Object DateFormat(System.Object, System.String)" />
+        <Property type="Flow" key="Conditions_ExternLibrary" controlType="String" valueType="System.String" formatType="String" required="False" visible="False" readonly="False" encrypted="False" isChanged="N" value="IPA.Custom.ExtendLibrary.dll" />
+        <Property type="Flow" key="Conditions_ExternLibraryModule" controlType="String" valueType="System.String" formatType="String" required="False" visible="False" readonly="False" encrypted="False" isChanged="N" value="RPAGO.Custom.ExtendLibrary.DataConverter_DateTime" />
+        <Property type="Flow" key="Conditions_ExternLibraryMethodFullName" controlType="String" valueType="System.String" formatType="String" required="False" visible="False" readonly="False" encrypted="False" isChanged="N" value="System.Object DateFormat(System.Object, System.String)" />
+        <Property type="Flow" key="Conditions_TargetMethodType" controlType="String" valueType="System.String" formatType="String" required="False" visible="False" readonly="False" encrypted="False" isChanged="N" value="Static_Method" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[Global.dateToSearch = Script.DataConverter.DateTime_DateFormat(null, this.yesterday, 'yyyyMMdd');]]></Script>
+    </Step>
+    <Step id="Sd9dfee15aa59460b8d31a7f3ed2b7828" ver="311231130" createVer="311231130" type="Desktop" name="MessageBox" dpName="MessageBox" dpValue="Global.dateToSearch" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="False" mainSet="0">
+      <Properties id="7d89d5ee-9428-4a5c-95f5-2bbffc828222" type="Desktop">
+        <Property type="Desktop" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Desktop" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Desktop" key="Conditions_Arguments" controlType="Object" valueType="System.Object" formatType="Any" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="Global.dateToSearch" />
+        <Property type="Desktop" key="Command_Timeout" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[MsgBox(Global.dateToSearch);]]></Script>
+    </Step>
+  </Steps>
+  <JScript><![CDATA[function T_getDate() {
+
+    this.yesterday;
+    this.today;
+    this.date;
+
+    this.RPAGOTOENABLE = false;
+    this.GotoStepRetryCntMap = {};
+    this.GotoBlockMap = {};
+    this.GotoReverseBlockMap = {};
+    this.GotoStepBlockTypeMap = {};
+
+
+    this.run = function() {
+
+        //------------------------------------------------
+        STEP('Safc6156f196c4ba9b07df22b76e8ad23', '[1] ExecuteScript');
+        this.today = new Date();  
+        this.yesterday = new Date(this.today.setDate(this.today.getDate()-1));
+
+        //------------------------------------------------
+        STEP('S14d2e7da9f3d4e128fe295ba5885bf43', '[2] ExecuteScript');
+        Global.dateToSearch = this.yesterday
+
+        //------------------------------------------------
+        STEP('S276d9c3a55174a7fb177ac46a4182a0b', '[3] DateTime_DateFormat');
+        Global.dateToSearch = Script.DataConverter.DateTime_DateFormat(null, this.yesterday, 'yyyyMMdd');
+
+        ////------------------------------------------------
+        //STEP('Sd9dfee15aa59460b8d31a7f3ed2b7828', '[4] MessageBox');
+        //MsgBox(Global.dateToSearch);
+
+
+    }
+
+    this.execute = function() {
+        var result = null;
+        result = this.run()
+        if (result != null)
+            return result;
+    }
+}
+]]></JScript>
+  <Diagram version="1.300" nodesize="Normal">
+    <StepNodes>
+      <StepNode step_id="Safc6156f196c4ba9b07df22b76e8ad23" group_name="64a6f5d1-6d4c-4e6d-928e-9dc739d27d19_Untitled" folded="False" color="" />
+      <StepNode step_id="S14d2e7da9f3d4e128fe295ba5885bf43" group_name="64a6f5d1-6d4c-4e6d-928e-9dc739d27d19_Untitled" folded="False" color="" />
+      <StepNode step_id="S276d9c3a55174a7fb177ac46a4182a0b" group_name="64a6f5d1-6d4c-4e6d-928e-9dc739d27d19_Untitled" folded="False" color="" />
+      <StepNode step_id="Sd9dfee15aa59460b8d31a7f3ed2b7828" group_name="7a749828-6720-4131-86d3-5c1bbdfa386e_Untitled" folded="False" color="" />
+    </StepNodes>
+  </Diagram>
+</Process>

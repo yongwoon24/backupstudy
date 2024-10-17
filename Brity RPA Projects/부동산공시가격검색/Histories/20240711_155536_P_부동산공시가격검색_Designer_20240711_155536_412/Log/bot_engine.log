@@ -1,0 +1,1413 @@
+﻿2024-07-11 15:55:37,391 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.100.11228 at 2024-07-11 오후 3:55:37
+EngineID: D_20240711_155536_685
+PID : 12076
+PPID: 15052
+Working Directory: C:\Users\3calss_15\AppData\Roaming\Brity RPA Designer
+
+2024-07-11 15:55:37,408 [T1] INFO  EngineStarter
+System Language: ko-KR
+Resolution: 1920 x 1200
+
+2024-07-11 15:55:37,628 [T1] INFO  Config
+Initialize Config
+
+2024-07-11 15:55:37,663 [T1] DEBUG Config
+Config Loaded
+
+2024-07-11 15:55:37,665 [T1] DEBUG Config
+Backup config file.
+
+2024-07-11 15:55:37,676 [T1] INFO  Config
+Orchestrator Service => https://bwrpa.samsungsds.com:8777
+
+2024-07-11 15:55:37,681 [T1] INFO  Config
+Initialize Resource Config
+
+2024-07-11 15:55:37,705 [T1] DEBUG Config
+Refresh Language Information
+
+2024-07-11 15:55:37,788 [T1] INFO  Config
+All Config Initialized.
+
+2024-07-11 15:55:37,795 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2024-07-11 15:55:37,797 [T1] DEBUG KeyManager
+Load device unique id.
+
+2024-07-11 15:55:37,804 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2024-07-11 15:55:37,888 [T5] DEBUG JobService
+Connect to agent service
+
+2024-07-11 15:55:37,919 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2024-07-11 15:55:37,920 [T5] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2024-07-11 15:55:37,920 [T5] DEBUG JobService
+Open connection
+
+2024-07-11 15:55:37,927 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2024-07-11 15:55:37,940 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2024-07-11 15:55:37,944 [T5] DEBUG JobService
+Register engine to agent
+
+2024-07-11 15:55:37,964 [T5] DEBUG JobService
+Engine is connected to agent service.
+
+2024-07-11 15:55:37,964 [T5] DEBUG JobService
+Owner Process PID: 15052
+
+2024-07-11 15:55:37,967 [T5] INFO  JobService
+Start monitoring owner process is terminated.
+
+2024-07-11 15:55:38,162 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2024-07-11 15:55:38,288 [T8] INFO  JobService
+Start Job: P_부동산공시가격검색 (Foreground)
+{
+  "JobType": 1,
+  "State": 0,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "StartTime": "2024-07-11 15:55:36",
+  "EndTime": null,
+  "JobId": "Designer_20240711_155536_412",
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\부동산공시가격검색\\P_부동산공시가격검색.proc",
+  "ProcessId": "f5d5e78c-2c49-4e0c-a0f3-ff34a134bb02",
+  "ProcessVer": "",
+  "ProcessArgs": null,
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 15052,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "EngineID": "D_20240711_155536_685",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobWorkDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\부동산공시가격검색\\Histories\\20240711_155536_P_부동산공시가격검색_Designer_20240711_155536_412",
+  "JobLogDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\부동산공시가격검색\\Histories\\20240711_155536_P_부동산공시가격검색_Designer_20240711_155536_412\\Log",
+  "JobScreenshotDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\부동산공시가격검색\\Histories\\20240711_155536_P_부동산공시가격검색_Designer_20240711_155536_412\\Log\\Screenshot"
+}
+
+2024-07-11 15:55:38,337 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2024-07-11 15:55:38,436 [T7] DEBUG JobService
+Waiting library loading...
+
+2024-07-11 15:55:38,571 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2024-07-11 15:55:38,711 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2024-07-11 15:55:38,793 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2024-07-11 15:55:38,843 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2024-07-11 15:55:39,008 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2024-07-11 15:55:39,062 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2024-07-11 15:55:39,137 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2024-07-11 15:55:39,209 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2024-07-11 15:55:39,286 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2024-07-11 15:55:39,356 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2024-07-11 15:55:39,448 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2024-07-11 15:55:39,556 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: 0,0,1920,1200
+
+2024-07-11 15:55:39,583 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2024-07-11 15:55:39,684 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2024-07-11 15:55:39,747 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2024-07-11 15:55:39,833 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2024-07-11 15:55:39,848 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2024-07-11 15:55:39,864 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2024-07-11 15:55:39,880 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2024-07-11 15:55:39,896 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2024-07-11 15:55:39,911 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2024-07-11 15:55:39,927 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2024-07-11 15:55:39,943 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2024-07-11 15:55:39,958 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2024-07-11 15:55:39,989 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2024-07-11 15:55:40,005 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2024-07-11 15:55:40,021 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2024-07-11 15:55:40,036 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2024-07-11 15:55:40,052 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2024-07-11 15:55:40,068 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2024-07-11 15:55:40,084 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2024-07-11 15:55:40,100 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2024-07-11 15:55:40,107 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2024-07-11 15:55:40,354 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2024-07-11 15:55:40,365 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20240711_155536_685 -runtype ProcRunner -ppid 15052
+
+2024-07-11 15:55:40,365 [T1] DEBUG Config
+Refresh Language Information
+
+2024-07-11 15:55:40,366 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2024-07-11 15:55:40,372 [T7] DEBUG Config
+Reload User Settings
+
+2024-07-11 15:55:40,373 [T7] INFO  JobService
+Config Loading Completed.
+
+2024-07-11 15:55:40,373 [T7] DEBUG JobService
+Config Loading Time: 1937 ms.
+
+2024-07-11 15:55:40,382 [T7] DEBUG JobService
+Check Shared Token
+
+2024-07-11 15:55:40,383 [T7] DEBUG TokenManager
+Load connection token
+
+2024-07-11 15:55:40,386 [T7] DEBUG TokenManager
+Clear Connection Token - No Shared Token
+
+2024-07-11 15:55:40,437 [T1] DEBUG ServerInformationClient
+Request server feature list
+
+2024-07-11 15:55:40,495 [T1] INFO  ServerInformationClient
+Server feature update successful
+
+2024-07-11 15:55:40,498 [T1] INFO  ServerInformationClient
+It takes 70 milliseconds to try to update the server feature list.
+
+2024-07-11 15:55:40,499 [T1] INFO  Config
+Update server features to config.
+
+2024-07-11 15:55:40,537 [T7] INFO  JobService
+Shared Token - No Token
+
+2024-07-11 15:55:40,542 [T7] INFO  JobManager
+Create JobManager instance for job P_부동산공시가격검색(Designer_20240711_155536_412)
+
+2024-07-11 15:55:40,546 [T7] INFO  JobRequest
+Job ID : Designer_20240711_155536_412
+Project Path  : C:\Users\3calss_15\Documents\Brity RPA Projects\부동산공시가격검색\부동산공시가격검색.proj
+Process Name  : P_부동산공시가격검색
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 15052
+
+2024-07-11 15:55:40,549 [T6] INFO  JobRequest
+Start Callback Sender
+
+2024-07-11 15:55:40,549 [T6] DEBUG JobRequest
+Step Callback Interval: 500
+
+2024-07-11 15:55:40,585 [T7] DEBUG ProjectManager
+Set Project Information
+
+2024-07-11 15:55:40,608 [T7] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2024-07-11 15:55:40,609 [T7] INFO  JobRunner
+Initialize Script Engine
+
+2024-07-11 15:55:40,623 [T13-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2024-07-11 15:55:40,650 [T6] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2024-07-11 15:55:41,417 [T13-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2024-07-11 15:55:41,428 [T7] INFO  JobRunnerHook
+HotKey Hook Started
+
+2024-07-11 15:55:41,429 [T7] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2024-07-11 15:55:41,430 [T13-ScriptEngine] INFO  JobRunner
+RunProcess start
+
+2024-07-11 15:55:41,432 [T13-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2024-07-11 15:55:41,432 [T13-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2024-07-11 15:55:41,433 [T6] DEBUG JobRequest
+Callback - State: Ready
+
+
+2024-07-11 15:55:41,435 [T6] DEBUG JobRequest
+Callback - State: Starting
+
+
+2024-07-11 15:55:41,449 [T6] DEBUG JobRequest
+Callback - State: Running
+
+
+2024-07-11 15:55:42,470 [T13-ScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2024-07-11 15:55:42,569 [T13-ScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2024-07-11 15:55:42,610 [T13-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - P_부동산공시가격검색
+##############################################################
+f5d5e78c-2c49-4e0c-a0f3-ff34a134bb02
+P_부동산공시가격검색
+
+
+2024-07-11 15:55:42,665 [T13-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_부동산공시가격검색
+**************************************************************
+ - STEP 1: S60b8592450f94f9ba13edc4919220a4d (1/3) - (1/41)
+ - [1] RunTask
+
+
+2024-07-11 15:55:42,760 [T13-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_openExcell
+##############################################################
+e7458ea8-ca03-44c6-92a7-2f96d8340d31
+T_openExcell
+
+
+2024-07-11 15:55:42,784 [T13-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_openExcell
+**************************************************************
+ - STEP 2: Sed82e57b44a44e9a94e466122fb33bb4 (1/13) - (2/41)
+ - [1] OpenExcel
+
+
+2024-07-11 15:55:44,622 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 3: S31727e0a0bc34a65900a160e90e2eed6 (2/13) - (3/41)
+ - [2] GetRowCount
+
+
+2024-07-11 15:55:44,732 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 4: Secef2630c1f84285854e919400a3651b (3/13) - (4/41)
+ - [3] For
+
+
+2024-07-11 15:55:44,748 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 5: S2d902bd8a139406893f056c05e739063 (4/13) - (5/41)
+ - [4] ReadRange
+
+
+2024-07-11 15:55:44,843 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 6: S04b8732fe31c47bab57aab8603c5aa0a (5/13) - (6/41)
+ - [5] ReadRange
+
+
+2024-07-11 15:55:44,874 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 7: Sdb2ff21ec2ac47e1bb365e0b176e9c94 (6/13) - (7/41)
+ - [6] ReadRange
+
+
+2024-07-11 15:55:44,905 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 8: Sd27bd142102644878828f184f58daa24 (7/13) - (8/41)
+ - [7] ReadRange
+
+
+2024-07-11 15:55:44,937 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 9: Sb199f2474cc84189baf76024b565aa22 (8/13) - (9/41)
+ - [8] ReadRange
+
+
+2024-07-11 15:55:44,968 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 10: S3e6575205a794d468d0aeb0700a8dd72 (9/13) - (10/41)
+ - [9] ReadRange
+
+
+2024-07-11 15:55:44,999 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 11: Sb840f88098e142c789f1e4a77f416445 (10/13) - (11/41)
+ - [10] ReadRange
+
+
+2024-07-11 15:55:45,030 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 12: Sa80a5ba9aa63490fa9b7b836e6ee334a (11/13) - (12/41)
+ - [11] ReadRange
+
+
+2024-07-11 15:55:45,062 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 13: S2d902bd8a139406893f056c05e739063 (4/13) - (12/41)
+ - [4] ReadRange
+
+
+2024-07-11 15:55:45,110 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 14: S04b8732fe31c47bab57aab8603c5aa0a (5/13) - (12/41)
+ - [5] ReadRange
+
+
+2024-07-11 15:55:45,142 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 15: Sdb2ff21ec2ac47e1bb365e0b176e9c94 (6/13) - (12/41)
+ - [6] ReadRange
+
+
+2024-07-11 15:55:45,173 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 16: Sd27bd142102644878828f184f58daa24 (7/13) - (12/41)
+ - [7] ReadRange
+
+
+2024-07-11 15:55:45,204 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 17: Sb199f2474cc84189baf76024b565aa22 (8/13) - (12/41)
+ - [8] ReadRange
+
+
+2024-07-11 15:55:45,235 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 18: S3e6575205a794d468d0aeb0700a8dd72 (9/13) - (12/41)
+ - [9] ReadRange
+
+
+2024-07-11 15:55:45,267 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 19: Sb840f88098e142c789f1e4a77f416445 (10/13) - (12/41)
+ - [10] ReadRange
+
+
+2024-07-11 15:55:45,298 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 20: Sa80a5ba9aa63490fa9b7b836e6ee334a (11/13) - (12/41)
+ - [11] ReadRange
+
+
+2024-07-11 15:55:45,330 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 21: S2d902bd8a139406893f056c05e739063 (4/13) - (12/41)
+ - [4] ReadRange
+
+
+2024-07-11 15:55:45,361 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 22: S04b8732fe31c47bab57aab8603c5aa0a (5/13) - (12/41)
+ - [5] ReadRange
+
+
+2024-07-11 15:55:45,392 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 23: Sdb2ff21ec2ac47e1bb365e0b176e9c94 (6/13) - (12/41)
+ - [6] ReadRange
+
+
+2024-07-11 15:55:45,424 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 24: Sd27bd142102644878828f184f58daa24 (7/13) - (12/41)
+ - [7] ReadRange
+
+
+2024-07-11 15:55:45,455 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 25: Sb199f2474cc84189baf76024b565aa22 (8/13) - (12/41)
+ - [8] ReadRange
+
+
+2024-07-11 15:55:45,486 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 26: S3e6575205a794d468d0aeb0700a8dd72 (9/13) - (12/41)
+ - [9] ReadRange
+
+
+2024-07-11 15:55:45,518 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 27: Sb840f88098e142c789f1e4a77f416445 (10/13) - (12/41)
+ - [10] ReadRange
+
+
+2024-07-11 15:55:45,549 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 28: Sa80a5ba9aa63490fa9b7b836e6ee334a (11/13) - (12/41)
+ - [11] ReadRange
+
+
+2024-07-11 15:55:45,581 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 29: S2d902bd8a139406893f056c05e739063 (4/13) - (12/41)
+ - [4] ReadRange
+
+
+2024-07-11 15:55:45,612 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 30: S04b8732fe31c47bab57aab8603c5aa0a (5/13) - (12/41)
+ - [5] ReadRange
+
+
+2024-07-11 15:55:45,660 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 31: Sdb2ff21ec2ac47e1bb365e0b176e9c94 (6/13) - (12/41)
+ - [6] ReadRange
+
+
+2024-07-11 15:55:45,692 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 32: Sd27bd142102644878828f184f58daa24 (7/13) - (12/41)
+ - [7] ReadRange
+
+
+2024-07-11 15:55:45,723 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 33: Sb199f2474cc84189baf76024b565aa22 (8/13) - (12/41)
+ - [8] ReadRange
+
+
+2024-07-11 15:55:45,754 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 34: S3e6575205a794d468d0aeb0700a8dd72 (9/13) - (12/41)
+ - [9] ReadRange
+
+
+2024-07-11 15:55:45,785 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 35: Sb840f88098e142c789f1e4a77f416445 (10/13) - (12/41)
+ - [10] ReadRange
+
+
+2024-07-11 15:55:45,817 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 36: Sa80a5ba9aa63490fa9b7b836e6ee334a (11/13) - (12/41)
+ - [11] ReadRange
+
+
+2024-07-11 15:55:45,848 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 37: S2d902bd8a139406893f056c05e739063 (4/13) - (12/41)
+ - [4] ReadRange
+
+
+2024-07-11 15:55:45,880 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 38: S04b8732fe31c47bab57aab8603c5aa0a (5/13) - (12/41)
+ - [5] ReadRange
+
+
+2024-07-11 15:55:45,911 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 39: Sdb2ff21ec2ac47e1bb365e0b176e9c94 (6/13) - (12/41)
+ - [6] ReadRange
+
+
+2024-07-11 15:55:45,942 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 40: Sd27bd142102644878828f184f58daa24 (7/13) - (12/41)
+ - [7] ReadRange
+
+
+2024-07-11 15:55:45,973 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 41: Sb199f2474cc84189baf76024b565aa22 (8/13) - (12/41)
+ - [8] ReadRange
+
+
+2024-07-11 15:55:46,004 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 42: S3e6575205a794d468d0aeb0700a8dd72 (9/13) - (12/41)
+ - [9] ReadRange
+
+
+2024-07-11 15:55:46,035 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 43: Sb840f88098e142c789f1e4a77f416445 (10/13) - (12/41)
+ - [10] ReadRange
+
+
+2024-07-11 15:55:46,066 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 44: Sa80a5ba9aa63490fa9b7b836e6ee334a (11/13) - (12/41)
+ - [11] ReadRange
+
+
+2024-07-11 15:55:46,098 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 45: S74077ad569c9415a8602ebcffe11f851 (12/13) - (13/41)
+ - [12] End-For
+
+
+2024-07-11 15:55:46,098 [T13-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_openExcell
+
+2024-07-11 15:55:46,107 [T13-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_openExcell
+##############################################################
+e7458ea8-ca03-44c6-92a7-2f96d8340d31
+T_openExcell
+
+
+2024-07-11 15:55:46,114 [T13-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_부동산공시가격검색
+**************************************************************
+ - STEP 46: S7f09a40ca8464b01a548d2c84363b3f1 (2/3) - (14/41)
+ - [2] RunTask
+
+
+2024-07-11 15:55:46,135 [T13-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_openChrome
+##############################################################
+b58cad97-e558-460a-91d5-4375e18c2bc3
+T_openChrome
+
+
+2024-07-11 15:55:46,145 [T13-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_openChrome
+**************************************************************
+ - STEP 47: Sd8267c5e18bc487c9ab059c276a1bd99 (1/28) - (15/41)
+ - [1] ChromeOpen
+
+
+2024-07-11 15:55:46,247 [T7] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-07-11 15:55:51,855 [T7] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-07-11 15:55:55,414 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 48: S4f5480b3343b4e67b776358208b7fab3 (3/28) - (16/41)
+ - [3] Click
+
+
+2024-07-11 15:55:55,570 [T14] INFO  UIAEventHandler
+Start UIA event handler
+
+2024-07-11 15:55:56,736 [T14] DEBUG UIAEventHandler
+UI Structure Changed Count: 1
+
+2024-07-11 15:55:56,847 [T14] INFO  UIAEventHandler
+waiting for 1222 msec during the screen structure is changing.
+
+2024-07-11 15:55:57,228 [T14] DEBUG UIAEventHandler
+UI Structure Changed Count: 1
+
+2024-07-11 15:55:57,339 [T14] INFO  UIAEventHandler
+waiting for 213 msec during the screen structure is changing.
+
+2024-07-11 15:55:58,086 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 49: S2c75024769524a0db5a09775fbd62128 (4/28) - (17/41)
+ - [4] For
+
+
+2024-07-11 15:55:58,102 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 50: Sf82ccd4d17464423994204f33dc4951e (5/28) - (18/41)
+ - [5] ChromeSelectListItem
+
+
+2024-07-11 15:55:58,497 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 51: S3356583838aa4c8b8ce68061f220a74c (6/28) - (19/41)
+ - [6] ChromeSelectListItem
+
+
+2024-07-11 15:55:58,703 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 52: S2098ede322d7450784330b54f3d100ed (7/28) - (20/41)
+ - [7] ChromeSelectListItem
+
+
+2024-07-11 15:55:58,910 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 53: S2a7f587d224f4ea19fdee4d7f99ddec2 (8/28) - (21/41)
+ - [8] ChromeClick
+
+
+2024-07-11 15:55:59,211 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 54: S3b64c36a0afd41d9b16253895842c308 (9/28) - (22/41)
+ - [9] Click
+
+
+2024-07-11 15:55:59,495 [T14] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-11 15:55:59,495 [T14] INFO  UIAEventHandler
+waiting for 109 msec during the screen structure is changing.
+
+2024-07-11 15:56:00,099 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 55: S0f299423e9a949c6a6057930fdc6236b (10/28) - (23/41)
+ - [10] KeyInput
+
+
+2024-07-11 15:56:03,991 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 56: S4a6c95d5491f44dfa53b3cd85c3b06dc (11/28) - (24/41)
+ - [11] TextInput
+
+
+2024-07-11 15:56:05,124 [T13-ScriptEngine] INFO  WinElementKeyboardPlayer
+Out of bounds object
+ - find clicked object from target object's click point
+ - Target Bounds: 1212,744,55,18
+ - Click Point  : 1102,755
+
+2024-07-11 15:56:06,726 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 57: S2f9c8fef910247efa3c38395bbd3b780 (13/28) - (25/41)
+ - [13] ChromeClick
+
+
+2024-07-11 15:56:06,949 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 58: S193f831ab5764d6faf14c801894d7e29 (14/28) - (26/41)
+ - [14] IsExist
+
+
+2024-07-11 15:56:07,996 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 59: S68a58e395f9c431786aa7cf013086aa3 (16/28) - (27/41)
+ - [16] IfElse
+
+
+2024-07-11 15:56:08,012 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 60: S42be7cfdecb849198e4b29e1fd908ae2 (18/28) - (29/41)
+ - [18] Else
+
+
+2024-07-11 15:56:08,027 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 61: S317f8ccc7c5e4d3f93a569873c956837 (19/28) - (30/41)
+ - [19] ChromeClick
+
+
+2024-07-11 15:56:08,201 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 62: S7ab1f2579418482cb0e5e486fbb587e3 (20/28) - (31/41)
+ - [20] ChromeSelectListItem
+
+
+2024-07-11 15:56:08,409 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 63: S694db1c85d1f42db95584025f530aee8 (21/28) - (32/41)
+ - [21] ChromeSelectListItem
+
+
+2024-07-11 15:56:08,615 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 64: Sd466b3109c14428ba1b80cdcf2b3207d (22/28) - (33/41)
+ - [22] ChromeClick
+
+
+2024-07-11 15:56:08,838 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 65: S69f3bd3d685444368fb2e1d679191d08 (24/28) - (34/41)
+ - [24] ChromeGetData
+
+
+2024-07-11 15:56:09,188 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 66: S7b8820454993423e8eef3eb59c7bf7ad (25/28) - (35/41)
+ - [25] End-IfElse
+
+
+2024-07-11 15:56:09,204 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 67: Sf82ccd4d17464423994204f33dc4951e (5/28) - (35/41)
+ - [5] ChromeSelectListItem
+
+
+2024-07-11 15:56:09,442 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 68: S3356583838aa4c8b8ce68061f220a74c (6/28) - (35/41)
+ - [6] ChromeSelectListItem
+
+
+2024-07-11 15:56:09,666 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 69: S2098ede322d7450784330b54f3d100ed (7/28) - (35/41)
+ - [7] ChromeSelectListItem
+
+
+2024-07-11 15:56:10,142 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 70: S2a7f587d224f4ea19fdee4d7f99ddec2 (8/28) - (35/41)
+ - [8] ChromeClick
+
+
+2024-07-11 15:56:10,316 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 71: S3b64c36a0afd41d9b16253895842c308 (9/28) - (35/41)
+ - [9] Click
+
+
+2024-07-11 15:56:10,599 [T25] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-11 15:56:10,599 [T25] INFO  UIAEventHandler
+waiting for 77 msec during the screen structure is changing.
+
+2024-07-11 15:56:11,203 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 72: S0f299423e9a949c6a6057930fdc6236b (10/28) - (35/41)
+ - [10] KeyInput
+
+
+2024-07-11 15:56:15,072 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 73: S4a6c95d5491f44dfa53b3cd85c3b06dc (11/28) - (35/41)
+ - [11] TextInput
+
+
+2024-07-11 15:56:15,721 [T25] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-11 15:56:15,721 [T25] INFO  UIAEventHandler
+waiting for 73 msec during the screen structure is changing.
+
+2024-07-11 15:56:16,313 [T13-ScriptEngine] INFO  WinElementKeyboardPlayer
+Out of bounds object
+ - find clicked object from target object's click point
+ - Target Bounds: 1212,744,55,18
+ - Click Point  : 1102,755
+
+2024-07-11 15:56:17,913 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 74: S2f9c8fef910247efa3c38395bbd3b780 (13/28) - (35/41)
+ - [13] ChromeClick
+
+
+2024-07-11 15:56:18,149 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 75: S193f831ab5764d6faf14c801894d7e29 (14/28) - (35/41)
+ - [14] IsExist
+
+
+2024-07-11 15:56:19,241 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 76: S68a58e395f9c431786aa7cf013086aa3 (16/28) - (35/41)
+ - [16] IfElse
+
+
+2024-07-11 15:56:19,257 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 77: S42be7cfdecb849198e4b29e1fd908ae2 (18/28) - (35/41)
+ - [18] Else
+
+
+2024-07-11 15:56:19,273 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 78: S317f8ccc7c5e4d3f93a569873c956837 (19/28) - (35/41)
+ - [19] ChromeClick
+
+
+2024-07-11 15:56:19,446 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 79: S7ab1f2579418482cb0e5e486fbb587e3 (20/28) - (35/41)
+ - [20] ChromeSelectListItem
+
+
+2024-07-11 15:56:19,652 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 80: S694db1c85d1f42db95584025f530aee8 (21/28) - (35/41)
+ - [21] ChromeSelectListItem
+
+
+2024-07-11 15:56:19,888 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 81: Sd466b3109c14428ba1b80cdcf2b3207d (22/28) - (35/41)
+ - [22] ChromeClick
+
+
+2024-07-11 15:56:20,060 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 82: S69f3bd3d685444368fb2e1d679191d08 (24/28) - (35/41)
+ - [24] ChromeGetData
+
+
+2024-07-11 15:56:20,249 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 83: S7b8820454993423e8eef3eb59c7bf7ad (25/28) - (35/41)
+ - [25] End-IfElse
+
+
+2024-07-11 15:56:20,265 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 84: Sf82ccd4d17464423994204f33dc4951e (5/28) - (35/41)
+ - [5] ChromeSelectListItem
+
+
+2024-07-11 15:56:20,518 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 85: S3356583838aa4c8b8ce68061f220a74c (6/28) - (35/41)
+ - [6] ChromeSelectListItem
+
+
+2024-07-11 15:56:20,800 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 86: S2098ede322d7450784330b54f3d100ed (7/28) - (35/41)
+ - [7] ChromeSelectListItem
+
+
+2024-07-11 15:56:21,070 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 87: S2a7f587d224f4ea19fdee4d7f99ddec2 (8/28) - (35/41)
+ - [8] ChromeClick
+
+
+2024-07-11 15:56:21,278 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 88: S3b64c36a0afd41d9b16253895842c308 (9/28) - (35/41)
+ - [9] Click
+
+
+2024-07-11 15:56:22,106 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 89: S0f299423e9a949c6a6057930fdc6236b (10/28) - (35/41)
+ - [10] KeyInput
+
+
+2024-07-11 15:56:25,968 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 90: S4a6c95d5491f44dfa53b3cd85c3b06dc (11/28) - (35/41)
+ - [11] TextInput
+
+
+2024-07-11 15:56:27,160 [T13-ScriptEngine] INFO  WinElementKeyboardPlayer
+Out of bounds object
+ - find clicked object from target object's click point
+ - Target Bounds: 1212,744,55,18
+ - Click Point  : 1102,755
+
+2024-07-11 15:56:28,684 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 91: S2f9c8fef910247efa3c38395bbd3b780 (13/28) - (35/41)
+ - [13] ChromeClick
+
+
+2024-07-11 15:56:28,903 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 92: S193f831ab5764d6faf14c801894d7e29 (14/28) - (35/41)
+ - [14] IsExist
+
+
+2024-07-11 15:56:29,939 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 93: S68a58e395f9c431786aa7cf013086aa3 (16/28) - (35/41)
+ - [16] IfElse
+
+
+2024-07-11 15:56:29,955 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 94: S42be7cfdecb849198e4b29e1fd908ae2 (18/28) - (35/41)
+ - [18] Else
+
+
+2024-07-11 15:56:29,971 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 95: S317f8ccc7c5e4d3f93a569873c956837 (19/28) - (35/41)
+ - [19] ChromeClick
+
+
+2024-07-11 15:56:30,162 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 96: S7ab1f2579418482cb0e5e486fbb587e3 (20/28) - (35/41)
+ - [20] ChromeSelectListItem
+
+
+2024-07-11 15:56:30,383 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 97: S694db1c85d1f42db95584025f530aee8 (21/28) - (35/41)
+ - [21] ChromeSelectListItem
+
+
+2024-07-11 15:56:30,653 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 98: Sd466b3109c14428ba1b80cdcf2b3207d (22/28) - (35/41)
+ - [22] ChromeClick
+
+
+2024-07-11 15:56:30,876 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 99: S69f3bd3d685444368fb2e1d679191d08 (24/28) - (35/41)
+ - [24] ChromeGetData
+
+
+2024-07-11 15:56:31,097 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 100: S7b8820454993423e8eef3eb59c7bf7ad (25/28) - (35/41)
+ - [25] End-IfElse
+
+
+2024-07-11 15:56:31,113 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 101: Sf82ccd4d17464423994204f33dc4951e (5/28) - (35/41)
+ - [5] ChromeSelectListItem
+
+
+2024-07-11 15:56:31,334 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 102: S3356583838aa4c8b8ce68061f220a74c (6/28) - (35/41)
+ - [6] ChromeSelectListItem
+
+
+2024-07-11 15:56:31,572 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 103: S2098ede322d7450784330b54f3d100ed (7/28) - (35/41)
+ - [7] ChromeSelectListItem
+
+
+2024-07-11 15:56:31,748 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 104: S2a7f587d224f4ea19fdee4d7f99ddec2 (8/28) - (35/41)
+ - [8] ChromeClick
+
+
+2024-07-11 15:56:31,939 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 105: S3b64c36a0afd41d9b16253895842c308 (9/28) - (35/41)
+ - [9] Click
+
+
+2024-07-11 15:56:32,178 [T25] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-11 15:56:32,178 [T25] INFO  UIAEventHandler
+waiting for 76 msec during the screen structure is changing.
+
+2024-07-11 15:56:32,799 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 106: S0f299423e9a949c6a6057930fdc6236b (10/28) - (35/41)
+ - [10] KeyInput
+
+
+2024-07-11 15:56:36,666 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 107: S4a6c95d5491f44dfa53b3cd85c3b06dc (11/28) - (35/41)
+ - [11] TextInput
+
+
+2024-07-11 15:56:37,431 [T25] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-11 15:56:37,431 [T25] INFO  UIAEventHandler
+waiting for 80 msec during the screen structure is changing.
+
+2024-07-11 15:56:38,033 [T13-ScriptEngine] INFO  WinElementKeyboardPlayer
+Out of bounds object
+ - find clicked object from target object's click point
+ - Target Bounds: 1212,744,55,18
+ - Click Point  : 1102,755
+
+2024-07-11 15:56:39,479 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 108: S2f9c8fef910247efa3c38395bbd3b780 (13/28) - (35/41)
+ - [13] ChromeClick
+
+
+2024-07-11 15:56:39,702 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 109: S193f831ab5764d6faf14c801894d7e29 (14/28) - (35/41)
+ - [14] IsExist
+
+
+2024-07-11 15:56:41,271 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 110: S68a58e395f9c431786aa7cf013086aa3 (16/28) - (35/41)
+ - [16] IfElse
+
+
+2024-07-11 15:56:41,287 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 111: S42be7cfdecb849198e4b29e1fd908ae2 (18/28) - (35/41)
+ - [18] Else
+
+
+2024-07-11 15:56:41,302 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 112: S317f8ccc7c5e4d3f93a569873c956837 (19/28) - (35/41)
+ - [19] ChromeClick
+
+
+2024-07-11 15:56:41,478 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 113: S7ab1f2579418482cb0e5e486fbb587e3 (20/28) - (35/41)
+ - [20] ChromeSelectListItem
+
+
+2024-07-11 15:56:41,684 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 114: S694db1c85d1f42db95584025f530aee8 (21/28) - (35/41)
+ - [21] ChromeSelectListItem
+
+
+2024-07-11 15:56:41,953 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 115: Sd466b3109c14428ba1b80cdcf2b3207d (22/28) - (35/41)
+ - [22] ChromeClick
+
+
+2024-07-11 15:56:42,189 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 116: S69f3bd3d685444368fb2e1d679191d08 (24/28) - (35/41)
+ - [24] ChromeGetData
+
+
+2024-07-11 15:56:42,380 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 117: S7b8820454993423e8eef3eb59c7bf7ad (25/28) - (35/41)
+ - [25] End-IfElse
+
+
+2024-07-11 15:56:42,396 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 118: Sf82ccd4d17464423994204f33dc4951e (5/28) - (35/41)
+ - [5] ChromeSelectListItem
+
+
+2024-07-11 15:56:42,587 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 119: S3356583838aa4c8b8ce68061f220a74c (6/28) - (35/41)
+ - [6] ChromeSelectListItem
+
+
+2024-07-11 15:56:42,807 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 120: S2098ede322d7450784330b54f3d100ed (7/28) - (35/41)
+ - [7] ChromeSelectListItem
+
+
+2024-07-11 15:56:43,060 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 121: S2a7f587d224f4ea19fdee4d7f99ddec2 (8/28) - (35/41)
+ - [8] ChromeClick
+
+
+2024-07-11 15:56:43,263 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 122: S3b64c36a0afd41d9b16253895842c308 (9/28) - (35/41)
+ - [9] Click
+
+
+2024-07-11 15:56:43,566 [T4] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-11 15:56:43,566 [T4] INFO  UIAEventHandler
+waiting for 107 msec during the screen structure is changing.
+
+2024-07-11 15:56:44,171 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 123: S0f299423e9a949c6a6057930fdc6236b (10/28) - (35/41)
+ - [10] KeyInput
+
+
+2024-07-11 15:56:48,031 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 124: S4a6c95d5491f44dfa53b3cd85c3b06dc (11/28) - (35/41)
+ - [11] TextInput
+
+
+2024-07-11 15:56:48,724 [T14] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-11 15:56:48,724 [T14] INFO  UIAEventHandler
+waiting for 104 msec during the screen structure is changing.
+
+2024-07-11 15:56:49,346 [T13-ScriptEngine] INFO  WinElementKeyboardPlayer
+Out of bounds object
+ - find clicked object from target object's click point
+ - Target Bounds: 1212,744,55,18
+ - Click Point  : 1102,755
+
+2024-07-11 15:56:50,896 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 125: S2f9c8fef910247efa3c38395bbd3b780 (13/28) - (35/41)
+ - [13] ChromeClick
+
+
+2024-07-11 15:56:51,103 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 126: S193f831ab5764d6faf14c801894d7e29 (14/28) - (35/41)
+ - [14] IsExist
+
+
+2024-07-11 15:56:52,628 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 127: S68a58e395f9c431786aa7cf013086aa3 (16/28) - (35/41)
+ - [16] IfElse
+
+
+2024-07-11 15:56:52,644 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 128: S42be7cfdecb849198e4b29e1fd908ae2 (18/28) - (35/41)
+ - [18] Else
+
+
+2024-07-11 15:56:52,659 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 129: S317f8ccc7c5e4d3f93a569873c956837 (19/28) - (35/41)
+ - [19] ChromeClick
+
+
+2024-07-11 15:56:52,832 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 130: S7ab1f2579418482cb0e5e486fbb587e3 (20/28) - (35/41)
+ - [20] ChromeSelectListItem
+
+
+2024-07-11 15:56:53,020 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 131: S694db1c85d1f42db95584025f530aee8 (21/28) - (35/41)
+ - [21] ChromeSelectListItem
+
+
+2024-07-11 15:56:53,224 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 132: Sd466b3109c14428ba1b80cdcf2b3207d (22/28) - (35/41)
+ - [22] ChromeClick
+
+
+2024-07-11 15:56:53,416 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 133: S69f3bd3d685444368fb2e1d679191d08 (24/28) - (35/41)
+ - [24] ChromeGetData
+
+
+2024-07-11 15:56:53,575 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 134: S7b8820454993423e8eef3eb59c7bf7ad (25/28) - (35/41)
+ - [25] End-IfElse
+
+
+2024-07-11 15:56:53,591 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 135: Sf82ccd4d17464423994204f33dc4951e (5/28) - (35/41)
+ - [5] ChromeSelectListItem
+
+
+2024-07-11 15:56:53,796 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 136: S3356583838aa4c8b8ce68061f220a74c (6/28) - (35/41)
+ - [6] ChromeSelectListItem
+
+
+2024-07-11 15:56:54,002 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 137: S2098ede322d7450784330b54f3d100ed (7/28) - (35/41)
+ - [7] ChromeSelectListItem
+
+
+2024-07-11 15:56:54,208 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 138: S2a7f587d224f4ea19fdee4d7f99ddec2 (8/28) - (35/41)
+ - [8] ChromeClick
+
+
+2024-07-11 15:56:54,415 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 139: S3b64c36a0afd41d9b16253895842c308 (9/28) - (35/41)
+ - [9] Click
+
+
+2024-07-11 15:56:54,733 [T7] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-11 15:56:54,733 [T7] INFO  UIAEventHandler
+waiting for 112 msec during the screen structure is changing.
+
+2024-07-11 15:56:55,368 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 140: S0f299423e9a949c6a6057930fdc6236b (10/28) - (35/41)
+ - [10] KeyInput
+
+
+2024-07-11 15:56:59,227 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 141: S4a6c95d5491f44dfa53b3cd85c3b06dc (11/28) - (35/41)
+ - [11] TextInput
+
+
+2024-07-11 15:56:59,904 [T22] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-11 15:56:59,904 [T22] INFO  UIAEventHandler
+waiting for 75 msec during the screen structure is changing.
+
+2024-07-11 15:57:00,496 [T13-ScriptEngine] INFO  WinElementKeyboardPlayer
+Out of bounds object
+ - find clicked object from target object's click point
+ - Target Bounds: 1212,744,55,18
+ - Click Point  : 1102,755
+
+2024-07-11 15:57:02,019 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 142: S2f9c8fef910247efa3c38395bbd3b780 (13/28) - (35/41)
+ - [13] ChromeClick
+
+
+2024-07-11 15:57:02,226 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 143: S193f831ab5764d6faf14c801894d7e29 (14/28) - (35/41)
+ - [14] IsExist
+
+
+2024-07-11 15:57:02,429 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 144: S68a58e395f9c431786aa7cf013086aa3 (16/28) - (35/41)
+ - [16] IfElse
+
+
+2024-07-11 15:57:02,445 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 145: Sf6d1b15a18b84a25bd8f5dd4aef6df81 (17/28) - (35/41)
+ - [17] ExecuteScript
+
+
+2024-07-11 15:57:02,461 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 146: S7b8820454993423e8eef3eb59c7bf7ad (25/28) - (35/41)
+ - [25] End-IfElse
+
+
+2024-07-11 15:57:02,477 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 147: Sbb1091269c54465f903599c8be5cbb97 (27/28) - (36/41)
+ - [27] End-For
+
+
+2024-07-11 15:57:02,477 [T13-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_openChrome
+
+2024-07-11 15:57:02,478 [T13-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_openChrome
+##############################################################
+b58cad97-e558-460a-91d5-4375e18c2bc3
+T_openChrome
+
+
+2024-07-11 15:57:02,493 [T13-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_부동산공시가격검색
+**************************************************************
+ - STEP 148: S3af72c0d5bcf443988138a553761bb69 (3/3) - (37/41)
+ - [3] RunTask
+
+
+2024-07-11 15:57:02,500 [T13-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_setExcell
+##############################################################
+d5bf7a21-2947-4500-aab8-db0410b0b8ee
+T_setExcell
+
+
+2024-07-11 15:57:02,509 [T13-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_setExcell
+**************************************************************
+ - STEP 149: S0af858bd85ea4d8696c491f228277a8e (1/5) - (38/41)
+ - [1] OpenExcel
+
+
+2024-07-11 15:57:03,876 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 150: S87b637b0ab35408cbd98825889a9565b (2/5) - (39/41)
+ - [2] For
+
+
+2024-07-11 15:57:03,892 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 151: Se88411f6b2714747bd8c65f6a86015ea (4/5) - (40/41)
+ - [4] WriteString
+
+
+2024-07-11 15:57:03,972 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 152: Se88411f6b2714747bd8c65f6a86015ea (4/5) - (40/41)
+ - [4] WriteString
+
+
+2024-07-11 15:57:04,003 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 153: Se88411f6b2714747bd8c65f6a86015ea (4/5) - (40/41)
+ - [4] WriteString
+
+
+2024-07-11 15:57:04,034 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 154: Se88411f6b2714747bd8c65f6a86015ea (4/5) - (40/41)
+ - [4] WriteString
+
+
+2024-07-11 15:57:04,066 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 155: Se88411f6b2714747bd8c65f6a86015ea (4/5) - (40/41)
+ - [4] WriteString
+
+
+2024-07-11 15:57:04,098 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 156: Se88411f6b2714747bd8c65f6a86015ea (4/5) - (40/41)
+ - [4] WriteString
+
+
+2024-07-11 15:57:04,130 [T13-ScriptEngine] INFO  JobRequest
+ - STEP 157: S972fa955a97244d78b053205cda5bde0 (5/5) - (41/41)
+ - [5] End-For
+
+
+2024-07-11 15:57:04,130 [T13-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_setExcell
+
+2024-07-11 15:57:04,131 [T13-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_setExcell
+##############################################################
+d5bf7a21-2947-4500-aab8-db0410b0b8ee
+T_setExcell
+
+
+2024-07-11 15:57:04,131 [T13-ScriptEngine] INFO  JobRunner
+[PASS] TASK: P_부동산공시가격검색
+
+2024-07-11 15:57:04,131 [T13-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - P_부동산공시가격검색
+##############################################################
+f5d5e78c-2c49-4e0c-a0f3-ff34a134bb02
+P_부동산공시가격검색
+
+
+2024-07-11 15:57:04,152 [T13-ScriptEngine] INFO  JobRunner
+RunProcess - Job Result: {}
+
+2024-07-11 15:57:04,152 [T13-ScriptEngine] DEBUG JobManager
+Set Result State: Completed
+
+2024-07-11 15:57:04,156 [T13-ScriptEngine] INFO  JobRunner
+Make report.
+
+2024-07-11 15:57:04,211 [T13-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-07-11 15:57:04,212 [T13-ScriptEngine] DEBUG JobRunner
+OnProcessCompleted
+
+2024-07-11 15:57:04,212 [T25] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2024-07-11 15:57:04,219 [T13-ScriptEngine] DEBUG ExcelBase
+DisposeExcel
+
+2024-07-11 15:57:04,235 [T13-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-07-11 15:57:04,237 [T13-ScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2024-07-11 15:57:04,238 [T13-ScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2024-07-11 15:57:04,239 [T13-ScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2024-07-11 15:57:04,240 [T13-ScriptEngine] DEBUG UIAEventHandler
+Stop UIA event handler
+
+2024-07-11 15:57:04,250 [T13-ScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2024-07-11 15:57:04,250 [T13-ScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2024-07-11 15:57:04,252 [T13-ScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2024-07-11 15:57:04,253 [T13-ScriptEngine] DEBUG JobRunner
+SendJobResult: Completed
+
+2024-07-11 15:57:04,253 [T13-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Completed
+##############################################################
+{}
+
+
+2024-07-11 15:57:04,253 [T13-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Completed
+
+2024-07-11 15:57:04,253 [T13-ScriptEngine] INFO  JobRequest
+Update skipped current step informations.
+
+2024-07-11 15:57:04,265 [T13-ScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2024-07-11 15:57:04,272 [T6] DEBUG JobRequest
+Callback - State: Completed
+{}
+
+2024-07-11 15:57:04,273 [T6] INFO  JobRequest
+Callback - EngineClosed
+
+2024-07-11 15:57:04,274 [T6] INFO  JobService
+Disconnect agent service
+
+2024-07-11 15:57:04,275 [T6] DEBUG JobRequest
+End of Callback Sender
+
+2024-07-11 15:57:04,288 [T13-ScriptEngine] INFO  JobRunner
+RunProcess end
+
+2024-07-11 15:57:04,288 [T1] INFO  JobService
+Exit - Shutdown Engine BOT
+

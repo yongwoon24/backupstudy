@@ -1,0 +1,125 @@
+Control Identifiers:
+
+OpusApp - 'Word'    (L427, T202, R1867, B1051)
+['OpusApp', 'Word', 'WordOpusApp']
+child_window(title="Word", class_name="OpusApp")
+   | 
+   | FullpageUIHost - ''    (L428, T203, R1866, B1050)
+   | ['FullpageUIHost', 'WordFullpageUIHost']
+   | child_window(class_name="FullpageUIHost")
+   |    | 
+   |    | NetUIHWND - ''    (L428, T203, R1866, B1050)
+   |    | ['WordNetUIHWND', 'NetUIHWND', 'WordNetUIHWND0', 'WordNetUIHWND1', 'NetUIHWND0', 'NetUIHWND1']
+   |    | child_window(class_name="NetUIHWND")
+   | 
+   | NetUIHWND - ''    (L428, T203, R1866, B1050)
+   | ['WordNetUIHWND', 'NetUIHWND', 'WordNetUIHWND0', 'WordNetUIHWND1', 'NetUIHWND0', 'NetUIHWND1']
+   | child_window(class_name="NetUIHWND")
+   | 
+   | _WwF - ''    (L428, T267, R1866, B1028)
+   | ['_WwF', 'Word_WwF']
+   | child_window(class_name="_WwF")
+   | 
+   | MsoCommandBarDock - 'MsoDockLeft'    (L428, T267, R428, B267)
+   | ['MsoDockLeftMsoCommandBarDock', 'MsoDockLeft', 'MsoCommandBarDock', 'MsoCommandBarDock0', 'MsoCommandBarDock1']
+   | child_window(title="MsoDockLeft", class_name="MsoCommandBarDock")
+   | 
+   | MsoCommandBarDock - 'MsoDockRight'    (L428, T267, R428, B267)
+   | ['MsoDockRight', 'MsoCommandBarDock2', 'MsoDockRightMsoCommandBarDock']
+   | child_window(title="MsoDockRight", class_name="MsoCommandBarDock")
+   | 
+   | MsoCommandBarDock - 'MsoDockTop'    (L428, T203, R428, B267)
+   | ['MsoDockTopMsoCommandBarDock', 'MsoDockTop', 'MsoCommandBarDock3']
+   | child_window(title="MsoDockTop", class_name="MsoCommandBarDock")
+   | 
+   | MsoCommandBarDock - 'MsoDockBottom'    (L428, T181, R428, B203)
+   | ['MsoDockBottom', 'MsoDockBottomMsoCommandBarDock', 'MsoCommandBarDock4']
+   | child_window(title="MsoDockBottom", class_name="MsoCommandBarDock")
+   | 
+   | MsoWorkPane - ''    (L428, T203, R528, B303)
+   | ['MsoWorkPane', 'WordMsoWorkPane', 'MsoWorkPane0', 'MsoWorkPane1', 'WordMsoWorkPane0', 'WordMsoWorkPane1']
+   | child_window(class_name="MsoWorkPane")
+   |    | 
+   |    | NUIPane - ''    (L428, T203, R1866, B267)
+   |    | ['NUIPane', 'WordNUIPane', 'NUIPane0', 'NUIPane1', 'WordNUIPane0', 'WordNUIPane1']
+   |    | child_window(class_name="NUIPane")
+   |    |    | 
+   |    |    | NetUIHWND - ''    (L428, T203, R1866, B267)
+   |    |    | ['WordNetUIHWND2', 'NetUIHWND2']
+   |    |    | child_window(class_name="NetUIHWND")
+   |    |    |    | 
+   |    |    |    | NetUICtrlNotifySink - ''    (L428, T203, R428, B203)
+   |    |    |    | ['NetUICtrlNotifySink', 'WordNetUICtrlNotifySink']
+   |    |    |    | child_window(class_name="NetUICtrlNotifySink")
+   |    |    | 
+   |    |    | NetUICtrlNotifySink - ''    (L428, T203, R428, B203)
+   |    |    | ['NetUICtrlNotifySink', 'WordNetUICtrlNotifySink']
+   |    |    | child_window(class_name="NetUICtrlNotifySink")
+   |    | 
+   |    | NetUIHWND - ''    (L428, T203, R1866, B267)
+   |    | ['WordNetUIHWND2', 'NetUIHWND2']
+   |    | child_window(class_name="NetUIHWND")
+   |    |    | 
+   |    |    | NetUICtrlNotifySink - ''    (L428, T203, R428, B203)
+   |    |    | ['NetUICtrlNotifySink', 'WordNetUICtrlNotifySink']
+   |    |    | child_window(class_name="NetUICtrlNotifySink")
+   |    | 
+   |    | NetUICtrlNotifySink - ''    (L428, T203, R428, B203)
+   |    | ['NetUICtrlNotifySink', 'WordNetUICtrlNotifySink']
+   |    | child_window(class_name="NetUICtrlNotifySink")
+   | 
+   | NUIPane - ''    (L428, T203, R1866, B267)
+   | ['NUIPane', 'WordNUIPane', 'NUIPane0', 'NUIPane1', 'WordNUIPane0', 'WordNUIPane1']
+   | child_window(class_name="NUIPane")
+   |    | 
+   |    | NetUIHWND - ''    (L428, T203, R1866, B267)
+   |    | ['WordNetUIHWND2', 'NetUIHWND2']
+   |    | child_window(class_name="NetUIHWND")
+   |    |    | 
+   |    |    | NetUICtrlNotifySink - ''    (L428, T203, R428, B203)
+   |    |    | ['NetUICtrlNotifySink', 'WordNetUICtrlNotifySink']
+   |    |    | child_window(class_name="NetUICtrlNotifySink")
+   |    | 
+   |    | NetUICtrlNotifySink - ''    (L428, T203, R428, B203)
+   |    | ['NetUICtrlNotifySink', 'WordNetUICtrlNotifySink']
+   |    | child_window(class_name="NetUICtrlNotifySink")
+   | 
+   | NetUIHWND - ''    (L428, T203, R1866, B267)
+   | ['WordNetUIHWND2', 'NetUIHWND2']
+   | child_window(class_name="NetUIHWND")
+   |    | 
+   |    | NetUICtrlNotifySink - ''    (L428, T203, R428, B203)
+   |    | ['NetUICtrlNotifySink', 'WordNetUICtrlNotifySink']
+   |    | child_window(class_name="NetUICtrlNotifySink")
+   | 
+   | NetUICtrlNotifySink - ''    (L428, T203, R428, B203)
+   | ['NetUICtrlNotifySink', 'WordNetUICtrlNotifySink']
+   | child_window(class_name="NetUICtrlNotifySink")
+   | 
+   | MsoWorkPane - ''    (L428, T203, R528, B303)
+   | ['MsoWorkPane2', 'WordMsoWorkPane2']
+   | child_window(class_name="MsoWorkPane")
+   |    | 
+   |    | NUIPane - ''    (L428, T203, R1866, B225)
+   |    | ['NUIPane2', 'WordNUIPane2']
+   |    | child_window(class_name="NUIPane")
+   |    |    | 
+   |    |    | NetUIHWND - ''    (L428, T203, R1866, B225)
+   |    |    | ['WordNetUIHWND3', 'NetUIHWND3']
+   |    |    | child_window(class_name="NetUIHWND")
+   |    | 
+   |    | NetUIHWND - ''    (L428, T203, R1866, B225)
+   |    | ['WordNetUIHWND3', 'NetUIHWND3']
+   |    | child_window(class_name="NetUIHWND")
+   | 
+   | NUIPane - ''    (L428, T203, R1866, B225)
+   | ['NUIPane2', 'WordNUIPane2']
+   | child_window(class_name="NUIPane")
+   |    | 
+   |    | NetUIHWND - ''    (L428, T203, R1866, B225)
+   |    | ['WordNetUIHWND3', 'NetUIHWND3']
+   |    | child_window(class_name="NetUIHWND")
+   | 
+   | NetUIHWND - ''    (L428, T203, R1866, B225)
+   | ['WordNetUIHWND3', 'NetUIHWND3']
+   | child_window(class_name="NetUIHWND")

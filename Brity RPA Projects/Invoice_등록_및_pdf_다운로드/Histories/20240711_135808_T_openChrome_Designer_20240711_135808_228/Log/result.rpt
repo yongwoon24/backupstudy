@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="b6ea1598-d34c-409e-b81b-47fe3098902f" name="T_openChrome" result="Stop" detail="Process: T_openChrome&#xA;&#xA;Stopped by User" start="2024-07-11T04:58:11.649" end="2024-07-11T04:58:11.726" jobId="Designer_20240711_135808_228">
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.100.11228" />
+    <Info name="Resolution" value="1920 x 1200" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-L9D9Y" />
+  </JobInfo>
+</Result>

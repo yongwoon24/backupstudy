@@ -1,0 +1,468 @@
+﻿2024-07-09 09:35:20,194 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.100.11228 at 2024-07-09 오전 9:35:20
+EngineID: D_20240709_093519_297
+PID : 12108
+PPID: 12488
+Working Directory: C:\Users\3calss_15\AppData\Roaming\Brity RPA Designer
+
+2024-07-09 09:35:20,212 [T1] INFO  EngineStarter
+System Language: ko-KR
+Resolution: 1920 x 1200
+
+2024-07-09 09:35:20,532 [T1] INFO  Config
+Initialize Config
+
+2024-07-09 09:35:20,572 [T1] DEBUG Config
+Config Loaded
+
+2024-07-09 09:35:20,574 [T1] DEBUG Config
+Backup config file.
+
+2024-07-09 09:35:20,583 [T1] INFO  Config
+Orchestrator Service => https://bwrpa.samsungsds.com:8777
+
+2024-07-09 09:35:20,586 [T1] INFO  Config
+Initialize Resource Config
+
+2024-07-09 09:35:20,613 [T1] DEBUG Config
+Refresh Language Information
+
+2024-07-09 09:35:20,695 [T1] INFO  Config
+All Config Initialized.
+
+2024-07-09 09:35:20,702 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2024-07-09 09:35:20,705 [T1] DEBUG KeyManager
+Load device unique id.
+
+2024-07-09 09:35:20,712 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2024-07-09 09:35:20,792 [T5] DEBUG JobService
+Connect to agent service
+
+2024-07-09 09:35:20,824 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2024-07-09 09:35:20,825 [T5] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2024-07-09 09:35:20,825 [T5] DEBUG JobService
+Open connection
+
+2024-07-09 09:35:20,832 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2024-07-09 09:35:20,840 [T5] DEBUG JobService
+Register engine to agent
+
+2024-07-09 09:35:20,846 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2024-07-09 09:35:20,851 [T5] DEBUG JobService
+Engine is connected to agent service.
+
+2024-07-09 09:35:20,852 [T5] DEBUG JobService
+Owner Process PID: 12488
+
+2024-07-09 09:35:20,854 [T5] INFO  JobService
+Start monitoring owner process is terminated.
+
+2024-07-09 09:35:21,078 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2024-07-09 09:35:21,280 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2024-07-09 09:35:21,419 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2024-07-09 09:35:21,540 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2024-07-09 09:35:21,648 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2024-07-09 09:35:21,712 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2024-07-09 09:35:21,891 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2024-07-09 09:35:21,946 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2024-07-09 09:35:22,027 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2024-07-09 09:35:22,104 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2024-07-09 09:35:22,191 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2024-07-09 09:35:22,269 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2024-07-09 09:35:22,374 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2024-07-09 09:35:22,499 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: 0,0,1920,1200
+
+2024-07-09 09:35:22,529 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2024-07-09 09:35:22,636 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2024-07-09 09:35:22,707 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2024-07-09 09:35:22,787 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2024-07-09 09:35:22,802 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2024-07-09 09:35:22,818 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2024-07-09 09:35:22,833 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2024-07-09 09:35:22,848 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2024-07-09 09:35:22,864 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2024-07-09 09:35:22,880 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2024-07-09 09:35:22,896 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2024-07-09 09:35:22,911 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2024-07-09 09:35:22,927 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2024-07-09 09:35:22,943 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2024-07-09 09:35:22,959 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2024-07-09 09:35:22,975 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2024-07-09 09:35:22,991 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2024-07-09 09:35:23,007 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2024-07-09 09:35:23,023 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2024-07-09 09:35:23,039 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2024-07-09 09:35:23,044 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2024-07-09 09:35:23,379 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2024-07-09 09:35:23,391 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20240709_093519_297 -runtype ProcRunner -ppid 12488
+
+2024-07-09 09:35:23,393 [T1] DEBUG Config
+Refresh Language Information
+
+2024-07-09 09:35:23,394 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2024-07-09 09:37:11,278 [T8] INFO  JobService
+Start Job: T_test01 (Foreground)
+{
+  "JobType": 1,
+  "State": 0,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "StartTime": "2024-07-09 09:37:11",
+  "EndTime": null,
+  "JobId": "Designer_20240709_093710_904",
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\yongwoon0709\\T_test01.proc",
+  "ProcessId": "80ec3c8a-d44e-4605-ae0f-b5d5ea19a7cd",
+  "ProcessVer": "",
+  "ProcessArgs": null,
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 12488,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "EngineID": "D_20240709_093519_297",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobWorkDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\yongwoon0709\\Histories\\20240709_093711_T_test01_Designer_20240709_093710_904",
+  "JobLogDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\yongwoon0709\\Histories\\20240709_093711_T_test01_Designer_20240709_093710_904\\Log",
+  "JobScreenshotDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\yongwoon0709\\Histories\\20240709_093711_T_test01_Designer_20240709_093710_904\\Log\\Screenshot"
+}
+
+2024-07-09 09:37:11,430 [T9] DEBUG JobService
+Waiting library loading...
+
+2024-07-09 09:37:11,435 [T9] DEBUG Config
+Reload User Settings
+
+2024-07-09 09:37:11,437 [T9] INFO  Config
+UserSettings Reloaded =>
+ - LastExecution : gOo+b6/9++3azt91LgZjR6WwMZkXcbH+TNPdwDG68KI= -> Iybkd8tMWHsP/d2fGrSs8UdpS4EWuQibEJiB7PHwU3o=
+ - ServerFeature : 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
+
+2024-07-09 09:37:11,438 [T9] INFO  JobService
+Config Loading Completed.
+
+2024-07-09 09:37:11,438 [T9] DEBUG JobService
+Config Loading Time: 7 ms.
+
+2024-07-09 09:37:11,456 [T9] DEBUG JobService
+Check Shared Token
+
+2024-07-09 09:37:11,457 [T9] DEBUG TokenManager
+Load connection token
+
+2024-07-09 09:37:11,461 [T9] DEBUG TokenManager
+Clear Connection Token - No Shared Token
+
+2024-07-09 09:37:11,717 [T1] DEBUG ServerInformationClient
+Request server feature list
+
+2024-07-09 09:37:11,840 [T1] INFO  ServerInformationClient
+Server feature update successful
+
+2024-07-09 09:37:11,844 [T1] INFO  ServerInformationClient
+It takes 222 milliseconds to try to update the server feature list.
+
+2024-07-09 09:37:11,845 [T1] INFO  Config
+Update server features to config.
+
+2024-07-09 09:37:11,888 [T9] INFO  JobService
+Shared Token - No Token
+
+2024-07-09 09:37:11,896 [T9] INFO  JobManager
+Create JobManager instance for job T_test01(Designer_20240709_093710_904)
+
+2024-07-09 09:37:11,906 [T10] INFO  JobRequest
+Start Callback Sender
+
+2024-07-09 09:37:11,907 [T10] DEBUG JobRequest
+Step Callback Interval: 500
+
+2024-07-09 09:37:11,907 [T9] INFO  JobRequest
+Job ID : Designer_20240709_093710_904
+Project Path  : C:\Users\3calss_15\Documents\Brity RPA Projects\yongwoon0709\yongwoon0709.proj
+Process Name  : T_test01
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 12488
+
+2024-07-09 09:37:11,987 [T9] DEBUG ProjectManager
+Set Project Information
+
+2024-07-09 09:37:12,061 [T9] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2024-07-09 09:37:12,064 [T9] INFO  JobRunner
+Initialize Script Engine
+
+2024-07-09 09:37:12,082 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2024-07-09 09:37:12,117 [T10] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2024-07-09 09:37:12,929 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2024-07-09 09:37:12,933 [T10] DEBUG JobRequest
+Callback - State: Ready
+
+
+2024-07-09 09:37:12,940 [T9] INFO  JobRunnerHook
+HotKey Hook Started
+
+2024-07-09 09:37:12,941 [T9] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2024-07-09 09:37:12,943 [T15-ScriptEngine] INFO  JobRunner
+RunProcess start
+
+2024-07-09 09:37:12,944 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2024-07-09 09:37:12,944 [T15-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2024-07-09 09:37:12,949 [T10] DEBUG JobRequest
+Callback - State: Starting
+
+
+2024-07-09 09:37:12,965 [T10] DEBUG JobRequest
+Callback - State: Running
+
+
+2024-07-09 09:37:13,973 [T15-ScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2024-07-09 09:37:14,168 [T15-ScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2024-07-09 09:37:14,197 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - T_test01
+##############################################################
+80ec3c8a-d44e-4605-ae0f-b5d5ea19a7cd
+T_test01
+
+
+2024-07-09 09:37:14,258 [T15-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_test01
+**************************************************************
+ - STEP 1: Sa80e90a78ff14734b435f1316ef2d8ea (1/9) - (1/2)
+ - [1] OpenApp
+
+
+2024-07-09 09:37:14,365 [T15-ScriptEngine] INFO  UiaAppHelper
+Open App: notepad
+Arguments: 
+Derived App: 
+
+2024-07-09 09:37:14,665 [T15-ScriptEngine] INFO  UiaAppHelper
+Process(4252) Started.
+
+2024-07-09 09:37:15,703 [T15-ScriptEngine] DEBUG UiaAppHelper
+The number of new application windows: 2
+
+2024-07-09 09:37:15,703 [T15-ScriptEngine] INFO  UiaAppHelper
+Launched Application PID: 4252, HWND: 133800
+
+2024-07-09 09:37:15,707 [T15-ScriptEngine] INFO  UiaAppHelper
+OpenApp WaitForInputIdle(4462): 0
+
+2024-07-09 09:37:16,242 [T15-ScriptEngine] INFO  JobRequest
+ - STEP 2: Sdc28e4b758d044a1909419139493ccf9 (9/9) - (2/2)
+ - [9] KeyInput
+
+
+2024-07-09 09:37:18,666 [T15-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_test01
+
+2024-07-09 09:37:18,672 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - T_test01
+##############################################################
+80ec3c8a-d44e-4605-ae0f-b5d5ea19a7cd
+T_test01
+
+
+2024-07-09 09:37:18,688 [T15-ScriptEngine] INFO  JobRunner
+RunProcess - Job Result: {}
+
+2024-07-09 09:37:18,689 [T15-ScriptEngine] DEBUG JobManager
+Set Result State: Completed
+
+2024-07-09 09:37:18,693 [T15-ScriptEngine] INFO  JobRunner
+Make report.
+
+2024-07-09 09:37:18,761 [T15-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-07-09 09:37:18,762 [T9] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2024-07-09 09:37:18,762 [T15-ScriptEngine] DEBUG JobRunner
+OnProcessCompleted
+
+2024-07-09 09:37:18,763 [T15-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-07-09 09:37:18,765 [T15-ScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2024-07-09 09:37:18,772 [T15-ScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2024-07-09 09:37:18,773 [T15-ScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2024-07-09 09:37:18,776 [T15-ScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 1
+
+2024-07-09 09:37:18,776 [T15-ScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2024-07-09 09:37:18,779 [T15-ScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2024-07-09 09:37:18,780 [T15-ScriptEngine] DEBUG JobRunner
+SendJobResult: Completed
+
+2024-07-09 09:37:18,780 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Completed
+##############################################################
+{}
+
+
+2024-07-09 09:37:18,780 [T15-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Completed
+
+2024-07-09 09:37:18,792 [T15-ScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2024-07-09 09:37:18,793 [T10] DEBUG JobRequest
+Callback - State: Completed
+{}
+
+2024-07-09 09:37:18,794 [T10] INFO  JobRequest
+Callback - EngineClosed
+
+2024-07-09 09:37:18,795 [T10] INFO  JobService
+Disconnect agent service
+
+2024-07-09 09:37:18,798 [T10] DEBUG JobRequest
+End of Callback Sender
+
+2024-07-09 09:37:18,809 [T15-ScriptEngine] INFO  JobRunner
+RunProcess end
+
+2024-07-09 09:37:18,809 [T1] INFO  JobService
+Exit - Shutdown Engine BOT
+

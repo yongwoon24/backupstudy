@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="670e603a-d8bb-4026-8b4d-15b03a61d228" name="T_excel실습" result="Pass" detail="{}" start="2024-07-05T08:11:15.343" end="2024-07-05T08:11:34.385" jobId="Designer_20240705_171112_169">
+  <Step id="S8a4fb8b93ac449b9b852ed76477c9e6c" taskName="T_excel실습" type="Win" name="CloseAll" displayName="CloseAll" callDepth="1" depth="1" num="1" result="Pass" start="2024-07-05T08:11:15.411" end="2024-07-05T08:11:16.547" displayTime="1.1s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'Chrome.exe'" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Options_Force" displayKey="Force" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S9c2fea89a887457fa564d9b8843a62bc" taskName="T_excel실습" type="Excel" name="OpenExcel" displayName="OpenExcel" callDepth="1" depth="1" num="12" result="Pass" start="2024-07-05T08:11:16.561" end="2024-07-05T08:11:18.115" displayTime="1.6s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="RESULT : Workbook" runtimeType="Any" key="Output_OutputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="'C:\\RPAWork\\workspace\\R\\Data\\캠핑장(원본).xls'" runtimeType="String" key="File_Path" displayKey="Path" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="File_Invisible" displayKey="Invisible" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="File_ReadOnly" displayKey="ReadOnly" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="File_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="File_ExecuteShell" displayKey="Execute Shell" visible="true" required="false" />
+      <Property value="60" runtimeType="Integer" key="File_Timeout" displayKey="Timeout" visible="false" required="true" />
+      <Property value="false" runtimeType="Boolean" key="File_UsePassword" displayKey="UsePassword" visible="true" required="false" />
+      <Property value="&lt;Secure Data&gt;" runtimeType="String" key="File_OpenPassword" displayKey="OpenPassword" visible="false" required="false" />
+      <Property value="&lt;Secure Data&gt;" runtimeType="String" key="File_WritePassword" displayKey="WritePassword" visible="false" required="false" />
+      <Property value="Comma(,)" runtimeType="String" key="File_TextDelimiter" displayKey="Text Delimiter" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sf651b65d83244d3aa9018976cff9fcb1" taskName="T_excel실습" type="Excel" name="CreateWorkSheet" displayName="CreateWorkSheet" callDepth="1" depth="1" num="13" result="Pass" start="2024-07-05T08:11:18.129" end="2024-07-05T08:11:18.377" displayTime="0.2s">
+    <Variables>
+      <Variable name="관리기관시트명" scope="Normal" owner="T_excel실습" declareType="Any" isChanged="false" isChangable="true" runtimeType="String" value="'관리기간명'" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="'관리기간명'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="1" runtimeType="Integer" key="Sheet_Position" displayKey="Position" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sa21154a8305144ccb9002f4ca2ebcc04" taskName="T_excel실습" type="Excel" name="GetRowCount" displayName="GetRowCount" callDepth="1" depth="1" num="14" result="Pass" start="2024-07-05T08:11:18.380" end="2024-07-05T08:11:19.363" displayTime="1s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="Workbook" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="RESULT : 1280" runtimeType="Integer" key="Output_OutputCount" displayKey="RowCount" visible="true" required="true" />
+      <Property value="'야영(캠핑)장 현황'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="Sheet_VisibleDataOnly" displayKey="Data Only" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd1efe2731b33408480309a6cd02cfb97" taskName="T_excel실습" type="Desktop" name="MessageBox" displayName="MessageBox" callDepth="1" depth="1" num="15" result="Pass" start="2024-07-05T08:11:19.378" end="2024-07-05T08:11:34.385" displayTime="15s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="1280" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="Result" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="1280" runtimeType="Integer" key="Conditions_Arguments" displayKey="Arguments" visible="true" required="false" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Command_Timeout" displayKey="Timeout (Sec)" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.100.11228" />
+    <Info name="Resolution" value="1920 x 1200" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-L9D9Y" />
+  </JobInfo>
+</Result>

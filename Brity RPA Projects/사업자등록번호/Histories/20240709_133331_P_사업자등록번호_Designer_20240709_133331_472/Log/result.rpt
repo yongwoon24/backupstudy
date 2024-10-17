@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="08e029a9-7bcd-4f42-a0a6-92c88d8ed7a4" name="P_사업자등록번호" result="Fail" detail="-- Recent Warning Messages --&#xA;Process: P_사업자등록번호&#xA;Task: T_openChrome&#xA;Step: ChromeOpen (1/15)&#xA;&#xA;Error: 변수 'this.url'에는 이미 ChromeOpen을 통해 설정된 브라우저가 존재하여 덮어쓸 수 없습니다.&#xA;Output에 지정된 변수를 변경하거나 ChromeClose를 통해 브라우저를 종료 후 다시 시도하여 주시기 바랍니다." start="2024-07-09T04:33:36.177" end="2024-07-09T04:33:44.274" jobId="Designer_20240709_133331_472">
+  <Step id="S678a3761735049cbb3158d828200fd68" taskName="P_사업자등록번호" type="Flow" name="RunTask" displayName="RunTask ('T_openExcel')" callDepth="1" depth="1" num="1" result="Pass" start="2024-07-09T04:33:36.234" end="2024-07-09T04:33:36.336" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="T_openExcel" runtimeType="String" key="Conditions_TaskName" displayKey="Task Name" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S7808cf7f4beb4f1d971398b471c20e76" taskName="T_openExcel" type="Excel" name="OpenExcel" displayName="OpenExcel" callDepth="2" depth="1" num="1" result="Pass" start="2024-07-09T04:33:36.350" end="2024-07-09T04:33:38.312" displayTime="2s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="RESULT : Workbook" runtimeType="Any" key="Output_OutputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="'C:\\Users\\3calss_15\\Desktop\\rpa\\실습과제 7 - 사업자등록번호.xlsx'" runtimeType="String" key="File_Path" displayKey="Path" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="File_Invisible" displayKey="Invisible" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="File_ReadOnly" displayKey="ReadOnly" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="File_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="File_ExecuteShell" displayKey="Execute Shell" visible="true" required="false" />
+      <Property value="60" runtimeType="Integer" key="File_Timeout" displayKey="Timeout" visible="false" required="true" />
+      <Property value="false" runtimeType="Boolean" key="File_UsePassword" displayKey="UsePassword" visible="true" required="false" />
+      <Property value="&lt;Secure Data&gt;" runtimeType="String" key="File_OpenPassword" displayKey="OpenPassword" visible="false" required="false" />
+      <Property value="&lt;Secure Data&gt;" runtimeType="String" key="File_WritePassword" displayKey="WritePassword" visible="false" required="false" />
+      <Property value="Comma(,)" runtimeType="String" key="File_TextDelimiter" displayKey="Text Delimiter" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S0b3e446ed9d2411881635151a2ec7502" taskName="T_openExcel" type="Excel" name="GetRowCount" displayName="GetRowCount" callDepth="2" depth="1" num="2" result="Pass" start="2024-07-09T04:33:38.332" end="2024-07-09T04:33:38.509" displayTime="0.2s">
+    <Variables>
+      <Variable name="sheetName" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="String" value="'사업자번호'" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcel" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="this.rowCount : 7" runtimeType="Integer" key="Output_OutputCount" displayKey="RowCount" visible="true" required="true" />
+      <Property value="'사업자번호'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="Sheet_VisibleDataOnly" displayKey="Data Only" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd99a3a5f361141d4b69bebf15ee12130" taskName="T_openExcel" type="Flow" name="Loop" displayName="For" callDepth="2" depth="1" num="3" result="Pass" start="2024-07-09T04:33:38.519" end="2024-07-09T04:33:38.522" displayTime="0s">
+    <Variables>
+      <Variable name="rowCount" scope="Normal" owner="T_openExcel" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="1" runtimeType="Integer" key="Conditions_InitializeIndex" displayKey="Initialize" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_LoopCondition" displayKey="Condition" visible="true" required="true" />
+      <Property value="1" runtimeType="Integer" key="Conditions_UpdateIndex" displayKey="Update" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sfb4fb9f414e0486c921c44f094d674e5" taskName="T_openExcel" type="Excel" name="ReadString" displayName="ReadString" callDepth="2" depth="2" num="4" result="Pass" start="2024-07-09T04:33:38.535" end="2024-07-09T04:33:38.631" displayTime="0.1s">
+    <Variables>
+      <Variable name="sheetName" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="String" value="'사업자번호'" />
+      <Variable name="dataArray" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array1D" value="[]" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Global.dataArray[this.i-1] : &lt;undefined&gt;" runtimeType="Undefined" key="Output_ReadData" displayKey="ReadData" visible="true" required="true" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="'사업자번호'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A1'" runtimeType="String" key="Sheet_Cell" displayKey="Cell" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sfb4fb9f414e0486c921c44f094d674e5" taskName="T_openExcel" type="Excel" name="ReadString" displayName="ReadString" callDepth="2" depth="2" num="4" result="Pass" start="2024-07-09T04:33:38.646" end="2024-07-09T04:33:38.696" displayTime="0s">
+    <Variables>
+      <Variable name="sheetName" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="String" value="'사업자번호'" />
+      <Variable name="dataArray" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array1D" value="['사업자등록번호 ']" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Global.dataArray[this.i-1] : &lt;undefined&gt;" runtimeType="Undefined" key="Output_ReadData" displayKey="ReadData" visible="true" required="true" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="'사업자번호'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A2'" runtimeType="String" key="Sheet_Cell" displayKey="Cell" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sfb4fb9f414e0486c921c44f094d674e5" taskName="T_openExcel" type="Excel" name="ReadString" displayName="ReadString" callDepth="2" depth="2" num="4" result="Pass" start="2024-07-09T04:33:38.710" end="2024-07-09T04:33:38.760" displayTime="0s">
+    <Variables>
+      <Variable name="sheetName" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="String" value="'사업자번호'" />
+      <Variable name="dataArray" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array1D" value="['사업자등록번호 ', '105-87-52629']" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Global.dataArray[this.i-1] : &lt;undefined&gt;" runtimeType="Undefined" key="Output_ReadData" displayKey="ReadData" visible="true" required="true" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="'사업자번호'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A3'" runtimeType="String" key="Sheet_Cell" displayKey="Cell" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sfb4fb9f414e0486c921c44f094d674e5" taskName="T_openExcel" type="Excel" name="ReadString" displayName="ReadString" callDepth="2" depth="2" num="4" result="Pass" start="2024-07-09T04:33:38.772" end="2024-07-09T04:33:38.824" displayTime="0.1s">
+    <Variables>
+      <Variable name="sheetName" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="String" value="'사업자번호'" />
+      <Variable name="dataArray" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array1D" value="['사업자등록번호 ', '105-87-52629', '111-11-11111']" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Global.dataArray[this.i-1] : &lt;undefined&gt;" runtimeType="Undefined" key="Output_ReadData" displayKey="ReadData" visible="true" required="true" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="'사업자번호'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A4'" runtimeType="String" key="Sheet_Cell" displayKey="Cell" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sfb4fb9f414e0486c921c44f094d674e5" taskName="T_openExcel" type="Excel" name="ReadString" displayName="ReadString" callDepth="2" depth="2" num="4" result="Pass" start="2024-07-09T04:33:38.835" end="2024-07-09T04:33:38.884" displayTime="0s">
+    <Variables>
+      <Variable name="sheetName" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="String" value="'사업자번호'" />
+      <Variable name="dataArray" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array1D" value="['사업자등록번호 ', '105-87-52629', '111-11-11111', '417-81-01720']" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Global.dataArray[this.i-1] : &lt;undefined&gt;" runtimeType="Undefined" key="Output_ReadData" displayKey="ReadData" visible="true" required="true" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="'사업자번호'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A5'" runtimeType="String" key="Sheet_Cell" displayKey="Cell" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sfb4fb9f414e0486c921c44f094d674e5" taskName="T_openExcel" type="Excel" name="ReadString" displayName="ReadString" callDepth="2" depth="2" num="4" result="Pass" start="2024-07-09T04:33:38.898" end="2024-07-09T04:33:38.946" displayTime="0s">
+    <Variables>
+      <Variable name="sheetName" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="String" value="'사업자번호'" />
+      <Variable name="dataArray" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array1D" value="['사업자등록번호 ', '105-87-52629', '111-11-11111', '417-81-01720', '101-81-92326']" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Global.dataArray[this.i-1] : &lt;undefined&gt;" runtimeType="Undefined" key="Output_ReadData" displayKey="ReadData" visible="true" required="true" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="'사업자번호'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A6'" runtimeType="String" key="Sheet_Cell" displayKey="Cell" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sfb4fb9f414e0486c921c44f094d674e5" taskName="T_openExcel" type="Excel" name="ReadString" displayName="ReadString" callDepth="2" depth="2" num="4" result="Pass" start="2024-07-09T04:33:38.960" end="2024-07-09T04:33:39.010" displayTime="0s">
+    <Variables>
+      <Variable name="sheetName" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="String" value="'사업자번호'" />
+      <Variable name="dataArray" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array1D" value="['사업자등록번호 ', '105-87-52629', '111-11-11111', '417-81-01720', '101-81-92326', '101-81-98897']" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Global.dataArray[this.i-1] : &lt;undefined&gt;" runtimeType="Undefined" key="Output_ReadData" displayKey="ReadData" visible="true" required="true" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="'사업자번호'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A7'" runtimeType="String" key="Sheet_Cell" displayKey="Cell" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sc951ad44b4494325bbb827c3a26a3f13" taskName="T_openExcel" type="Flow" name="EndLoop" displayName="End-For" callDepth="2" depth="2" num="5" result="Pass" start="2024-07-09T04:33:39.024" end="2024-07-09T04:33:39.028" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Scfda8443c8624686a4cf2c93bf50f9c8" taskName="T_openExcel" type="Flow" name="InternalData" displayName="End-RunTask ('T_openExcel') / Return To 'P_사업자등록번호'" callDepth="2" depth="2" num="" result="Internal" start="2024-07-09T04:33:39.033" end="2024-07-09T04:33:39.033" displayTime="0s" />
+  <Step id="S6cb47ca040ab4ecaa88b3d739617cf7d" taskName="P_사업자등록번호" type="Flow" name="RunTask" displayName="RunTask ('T_openChrome')" callDepth="1" depth="1" num="2" result="Pass" start="2024-07-09T04:33:39.040" end="2024-07-09T04:33:39.049" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="T_openChrome" runtimeType="String" key="Conditions_TaskName" displayKey="Task Name" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb5fc0fbbf7f742b1b0eb4ca4e9461aed" taskName="T_openChrome" type="Chrome" name="ChromeOpen" displayName="ChromeOpen" callDepth="2" depth="1" num="1" result="Fail" detail="변수 'this.url'에는 이미 ChromeOpen을 통해 설정된 브라우저가 존재하여 덮어쓸 수 없습니다.&#xA;Output에 지정된 변수를 변경하거나 ChromeClose를 통해 브라우저를 종료 후 다시 시도하여 주시기 바랍니다." start="2024-07-09T04:33:39.056" end="2024-07-09T04:33:44.180" displayTime="5.1s">
+    <Variables>
+      <Variable name="url" scope="Normal" owner="T_openChrome" declareType="Any" isChanged="false" isChangable="true" runtimeType="String" value="'https://hometax.go.kr/websquare/websquare.wq?w2xPath=/ui/pp/index_pp.xml&amp;tmIdx=&amp;tm2lIdx=&amp;tm3lIdx='" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;Too Long&gt; this.url : 'https://hometax.go.kr/websquare/websquare.wq?w2xPath=/ui/pp/index_pp.xml&amp;tmIdx=&amp;tm2lIdx= ... 10 more" runtimeType="String" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="Chrome" runtimeType="String" key="CHROME_TypeOfBrowser" displayKey="Browser Type" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_BrowserType" displayKey="Headless Mode" visible="true" required="false" />
+      <Property value="'https://hometax.go.kr/websquare/websquare.wq?w2xPath=/ui/pp/index_pp.xml&amp;tmIdx=&amp;tm2lIdx=&amp;tm3lIdx='" runtimeType="String" key="CHROME_URL" displayKey="URL" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_ChromePath" displayKey="Browser Path" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="60" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ExtensionList" displayKey="Included Extensions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_DownloadPath" displayKey="Download Path" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_WindowsAccountPermissions" displayKey="Windows Account Permissions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_UserAgent" displayKey="User Agent" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_DisableAutomationControl" displayKey="Disable AutomationControl" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S02d2b33fe64b4a2290196eec1db18120" taskName="T_openChrome" type="Flow" name="InternalData" displayName="End-RunTask ('T_openChrome') / Return To 'P_사업자등록번호'" callDepth="2" depth="1" num="" result="Internal" start="2024-07-09T04:33:44.186" end="2024-07-09T04:33:44.187" displayTime="0s" />
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.100.11228" />
+    <Info name="Resolution" value="1920 x 1200" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-L9D9Y" />
+  </JobInfo>
+</Result>

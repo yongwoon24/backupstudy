@@ -1,0 +1,1263 @@
+﻿2024-07-09 13:34:15,765 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.100.11228 at 2024-07-09 오후 1:34:15
+EngineID: D_20240709_133413_946
+PID : 7408
+PPID: 12488
+Working Directory: C:\Users\3calss_15\AppData\Roaming\Brity RPA Designer
+
+2024-07-09 13:34:15,794 [T1] INFO  EngineStarter
+System Language: ko-KR
+Resolution: 1920 x 1200
+
+2024-07-09 13:34:16,120 [T1] INFO  Config
+Initialize Config
+
+2024-07-09 13:34:16,163 [T1] DEBUG Config
+Config Loaded
+
+2024-07-09 13:34:16,164 [T1] DEBUG Config
+Backup config file.
+
+2024-07-09 13:34:16,173 [T1] INFO  Config
+Orchestrator Service => https://bwrpa.samsungsds.com:8777
+
+2024-07-09 13:34:16,177 [T1] INFO  Config
+Initialize Resource Config
+
+2024-07-09 13:34:16,208 [T1] DEBUG Config
+Refresh Language Information
+
+2024-07-09 13:34:16,332 [T1] INFO  Config
+All Config Initialized.
+
+2024-07-09 13:34:16,343 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2024-07-09 13:34:16,346 [T1] DEBUG KeyManager
+Load device unique id.
+
+2024-07-09 13:34:16,355 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2024-07-09 13:34:16,466 [T4] DEBUG JobService
+Connect to agent service
+
+2024-07-09 13:34:16,502 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2024-07-09 13:34:16,502 [T4] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2024-07-09 13:34:16,502 [T4] DEBUG JobService
+Open connection
+
+2024-07-09 13:34:16,511 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2024-07-09 13:34:16,521 [T4] DEBUG JobService
+Register engine to agent
+
+2024-07-09 13:34:16,527 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2024-07-09 13:34:16,536 [T4] DEBUG JobService
+Engine is connected to agent service.
+
+2024-07-09 13:34:16,536 [T4] DEBUG JobService
+Owner Process PID: 12488
+
+2024-07-09 13:34:16,540 [T4] INFO  JobService
+Start monitoring owner process is terminated.
+
+2024-07-09 13:34:16,809 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2024-07-09 13:34:17,003 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2024-07-09 13:34:17,159 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2024-07-09 13:34:17,275 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2024-07-09 13:34:17,368 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2024-07-09 13:34:17,428 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2024-07-09 13:34:17,619 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2024-07-09 13:34:17,681 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2024-07-09 13:34:17,768 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2024-07-09 13:34:17,856 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2024-07-09 13:34:17,954 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2024-07-09 13:34:18,043 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2024-07-09 13:34:18,163 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2024-07-09 13:34:18,317 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: 0,0,1920,1200
+
+2024-07-09 13:34:18,353 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2024-07-09 13:34:18,471 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2024-07-09 13:34:18,547 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2024-07-09 13:34:18,636 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2024-07-09 13:34:18,652 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2024-07-09 13:34:18,668 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2024-07-09 13:34:18,684 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2024-07-09 13:34:18,700 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2024-07-09 13:34:18,716 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2024-07-09 13:34:18,731 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2024-07-09 13:34:18,746 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2024-07-09 13:34:18,761 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2024-07-09 13:34:18,777 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2024-07-09 13:34:18,793 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2024-07-09 13:34:18,809 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2024-07-09 13:34:18,824 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2024-07-09 13:34:18,839 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2024-07-09 13:34:18,857 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2024-07-09 13:34:18,871 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2024-07-09 13:34:18,887 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2024-07-09 13:34:18,892 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2024-07-09 13:34:19,178 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2024-07-09 13:34:19,198 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20240709_133413_946 -runtype ProcRunner -ppid 12488
+
+2024-07-09 13:34:19,199 [T1] DEBUG Config
+Refresh Language Information
+
+2024-07-09 13:34:19,200 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2024-07-09 13:34:32,677 [T9] INFO  JobService
+Start Job: P_사업자등록번호 (Foreground)
+{
+  "JobType": 1,
+  "State": 0,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "StartTime": "2024-07-09 13:34:32",
+  "EndTime": null,
+  "JobId": "Designer_20240709_133432_265",
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\사업자등록번호\\P_사업자등록번호.proc",
+  "ProcessId": "08e029a9-7bcd-4f42-a0a6-92c88d8ed7a4",
+  "ProcessVer": "",
+  "ProcessArgs": null,
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 12488,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "EngineID": "D_20240709_133413_946",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobWorkDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\사업자등록번호\\Histories\\20240709_133432_P_사업자등록번호_Designer_20240709_133432_265",
+  "JobLogDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\사업자등록번호\\Histories\\20240709_133432_P_사업자등록번호_Designer_20240709_133432_265\\Log",
+  "JobScreenshotDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\사업자등록번호\\Histories\\20240709_133432_P_사업자등록번호_Designer_20240709_133432_265\\Log\\Screenshot"
+}
+
+2024-07-09 13:34:32,834 [T10] DEBUG JobService
+Waiting library loading...
+
+2024-07-09 13:34:32,837 [T10] DEBUG Config
+Reload User Settings
+
+2024-07-09 13:34:32,839 [T10] INFO  JobService
+Config Loading Completed.
+
+2024-07-09 13:34:32,839 [T10] DEBUG JobService
+Config Loading Time: 4 ms.
+
+2024-07-09 13:34:32,844 [T10] DEBUG JobService
+Check Shared Token
+
+2024-07-09 13:34:32,846 [T10] DEBUG TokenManager
+Load connection token
+
+2024-07-09 13:34:32,864 [T10] DEBUG TokenManager
+Clear Connection Token - No Shared Token
+
+2024-07-09 13:34:33,047 [T1] DEBUG ServerInformationClient
+Request server feature list
+
+2024-07-09 13:34:33,175 [T1] INFO  ServerInformationClient
+Server feature update successful
+
+2024-07-09 13:34:33,179 [T1] INFO  ServerInformationClient
+It takes 221 milliseconds to try to update the server feature list.
+
+2024-07-09 13:34:33,180 [T1] INFO  Config
+Update server features to config.
+
+2024-07-09 13:34:33,208 [T10] INFO  JobService
+Shared Token - No Token
+
+2024-07-09 13:34:33,214 [T10] INFO  JobManager
+Create JobManager instance for job P_사업자등록번호(Designer_20240709_133432_265)
+
+2024-07-09 13:34:33,220 [T10] INFO  JobRequest
+Job ID : Designer_20240709_133432_265
+Project Path  : C:\Users\3calss_15\Documents\Brity RPA Projects\사업자등록번호\사업자등록번호.proj
+Process Name  : P_사업자등록번호
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 12488
+
+2024-07-09 13:34:33,223 [T7] INFO  JobRequest
+Start Callback Sender
+
+2024-07-09 13:34:33,223 [T7] DEBUG JobRequest
+Step Callback Interval: 500
+
+2024-07-09 13:34:33,262 [T10] DEBUG ProjectManager
+Set Project Information
+
+2024-07-09 13:34:33,286 [T10] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2024-07-09 13:34:33,287 [T10] INFO  JobRunner
+Initialize Script Engine
+
+2024-07-09 13:34:33,302 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2024-07-09 13:34:33,333 [T7] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2024-07-09 13:34:34,169 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2024-07-09 13:34:34,181 [T7] DEBUG JobRequest
+Callback - State: Ready
+
+
+2024-07-09 13:34:34,182 [T10] INFO  JobRunnerHook
+HotKey Hook Started
+
+2024-07-09 13:34:34,183 [T10] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2024-07-09 13:34:34,184 [T16-ScriptEngine] INFO  JobRunner
+RunProcess start
+
+2024-07-09 13:34:34,186 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2024-07-09 13:34:34,186 [T16-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2024-07-09 13:34:34,197 [T7] DEBUG JobRequest
+Callback - State: Starting
+
+
+2024-07-09 13:34:34,197 [T7] DEBUG JobRequest
+Callback - State: Running
+
+
+2024-07-09 13:34:35,177 [T16-ScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2024-07-09 13:34:35,245 [T16-ScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2024-07-09 13:34:35,270 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - P_사업자등록번호
+##############################################################
+08e029a9-7bcd-4f42-a0a6-92c88d8ed7a4
+P_사업자등록번호
+
+
+2024-07-09 13:34:35,322 [T16-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_사업자등록번호
+**************************************************************
+ - STEP 1: S678a3761735049cbb3158d828200fd68 (1/3) - (1/26)
+ - [1] RunTask
+
+
+2024-07-09 13:34:35,416 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_openExcel
+##############################################################
+f2901a36-5932-45cd-9185-cc5975f9e501
+T_openExcel
+
+
+2024-07-09 13:34:35,438 [T16-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_openExcel
+**************************************************************
+ - STEP 2: S7808cf7f4beb4f1d971398b471c20e76 (1/6) - (2/26)
+ - [1] OpenExcel
+
+
+2024-07-09 13:34:37,041 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 3: S0b3e446ed9d2411881635151a2ec7502 (2/6) - (3/26)
+ - [2] GetRowCount
+
+
+2024-07-09 13:34:37,230 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 4: Sd99a3a5f361141d4b69bebf15ee12130 (3/6) - (4/26)
+ - [3] For
+
+
+2024-07-09 13:34:37,246 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 5: Sfb4fb9f414e0486c921c44f094d674e5 (4/6) - (5/26)
+ - [4] ReadString
+
+
+2024-07-09 13:34:37,357 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 6: Sfb4fb9f414e0486c921c44f094d674e5 (4/6) - (5/26)
+ - [4] ReadString
+
+
+2024-07-09 13:34:37,420 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 7: Sfb4fb9f414e0486c921c44f094d674e5 (4/6) - (5/26)
+ - [4] ReadString
+
+
+2024-07-09 13:34:37,484 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 8: Sfb4fb9f414e0486c921c44f094d674e5 (4/6) - (5/26)
+ - [4] ReadString
+
+
+2024-07-09 13:34:37,547 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 9: Sfb4fb9f414e0486c921c44f094d674e5 (4/6) - (5/26)
+ - [4] ReadString
+
+
+2024-07-09 13:34:37,611 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 10: Sfb4fb9f414e0486c921c44f094d674e5 (4/6) - (5/26)
+ - [4] ReadString
+
+
+2024-07-09 13:34:37,675 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 11: Sfb4fb9f414e0486c921c44f094d674e5 (4/6) - (5/26)
+ - [4] ReadString
+
+
+2024-07-09 13:34:37,755 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 12: Sc951ad44b4494325bbb827c3a26a3f13 (5/6) - (6/26)
+ - [5] End-For
+
+
+2024-07-09 13:34:37,755 [T16-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_openExcel
+
+2024-07-09 13:34:37,764 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_openExcel
+##############################################################
+f2901a36-5932-45cd-9185-cc5975f9e501
+T_openExcel
+
+
+2024-07-09 13:34:37,771 [T16-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_사업자등록번호
+**************************************************************
+ - STEP 13: S6cb47ca040ab4ecaa88b3d739617cf7d (2/3) - (7/26)
+ - [2] RunTask
+
+
+2024-07-09 13:34:37,777 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_openChrome
+##############################################################
+98697117-d7ee-463a-9cdf-242a6c65cde0
+T_openChrome
+
+
+2024-07-09 13:34:37,787 [T16-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_openChrome
+**************************************************************
+ - STEP 14: Sb5fc0fbbf7f742b1b0eb4ca4e9461aed (1/15) - (8/26)
+ - [1] ChromeOpen
+
+
+2024-07-09 13:34:40,736 [T10] DEBUG ChromeRemoteConnect
+GetRemoteBrowserUsingEndPoint Fail : 하나 이상의 오류가 발생했습니다.
+
+2024-07-09 13:34:40,788 [T10] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-07-09 13:34:42,437 [T10] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-07-09 13:34:44,573 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 15: Sa603fab6814c4d7cb117746922a5093f (2/15) - (9/26)
+ - [2] MouseHover
+
+
+2024-07-09 13:34:44,952 [T18] INFO  UIAEventHandler
+Start UIA event handler
+
+2024-07-09 13:34:45,953 [T18] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:34:45,953 [T18] INFO  UIAEventHandler
+waiting for 800 msec during the screen structure is changing.
+
+2024-07-09 13:34:46,482 [T18] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:34:46,483 [T18] INFO  UIAEventHandler
+waiting for 59 msec during the screen structure is changing.
+
+2024-07-09 13:34:46,953 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 16: S6b56123d1a634182ab93ef97583ab9a3 (3/15) - (10/26)
+ - [3] Click
+
+
+2024-07-09 13:34:47,373 [T5] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:34:47,373 [T5] INFO  UIAEventHandler
+waiting for 256 msec during the screen structure is changing.
+
+2024-07-09 13:34:47,578 [T5] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:34:47,578 [T5] INFO  UIAEventHandler
+waiting for 94 msec during the screen structure is changing.
+
+2024-07-09 13:34:48,224 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 17: S7a95858056ae4e03a56df23a461c14ca (4/15) - (11/26)
+ - [4] Click
+
+
+2024-07-09 13:34:48,477 [T23] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:34:48,477 [T23] INFO  UIAEventHandler
+waiting for 212 msec during the screen structure is changing.
+
+2024-07-09 13:34:49,868 [T23] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:34:49,869 [T23] INFO  UIAEventHandler
+waiting for 110 msec during the screen structure is changing.
+
+2024-07-09 13:34:50,698 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 18: Sac5c942adf484174b35aeb5e4df012ef (5/15) - (12/26)
+ - [5] For
+
+
+2024-07-09 13:34:50,713 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 19: S8d916959da9a498099c90b60afc4d961 (6/15) - (13/26)
+ - [6] SetText
+
+
+2024-07-09 13:34:51,701 [T22] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:34:51,701 [T22] INFO  UIAEventHandler
+waiting for 700 msec during the screen structure is changing.
+
+2024-07-09 13:34:52,472 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 20: Sf2aaac9b269c4a5fa881e96697027c07 (7/15) - (14/26)
+ - [7] Click
+
+
+2024-07-09 13:34:53,334 [T5] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:34:53,334 [T5] INFO  UIAEventHandler
+waiting for 813 msec during the screen structure is changing.
+
+2024-07-09 13:34:53,556 [T5] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:34:53,556 [T5] INFO  UIAEventHandler
+waiting for 98 msec during the screen structure is changing.
+
+2024-07-09 13:34:54,191 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 21: Sf0a20b508264403eab25ab8a3731b40f (8/15) - (15/26)
+ - [8] IsExist
+
+
+2024-07-09 13:34:54,973 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(431x96)
+
+2024-07-09 13:34:55,115 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1293x288)
+
+2024-07-09 13:34:55,433 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x864)
+
+2024-07-09 13:34:55,839 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:34:56,240 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:34:56,672 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:34:56,984 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:34:57,366 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:34:57,594 [T16-ScriptEngine] INFO  ImageCompareValidator
+Find Result Score: 0
+
+2024-07-09 13:34:57,923 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 22: Sdfefa047406448c48182e57e3302f879 (9/15) - (16/26)
+ - [9] IfElse
+
+
+2024-07-09 13:34:57,939 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 23: Sc1515d977c144683b0337da4a0072c55 (11/15) - (18/26)
+ - [11] Else
+
+
+2024-07-09 13:34:57,955 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 24: Sfa87d34a06e44bbf9c2590405282a1ed (12/15) - (19/26)
+ - [12] GetText
+
+
+2024-07-09 13:34:58,654 [T22] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:34:58,654 [T22] INFO  UIAEventHandler
+waiting for 658 msec during the screen structure is changing.
+
+2024-07-09 13:34:58,763 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 25: Sc4e6b0d4a7c1460eb320e4e47a13a03f (13/15) - (20/26)
+ - [13] End-IfElse
+
+
+2024-07-09 13:34:58,779 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 26: S8d916959da9a498099c90b60afc4d961 (6/15) - (20/26)
+ - [6] SetText
+
+
+2024-07-09 13:34:59,762 [T24] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:34:59,762 [T24] INFO  UIAEventHandler
+waiting for 953 msec during the screen structure is changing.
+
+2024-07-09 13:34:59,967 [T24] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:34:59,967 [T24] INFO  UIAEventHandler
+waiting for 105 msec during the screen structure is changing.
+
+2024-07-09 13:35:00,108 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 27: Sf2aaac9b269c4a5fa881e96697027c07 (7/15) - (20/26)
+ - [7] Click
+
+
+2024-07-09 13:35:00,865 [T22] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:00,865 [T22] INFO  UIAEventHandler
+waiting for 719 msec during the screen structure is changing.
+
+2024-07-09 13:35:01,088 [T22] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:01,088 [T22] INFO  UIAEventHandler
+waiting for 106 msec during the screen structure is changing.
+
+2024-07-09 13:35:01,690 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 28: Sf0a20b508264403eab25ab8a3731b40f (8/15) - (20/26)
+ - [8] IsExist
+
+
+2024-07-09 13:35:01,803 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(431x96)
+
+2024-07-09 13:35:01,943 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1293x288)
+
+2024-07-09 13:35:02,188 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x864)
+
+2024-07-09 13:35:02,517 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:02,887 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:03,263 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:03,677 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:04,049 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:04,393 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:04,738 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:04,943 [T16-ScriptEngine] INFO  ImageCompareValidator
+Find Result Score: 0
+
+2024-07-09 13:35:05,262 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 29: Sdfefa047406448c48182e57e3302f879 (9/15) - (20/26)
+ - [9] IfElse
+
+
+2024-07-09 13:35:05,279 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 30: Sc1515d977c144683b0337da4a0072c55 (11/15) - (20/26)
+ - [11] Else
+
+
+2024-07-09 13:35:05,294 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 31: Sfa87d34a06e44bbf9c2590405282a1ed (12/15) - (20/26)
+ - [12] GetText
+
+
+2024-07-09 13:35:05,990 [T5] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:05,990 [T5] INFO  UIAEventHandler
+waiting for 655 msec during the screen structure is changing.
+
+2024-07-09 13:35:06,195 [T5] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:06,195 [T5] INFO  UIAEventHandler
+waiting for 104 msec during the screen structure is changing.
+
+2024-07-09 13:35:06,211 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 32: Sc4e6b0d4a7c1460eb320e4e47a13a03f (13/15) - (20/26)
+ - [13] End-IfElse
+
+
+2024-07-09 13:35:06,227 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 33: S8d916959da9a498099c90b60afc4d961 (6/15) - (20/26)
+ - [6] SetText
+
+
+2024-07-09 13:35:07,095 [T25] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:07,095 [T25] INFO  UIAEventHandler
+waiting for 841 msec during the screen structure is changing.
+
+2024-07-09 13:35:07,299 [T25] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:07,299 [T25] INFO  UIAEventHandler
+waiting for 112 msec during the screen structure is changing.
+
+2024-07-09 13:35:07,426 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 34: Sf2aaac9b269c4a5fa881e96697027c07 (7/15) - (20/26)
+ - [7] Click
+
+
+2024-07-09 13:35:08,188 [T29] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:08,188 [T29] INFO  UIAEventHandler
+waiting for 722 msec during the screen structure is changing.
+
+2024-07-09 13:35:08,362 [T29] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:08,362 [T29] INFO  UIAEventHandler
+waiting for 69 msec during the screen structure is changing.
+
+2024-07-09 13:35:08,978 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 35: Sf0a20b508264403eab25ab8a3731b40f (8/15) - (20/26)
+ - [8] IsExist
+
+
+2024-07-09 13:35:09,120 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(431x96)
+
+2024-07-09 13:35:09,268 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1293x288)
+
+2024-07-09 13:35:09,556 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x864)
+
+2024-07-09 13:35:09,905 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:10,251 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:10,578 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:10,926 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:11,329 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:11,766 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:12,105 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:12,314 [T16-ScriptEngine] INFO  ImageCompareValidator
+Find Result Score: 0
+
+2024-07-09 13:35:12,645 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 36: Sdfefa047406448c48182e57e3302f879 (9/15) - (20/26)
+ - [9] IfElse
+
+
+2024-07-09 13:35:12,665 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 37: Sc1515d977c144683b0337da4a0072c55 (11/15) - (20/26)
+ - [11] Else
+
+
+2024-07-09 13:35:12,679 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 38: Sfa87d34a06e44bbf9c2590405282a1ed (12/15) - (20/26)
+ - [12] GetText
+
+
+2024-07-09 13:35:13,358 [T25] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:13,358 [T25] INFO  UIAEventHandler
+waiting for 642 msec during the screen structure is changing.
+
+2024-07-09 13:35:13,580 [T25] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:13,580 [T25] INFO  UIAEventHandler
+waiting for 103 msec during the screen structure is changing.
+
+2024-07-09 13:35:13,596 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 39: Sc4e6b0d4a7c1460eb320e4e47a13a03f (13/15) - (20/26)
+ - [13] End-IfElse
+
+
+2024-07-09 13:35:13,612 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 40: S8d916959da9a498099c90b60afc4d961 (6/15) - (20/26)
+ - [6] SetText
+
+
+2024-07-09 13:35:14,485 [T31] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:14,485 [T31] INFO  UIAEventHandler
+waiting for 838 msec during the screen structure is changing.
+
+2024-07-09 13:35:14,673 [T31] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:14,673 [T31] INFO  UIAEventHandler
+waiting for 74 msec during the screen structure is changing.
+
+2024-07-09 13:35:14,797 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 41: Sf2aaac9b269c4a5fa881e96697027c07 (7/15) - (20/26)
+ - [7] Click
+
+
+2024-07-09 13:35:15,579 [T18] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:15,579 [T18] INFO  UIAEventHandler
+waiting for 751 msec during the screen structure is changing.
+
+2024-07-09 13:35:15,800 [T18] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:15,800 [T18] INFO  UIAEventHandler
+waiting for 102 msec during the screen structure is changing.
+
+2024-07-09 13:35:16,401 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 42: Sf0a20b508264403eab25ab8a3731b40f (8/15) - (20/26)
+ - [8] IsExist
+
+
+2024-07-09 13:35:16,503 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(431x96)
+
+2024-07-09 13:35:16,651 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1293x288)
+
+2024-07-09 13:35:16,899 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x864)
+
+2024-07-09 13:35:17,251 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:17,664 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:18,057 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:18,430 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:18,771 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:19,148 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:19,551 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:19,769 [T16-ScriptEngine] INFO  ImageCompareValidator
+Find Result Score: 0
+
+2024-07-09 13:35:20,086 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 43: Sdfefa047406448c48182e57e3302f879 (9/15) - (20/26)
+ - [9] IfElse
+
+
+2024-07-09 13:35:20,102 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 44: Sc1515d977c144683b0337da4a0072c55 (11/15) - (20/26)
+ - [11] Else
+
+
+2024-07-09 13:35:20,118 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 45: Sfa87d34a06e44bbf9c2590405282a1ed (12/15) - (20/26)
+ - [12] GetText
+
+
+2024-07-09 13:35:20,828 [T25] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:20,828 [T25] INFO  UIAEventHandler
+waiting for 682 msec during the screen structure is changing.
+
+2024-07-09 13:35:21,033 [T25] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:21,033 [T25] INFO  UIAEventHandler
+waiting for 107 msec during the screen structure is changing.
+
+2024-07-09 13:35:21,049 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 46: Sc4e6b0d4a7c1460eb320e4e47a13a03f (13/15) - (20/26)
+ - [13] End-IfElse
+
+
+2024-07-09 13:35:21,065 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 47: S8d916959da9a498099c90b60afc4d961 (6/15) - (20/26)
+ - [6] SetText
+
+
+2024-07-09 13:35:21,936 [T22] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:21,936 [T22] INFO  UIAEventHandler
+waiting for 841 msec during the screen structure is changing.
+
+2024-07-09 13:35:22,140 [T22] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:22,140 [T22] INFO  UIAEventHandler
+waiting for 109 msec during the screen structure is changing.
+
+2024-07-09 13:35:22,268 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 48: Sf2aaac9b269c4a5fa881e96697027c07 (7/15) - (20/26)
+ - [7] Click
+
+
+2024-07-09 13:35:23,040 [T25] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:23,040 [T25] INFO  UIAEventHandler
+waiting for 743 msec during the screen structure is changing.
+
+2024-07-09 13:35:23,264 [T25] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:23,264 [T25] INFO  UIAEventHandler
+waiting for 102 msec during the screen structure is changing.
+
+2024-07-09 13:35:23,873 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 49: Sf0a20b508264403eab25ab8a3731b40f (8/15) - (20/26)
+ - [8] IsExist
+
+
+2024-07-09 13:35:23,982 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(431x96)
+
+2024-07-09 13:35:24,134 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1293x288)
+
+2024-07-09 13:35:24,388 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x864)
+
+2024-07-09 13:35:24,707 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:25,054 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:25,492 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:25,905 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:26,235 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:26,603 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:26,952 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(1920x1200)
+
+2024-07-09 13:35:27,186 [T16-ScriptEngine] INFO  ImageCompareValidator
+Find Result Score: 0
+
+2024-07-09 13:35:27,515 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 50: Sdfefa047406448c48182e57e3302f879 (9/15) - (20/26)
+ - [9] IfElse
+
+
+2024-07-09 13:35:27,529 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 51: Sc1515d977c144683b0337da4a0072c55 (11/15) - (20/26)
+ - [11] Else
+
+
+2024-07-09 13:35:27,545 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 52: Sfa87d34a06e44bbf9c2590405282a1ed (12/15) - (20/26)
+ - [12] GetText
+
+
+2024-07-09 13:35:28,226 [T5] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:28,226 [T5] INFO  UIAEventHandler
+waiting for 643 msec during the screen structure is changing.
+
+2024-07-09 13:35:28,434 [T5] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:28,434 [T5] INFO  UIAEventHandler
+waiting for 106 msec during the screen structure is changing.
+
+2024-07-09 13:35:28,450 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 53: Sc4e6b0d4a7c1460eb320e4e47a13a03f (13/15) - (20/26)
+ - [13] End-IfElse
+
+
+2024-07-09 13:35:28,465 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 54: S8d916959da9a498099c90b60afc4d961 (6/15) - (20/26)
+ - [6] SetText
+
+
+2024-07-09 13:35:29,337 [T31] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:29,337 [T31] INFO  UIAEventHandler
+waiting for 843 msec during the screen structure is changing.
+
+2024-07-09 13:35:29,589 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 55: Sf2aaac9b269c4a5fa881e96697027c07 (7/15) - (20/26)
+ - [7] Click
+
+
+2024-07-09 13:35:30,467 [T28] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:30,467 [T28] INFO  UIAEventHandler
+waiting for 843 msec during the screen structure is changing.
+
+2024-07-09 13:35:30,675 [T28] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-07-09 13:35:30,675 [T28] INFO  UIAEventHandler
+waiting for 100 msec during the screen structure is changing.
+
+2024-07-09 13:35:31,293 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 56: Sf0a20b508264403eab25ab8a3731b40f (8/15) - (20/26)
+ - [8] IsExist
+
+
+2024-07-09 13:35:31,476 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 0.000. Matching count(0). TargetImage(X:-1, Y:-1, 431x96) in SearchImage(431x96)
+
+2024-07-09 13:35:31,657 [T16-ScriptEngine] DEBUG TemplateMatchingChecker
+ImageMatching Score: 100.000. Matching count(1). TargetImage(X:431, Y:96, 431x96) in SearchImage(1293x288)
+
+2024-07-09 13:35:31,862 [T16-ScriptEngine] INFO  ImageCompareValidator
+Find Result Score: 99.9999284744263
+
+2024-07-09 13:35:32,190 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 57: Sdfefa047406448c48182e57e3302f879 (9/15) - (20/26)
+ - [9] IfElse
+
+
+2024-07-09 13:35:32,205 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 58: S2c6dfd22b9c743d09df3ec0e2652446c (10/15) - (20/26)
+ - [10] ExecuteScript
+
+
+2024-07-09 13:35:32,221 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 59: Sc4e6b0d4a7c1460eb320e4e47a13a03f (13/15) - (20/26)
+ - [13] End-IfElse
+
+
+2024-07-09 13:35:32,237 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 60: S8a85c4ad9c3240989eb9e936afe86859 (14/15) - (21/26)
+ - [14] End-For
+
+
+2024-07-09 13:35:32,237 [T16-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_openChrome
+
+2024-07-09 13:35:32,238 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_openChrome
+##############################################################
+98697117-d7ee-463a-9cdf-242a6c65cde0
+T_openChrome
+
+
+2024-07-09 13:35:32,252 [T16-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_사업자등록번호
+**************************************************************
+ - STEP 61: S72ead7465a0140a5bec0d2b60d6b1e44 (3/3) - (22/26)
+ - [3] RunTask
+
+
+2024-07-09 13:35:32,254 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_setExcel
+##############################################################
+eab94fbb-830d-46be-97b3-c41cf7fff434
+T_setExcel
+
+
+2024-07-09 13:35:32,268 [T16-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_setExcel
+**************************************************************
+ - STEP 62: Sd82f557fd6d741c2baee1385dd2c2e65 (1/4) - (23/26)
+ - [1] OpenExcel
+
+
+2024-07-09 13:35:33,611 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 63: S284fe91bedaf47c09b45b7c857570657 (2/4) - (24/26)
+ - [2] For
+
+
+2024-07-09 13:35:33,627 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 64: S060c6edfa82b4b81b1cc802e978f88bd (3/4) - (25/26)
+ - [3] WriteString
+
+
+2024-07-09 13:35:33,739 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 65: S060c6edfa82b4b81b1cc802e978f88bd (3/4) - (25/26)
+ - [3] WriteString
+
+
+2024-07-09 13:35:33,835 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 66: S060c6edfa82b4b81b1cc802e978f88bd (3/4) - (25/26)
+ - [3] WriteString
+
+
+2024-07-09 13:35:33,931 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 67: S060c6edfa82b4b81b1cc802e978f88bd (3/4) - (25/26)
+ - [3] WriteString
+
+
+2024-07-09 13:35:34,042 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 68: S060c6edfa82b4b81b1cc802e978f88bd (3/4) - (25/26)
+ - [3] WriteString
+
+
+2024-07-09 13:35:34,136 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 69: S060c6edfa82b4b81b1cc802e978f88bd (3/4) - (25/26)
+ - [3] WriteString
+
+
+2024-07-09 13:35:34,232 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 70: Sce739b950ebc44eea0ff1932f7d0b626 (4/4) - (26/26)
+ - [4] End-For
+
+
+2024-07-09 13:35:34,232 [T16-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_setExcel
+
+2024-07-09 13:35:34,233 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_setExcel
+##############################################################
+eab94fbb-830d-46be-97b3-c41cf7fff434
+T_setExcel
+
+
+2024-07-09 13:35:34,233 [T16-ScriptEngine] INFO  JobRunner
+[PASS] TASK: P_사업자등록번호
+
+2024-07-09 13:35:34,233 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - P_사업자등록번호
+##############################################################
+08e029a9-7bcd-4f42-a0a6-92c88d8ed7a4
+P_사업자등록번호
+
+
+2024-07-09 13:35:34,250 [T16-ScriptEngine] INFO  JobRunner
+RunProcess - Job Result: {}
+
+2024-07-09 13:35:34,251 [T16-ScriptEngine] DEBUG JobManager
+Set Result State: Completed
+
+2024-07-09 13:35:34,255 [T16-ScriptEngine] INFO  JobRunner
+Make report.
+
+2024-07-09 13:35:34,294 [T16-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-07-09 13:35:34,295 [T5] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2024-07-09 13:35:34,296 [T16-ScriptEngine] DEBUG JobRunner
+OnProcessCompleted
+
+2024-07-09 13:35:34,300 [T16-ScriptEngine] DEBUG ExcelBase
+DisposeExcel
+
+2024-07-09 13:35:34,329 [T16-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-07-09 13:35:34,331 [T16-ScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2024-07-09 13:35:34,333 [T16-ScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2024-07-09 13:35:34,334 [T16-ScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2024-07-09 13:35:34,335 [T16-ScriptEngine] DEBUG UIAEventHandler
+Stop UIA event handler
+
+2024-07-09 13:35:34,351 [T16-ScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2024-07-09 13:35:34,352 [T16-ScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2024-07-09 13:35:34,354 [T16-ScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2024-07-09 13:35:34,355 [T16-ScriptEngine] DEBUG JobRunner
+SendJobResult: Completed
+
+2024-07-09 13:35:34,355 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Completed
+##############################################################
+{}
+
+
+2024-07-09 13:35:34,355 [T16-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Completed
+
+2024-07-09 13:35:34,355 [T16-ScriptEngine] INFO  JobRequest
+Update skipped current step informations.
+
+2024-07-09 13:35:34,366 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2024-07-09 13:35:34,373 [T7] DEBUG JobRequest
+Callback - State: Completed
+{}
+
+2024-07-09 13:35:34,374 [T7] INFO  JobRequest
+Callback - EngineClosed
+
+2024-07-09 13:35:34,375 [T7] INFO  JobService
+Disconnect agent service
+
+2024-07-09 13:35:34,380 [T7] DEBUG JobRequest
+End of Callback Sender
+

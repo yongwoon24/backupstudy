@@ -1,0 +1,43 @@
+<Project id="e014c932-8c22-42ed-8e44-11e76a687752" namespace="" name="Invoice_등록_및_pdf_다운로드" category="project" workType="foreground" version="1.00" lastPublishedDate="" lastPublishedBy="" createdDate="2024-07-11 12:31:40" createdBy="" latestProcess="T_openChrome" designerVersion="3.1.100.11228" DesignedBy="">
+  <SharedTask isExpended="false" />
+  <NormalTask isExpended="true">
+    <LinkItem id="3c85452d-f7af-4bb2-a919-32863d17dfbe" category="NormalTask" isChanged="Y" desc="" stepCount="4" name="T_getData">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="b6ea1598-d34c-409e-b81b-47fe3098902f" category="NormalTask" isChanged="Y" desc="" stepCount="29" name="T_openChrome">
+      <Properties />
+    </LinkItem>
+  </NormalTask>
+  <Event isExpended="false" />
+  <Process isExpended="true">
+    <LinkItem id="5f0330cc-412d-4d6c-ab9d-697505864914" category="Process" isChanged="Y" desc="default process" stepCount="2" name="P_Invoice_등록_및_pdf_다운로드">
+      <Properties />
+    </LinkItem>
+  </Process>
+  <CustomLibraries isExpended="false" />
+  <LibraryTemplate isExpended="false" />
+  <Resources isExpended="false" />
+  <RemoteProcess isExpended="false" />
+  <RecorderData isExpended="false" />
+  <Asset />
+  <Library />
+  <Variables>
+    <Variable name="dataArray" scope="Global" valueType="Any" formatType="Any" initValue="" desc="" colorValue="#FF2DCDDF" showMarker="False" />
+  </Variables>
+  <Properties>
+    <Property key="PlayOption_StepInterval" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="1" />
+    <Property key="PlayOption_DisableDrawBounds" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_InvokeFirst" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_AllowUploadDumpScreenResult" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+  </Properties>
+  <DisplayLibraries>
+    <string>Flow</string>
+    <string>Win</string>
+    <string>Net</string>
+    <string>Excel</string>
+    <string>Desktop</string>
+    <string>Chrome</string>
+    <string>ImageRecognition</string>
+    <string>DataConverter</string>
+  </DisplayLibraries>
+</Project>

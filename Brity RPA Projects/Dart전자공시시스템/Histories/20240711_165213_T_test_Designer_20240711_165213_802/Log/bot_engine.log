@@ -1,0 +1,495 @@
+﻿2024-07-11 16:50:53,869 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.100.11228 at 2024-07-11 오후 4:50:53
+EngineID: D_20240711_165050_828
+PID : 18108
+PPID: 12728
+Working Directory: C:\Users\3calss_15\AppData\Roaming\Brity RPA Designer
+
+2024-07-11 16:50:53,913 [T1] INFO  EngineStarter
+System Language: ko-KR
+Resolution: 1920 x 1200
+
+2024-07-11 16:50:54,770 [T1] INFO  Config
+Initialize Config
+
+2024-07-11 16:50:54,938 [T1] DEBUG Config
+Config Loaded
+
+2024-07-11 16:50:54,939 [T1] DEBUG Config
+Backup config file.
+
+2024-07-11 16:50:54,960 [T1] INFO  Config
+Orchestrator Service => https://bwrpa.samsungsds.com:8777
+
+2024-07-11 16:50:54,966 [T1] INFO  Config
+Initialize Resource Config
+
+2024-07-11 16:50:55,031 [T1] DEBUG Config
+Refresh Language Information
+
+2024-07-11 16:50:57,166 [T1] INFO  Config
+All Config Initialized.
+
+2024-07-11 16:50:57,173 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2024-07-11 16:50:57,175 [T1] DEBUG KeyManager
+Load device unique id.
+
+2024-07-11 16:50:57,182 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2024-07-11 16:50:57,251 [T4] DEBUG JobService
+Connect to agent service
+
+2024-07-11 16:50:57,280 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2024-07-11 16:50:57,284 [T4] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2024-07-11 16:50:57,284 [T4] DEBUG JobService
+Open connection
+
+2024-07-11 16:50:57,287 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2024-07-11 16:50:57,298 [T4] DEBUG JobService
+Register engine to agent
+
+2024-07-11 16:50:57,301 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2024-07-11 16:50:57,310 [T4] DEBUG JobService
+Engine is connected to agent service.
+
+2024-07-11 16:50:57,310 [T4] DEBUG JobService
+Owner Process PID: 12728
+
+2024-07-11 16:50:57,316 [T4] INFO  JobService
+Start monitoring owner process is terminated.
+
+2024-07-11 16:50:57,581 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2024-07-11 16:50:57,750 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2024-07-11 16:50:57,885 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2024-07-11 16:50:57,990 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2024-07-11 16:50:58,288 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2024-07-11 16:50:58,342 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2024-07-11 16:50:58,551 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2024-07-11 16:50:58,610 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2024-07-11 16:50:58,689 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2024-07-11 16:50:58,770 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2024-07-11 16:50:58,851 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2024-07-11 16:50:58,923 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2024-07-11 16:50:59,019 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2024-07-11 16:50:59,167 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: 0,0,1920,1200
+
+2024-07-11 16:50:59,329 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2024-07-11 16:50:59,468 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2024-07-11 16:50:59,543 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2024-07-11 16:50:59,693 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2024-07-11 16:50:59,709 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2024-07-11 16:50:59,724 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2024-07-11 16:50:59,739 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2024-07-11 16:50:59,755 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2024-07-11 16:50:59,771 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2024-07-11 16:50:59,786 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2024-07-11 16:50:59,802 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2024-07-11 16:50:59,818 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2024-07-11 16:50:59,848 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2024-07-11 16:50:59,863 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2024-07-11 16:50:59,879 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2024-07-11 16:50:59,894 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2024-07-11 16:50:59,909 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2024-07-11 16:50:59,925 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2024-07-11 16:50:59,941 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2024-07-11 16:50:59,956 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2024-07-11 16:50:59,985 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2024-07-11 16:51:00,268 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2024-07-11 16:51:00,283 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20240711_165050_828 -runtype ProcRunner -ppid 12728
+
+2024-07-11 16:51:00,283 [T1] DEBUG Config
+Refresh Language Information
+
+2024-07-11 16:51:00,284 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2024-07-11 16:52:14,147 [T6] INFO  JobService
+Start Job: T_test (Foreground)
+{
+  "JobType": 1,
+  "State": 0,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "StartTime": "2024-07-11 16:52:13",
+  "EndTime": null,
+  "JobId": "Designer_20240711_165213_802",
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\Dart전자공시시스템\\T_test.proc",
+  "ProcessId": "5ff96692-1d97-46c9-9b11-0b80cd3d8de5",
+  "ProcessVer": "",
+  "ProcessArgs": null,
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 12728,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "EngineID": "D_20240711_165050_828",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobWorkDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\Dart전자공시시스템\\Histories\\20240711_165213_T_test_Designer_20240711_165213_802",
+  "JobLogDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\Dart전자공시시스템\\Histories\\20240711_165213_T_test_Designer_20240711_165213_802\\Log",
+  "JobScreenshotDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\Dart전자공시시스템\\Histories\\20240711_165213_T_test_Designer_20240711_165213_802\\Log\\Screenshot"
+}
+
+2024-07-11 16:52:14,279 [T10] DEBUG JobService
+Waiting library loading...
+
+2024-07-11 16:52:14,281 [T10] DEBUG Config
+Reload User Settings
+
+2024-07-11 16:52:14,282 [T10] INFO  JobService
+Config Loading Completed.
+
+2024-07-11 16:52:14,282 [T10] DEBUG JobService
+Config Loading Time: 3 ms.
+
+2024-07-11 16:52:14,287 [T10] DEBUG JobService
+Check Shared Token
+
+2024-07-11 16:52:14,288 [T10] DEBUG TokenManager
+Load connection token
+
+2024-07-11 16:52:14,290 [T10] DEBUG TokenManager
+Clear Connection Token - No Shared Token
+
+2024-07-11 16:52:14,371 [T1] DEBUG ServerInformationClient
+Request server feature list
+
+2024-07-11 16:52:14,534 [T1] INFO  ServerInformationClient
+Server feature update successful
+
+2024-07-11 16:52:14,538 [T1] INFO  ServerInformationClient
+It takes 215 milliseconds to try to update the server feature list.
+
+2024-07-11 16:52:14,539 [T1] INFO  Config
+Update server features to config.
+
+2024-07-11 16:52:14,568 [T10] INFO  JobService
+Shared Token - No Token
+
+2024-07-11 16:52:14,573 [T10] INFO  JobManager
+Create JobManager instance for job T_test(Designer_20240711_165213_802)
+
+2024-07-11 16:52:14,579 [T10] INFO  JobRequest
+Job ID : Designer_20240711_165213_802
+Project Path  : C:\Users\3calss_15\Documents\Brity RPA Projects\Dart전자공시시스템\Dart전자공시시스템.proj
+Process Name  : T_test
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 12728
+
+2024-07-11 16:52:14,583 [T7] INFO  JobRequest
+Start Callback Sender
+
+2024-07-11 16:52:14,583 [T7] DEBUG JobRequest
+Step Callback Interval: 500
+
+2024-07-11 16:52:14,624 [T10] DEBUG ProjectManager
+Set Project Information
+
+2024-07-11 16:52:14,648 [T10] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2024-07-11 16:52:14,649 [T10] INFO  JobRunner
+Initialize Script Engine
+
+2024-07-11 16:52:14,664 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2024-07-11 16:52:14,682 [T7] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2024-07-11 16:52:15,487 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2024-07-11 16:52:15,497 [T7] DEBUG JobRequest
+Callback - State: Ready
+
+
+2024-07-11 16:52:15,499 [T10] INFO  JobRunnerHook
+HotKey Hook Started
+
+2024-07-11 16:52:15,500 [T10] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2024-07-11 16:52:15,502 [T16-ScriptEngine] INFO  JobRunner
+RunProcess start
+
+2024-07-11 16:52:15,503 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2024-07-11 16:52:15,503 [T16-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2024-07-11 16:52:15,513 [T7] DEBUG JobRequest
+Callback - State: Starting
+
+
+2024-07-11 16:52:15,513 [T7] DEBUG JobRequest
+Callback - State: Running
+
+
+2024-07-11 16:52:16,586 [T16-ScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2024-07-11 16:52:16,659 [T16-ScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2024-07-11 16:52:16,694 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - T_test
+##############################################################
+5ff96692-1d97-46c9-9b11-0b80cd3d8de5
+T_test
+
+
+2024-07-11 16:52:16,746 [T16-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_test
+**************************************************************
+ - STEP 1: S4d861041ece24317b95631a44369d8d7 (1/12) - (1/1)
+ - [1] SendMail
+
+
+2024-07-11 16:52:18,038 [T16-ScriptEngine] ERROR SendMail
+SMTP 서버에 보안 연결이 필요하거나 클라이언트가 인증되지 않았습니다. 서버 응답: 5.7.0 Must issue a STARTTLS command first. For more information, go to
+
+2024-07-11 16:53:11,947 [T16-ScriptEngine] WARN  ScriptSupport
+[CATCH_STEP_EXCEPTION] Process: T_test
+Step: SendMail (1/12)
+
+Error: SMTP 서버에 보안 연결이 필요하거나 클라이언트가 인증되지 않았습니다. 서버 응답: 5.7.0 Must issue a STARTTLS command first. For more information, go to
+
+2024-07-11 16:53:11,964 [T16-ScriptEngine] FINE  JobRunner
+RunTask ExceptionOccured. TASK: T_test => SMTP 서버에 보안 연결이 필요하거나 클라이언트가 인증되지 않았습니다. 서버 응답: 5.7.0 Must issue a STARTTLS command first. For more information, go to
+
+2024-07-11 16:53:12,009 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - T_test
+##############################################################
+5ff96692-1d97-46c9-9b11-0b80cd3d8de5
+T_test
+
+
+2024-07-11 16:53:12,029 [T16-ScriptEngine] ERROR JobRunner
+Process: T_test
+Step: SendMail (1/12)
+
+Error: SMTP 서버에 보안 연결이 필요하거나 클라이언트가 인증되지 않았습니다. 서버 응답: 5.7.0 Must issue a STARTTLS command first. For more information, go to
+
+[CallStack]
+  - T_test: [1] SendMail
+
+[Global Variables]
+  - dateToSearch = <undefined> (Undefined)
+  - RESULT = <null> (Any)
+
+[T_test Variables]
+  - test = <undefined> (Undefined)
+  - isEx = <undefined> (Undefined)
+  - var3 = <undefined> (Undefined)
+  - var2 = [[5, 6], [7, 8]] (Array2D)
+  - var1 = [[1, 2], [3, 4]] (Array2D)
+
+2024-07-11 16:53:12,030 [T16-ScriptEngine] DEBUG JobManager
+Set Result State: ExceptionOccured
+
+2024-07-11 16:53:14,110 [T16-ScriptEngine] INFO  JobRunner
+Make report.
+
+2024-07-11 16:53:14,200 [T16-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-07-11 16:53:14,202 [T21] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2024-07-11 16:53:14,202 [T16-ScriptEngine] DEBUG JobRunner
+OnProcessFailed
+
+2024-07-11 16:53:14,203 [T16-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-07-11 16:53:14,205 [T16-ScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2024-07-11 16:53:14,221 [T16-ScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2024-07-11 16:53:14,222 [T16-ScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2024-07-11 16:53:14,238 [T16-ScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2024-07-11 16:53:14,238 [T16-ScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2024-07-11 16:53:14,247 [T16-ScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2024-07-11 16:53:14,248 [T16-ScriptEngine] DEBUG JobRunner
+SendJobResult: ExceptionOccured
+
+2024-07-11 16:53:14,248 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: ExceptionOccured
+##############################################################
+Process: T_test
+Step: SendMail (1/12)
+
+Error: SMTP 서버에 보안 연결이 필요하거나 클라이언트가 인증되지 않았습니다. 서버 응답: 5.7.0 Must issue a STARTTLS command first. For more information, go to
+
+[CallStack]
+  - T_test: [1] SendMail
+
+[Global Variables]
+  - dateToSearch = <undefined> (Undefined)
+  - RESULT = <null> (Any)
+
+[T_test Variables]
+  - test = <undefined> (Undefined)
+  - isEx = <undefined> (Undefined)
+  - var3 = <undefined> (Undefined)
+  - var2 = [[5, 6], [7, 8]] (Array2D)
+  - var1 = [[1, 2], [3, 4]] (Array2D)
+
+
+2024-07-11 16:53:14,248 [T16-ScriptEngine] INFO  JobRequest
+Last job life cycle state: ExceptionOccured
+
+2024-07-11 16:53:14,263 [T7] DEBUG JobRequest
+Callback - State: ExceptionOccured
+Process: T_test
+Step: SendMail (1/12)
+
+Error: SMTP 서버에 보안 연결이 필요하거나 클라이언트가 인증되지 않았습니다. 서버 응답: 5.7.0 Must issue a STARTTLS command first. For more information, go to
+
+[CallStack]
+  - T_test: [1] SendMail
+
+[Global Variables]
+  - dateToSearch = <undefined> (Undefined)
+  - RESULT = <null> (Any)
+
+[T_test Variables]
+  - test = <undefined> (Undefined)
+  - isEx = <undefined> (Undefined)
+  - var3 = <undefined> (Undefined)
+  - var2 = [[5, 6], [7, 8]] (Array2D)
+  - var1 = [[1, 2], [3, 4]] (Array2D)
+
+2024-07-11 16:53:14,264 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2024-07-11 16:53:14,281 [T7] INFO  JobRequest
+Callback - EngineClosed
+
+2024-07-11 16:53:14,282 [T7] INFO  JobService
+Disconnect agent service
+
+2024-07-11 16:53:14,283 [T7] DEBUG JobRequest
+End of Callback Sender
+

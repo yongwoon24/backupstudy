@@ -1,0 +1,57 @@
+<Project id="171ae781-e264-43e3-b468-14e469401891" namespace="" name="Invoice등록_및_PDF다운" category="project" workType="foreground" version="1.00" lastPublishedDate="" lastPublishedBy="" createdDate="2024-07-08 10:00:35" createdBy="" latestProcess="T_kakaomap" designerVersion="3.1.100.11228" DesignedBy="">
+  <SharedTask isExpended="false" />
+  <NormalTask isExpended="true">
+    <LinkItem id="591c5320-81e0-4c5c-ad67-b7b111ad52d3" category="NormalTask" isChanged="Y" desc="" stepCount="6" name="T_Invoice_로그아웃">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="1655b856-b847-4673-8b77-24ffea5d1796" category="NormalTask" isChanged="Y" desc="" stepCount="12" name="T_Invoice_로그인">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="3172d9a8-0652-4ba6-a8d2-410193892bb0" category="NormalTask" isChanged="Y" desc="" stepCount="5" name="T_Invoice_엑셀데이터">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="39172e81-fe10-4da6-914a-7afbd68b045f" category="NormalTask" isChanged="Y" desc="" stepCount="23" name="T_Invoice_작업">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="f42c68a6-bc57-4d22-bfc1-3154f846eff6" category="NormalTask" isChanged="Y" desc="" stepCount="11" name="T_kakaomap">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="97f1e48d-0f0c-4c63-be1e-a9053b8ee3dc" category="NormalTask" isChanged="Y" desc="" stepCount="2" name="T_test">
+      <Properties />
+    </LinkItem>
+  </NormalTask>
+  <Event isExpended="false" />
+  <Process isExpended="true">
+    <LinkItem id="5e9401d7-de95-4741-b6a4-5fc038b224e9" category="Process" isChanged="Y" desc="default process" stepCount="4" name="P_Invoice등록_및_PDF다운">
+      <Properties />
+    </LinkItem>
+  </Process>
+  <CustomLibraries isExpended="false" />
+  <LibraryTemplate isExpended="false" />
+  <Resources isExpended="false" />
+  <RemoteProcess isExpended="false" />
+  <RecorderData isExpended="false" />
+  <Asset />
+  <Library />
+  <Variables>
+    <Variable name="gReadInvoiceData" scope="Global" valueType="Any" formatType="Any" initValue="" desc="인보이스에 등록할 데이터" colorValue="#FF94AF9F" showMarker="False" />
+    <Variable name="gRPAFileDir" scope="Global" valueType="Any" formatType="Any" initValue="'C:\\Users\\3calss_15\\Desktop\\rpa\\'" desc="인보이스 데이터 저장경로" colorValue="#FF62CDFF" showMarker="False" />
+    <Variable name="gInvoicePID" scope="Global" valueType="Any" formatType="Any" initValue="" desc="인보이스 사이트 크롬 PID" colorValue="#FF7AA874" showMarker="False" />
+  </Variables>
+  <Properties>
+    <Property key="PlayOption_StepInterval" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="1" />
+    <Property key="PlayOption_DisableDrawBounds" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_InvokeFirst" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_AllowUploadDumpScreenResult" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+  </Properties>
+  <DisplayLibraries>
+    <string>Flow</string>
+    <string>Win</string>
+    <string>Net</string>
+    <string>Excel</string>
+    <string>Desktop</string>
+    <string>Chrome</string>
+    <string>ImageRecognition</string>
+    <string>DataConverter</string>
+  </DisplayLibraries>
+</Project>

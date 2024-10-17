@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="f5d5e78c-2c49-4e0c-a0f3-ff34a134bb02" name="P_부동산공시가격검색" result="Stop" detail="Process: P_부동산공시가격검색&#xA;Task: T_openChrome&#xA;Step: ChromeOpen (1/28)&#xA;&#xA;Stopped by User" start="2024-07-09T23:51:14.011" end="2024-07-09T23:51:52.231" jobId="Designer_20240710_085108_518">
+  <Step id="S60b8592450f94f9ba13edc4919220a4d" taskName="P_부동산공시가격검색" type="Flow" name="RunTask" displayName="RunTask ('T_openExcell')" callDepth="1" depth="1" num="1" result="Pass" start="2024-07-09T23:51:14.084" end="2024-07-09T23:51:14.181" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="T_openExcell" runtimeType="String" key="Conditions_TaskName" displayKey="Task Name" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sed82e57b44a44e9a94e466122fb33bb4" taskName="T_openExcell" type="Excel" name="OpenExcel" displayName="OpenExcel" callDepth="2" depth="1" num="1" result="Pass" start="2024-07-09T23:51:14.199" end="2024-07-09T23:51:15.775" displayTime="1.6s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Global.xlsx1 : &lt;undefined&gt;" runtimeType="Undefined" key="Output_OutputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="'C:\\Users\\3calss_15\\Desktop\\rpa\\실습과제 9 - 부동산공시가격검색.xlsx'" runtimeType="String" key="File_Path" displayKey="Path" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="File_Invisible" displayKey="Invisible" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="File_ReadOnly" displayKey="ReadOnly" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="File_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="File_ExecuteShell" displayKey="Execute Shell" visible="true" required="false" />
+      <Property value="60" runtimeType="Integer" key="File_Timeout" displayKey="Timeout" visible="false" required="true" />
+      <Property value="false" runtimeType="Boolean" key="File_UsePassword" displayKey="UsePassword" visible="true" required="false" />
+      <Property value="&lt;Secure Data&gt;" runtimeType="String" key="File_OpenPassword" displayKey="OpenPassword" visible="false" required="false" />
+      <Property value="&lt;Secure Data&gt;" runtimeType="String" key="File_WritePassword" displayKey="WritePassword" visible="false" required="false" />
+      <Property value="Comma(,)" runtimeType="String" key="File_TextDelimiter" displayKey="Text Delimiter" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S31727e0a0bc34a65900a160e90e2eed6" taskName="T_openExcell" type="Excel" name="GetRowCount" displayName="GetRowCount" callDepth="2" depth="1" num="2" result="Pass" start="2024-07-09T23:51:15.780" end="2024-07-09T23:51:15.846" displayTime="0.1s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="this.rowCount : 7" runtimeType="Integer" key="Output_OutputCount" displayKey="RowCount" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="Sheet_VisibleDataOnly" displayKey="Data Only" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Secef2630c1f84285854e919400a3651b" taskName="T_openExcell" type="Flow" name="Loop" displayName="For" callDepth="2" depth="1" num="3" result="Pass" start="2024-07-09T23:51:15.859" end="2024-07-09T23:51:15.862" displayTime="0s">
+    <Variables>
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="2" runtimeType="Integer" key="Conditions_InitializeIndex" displayKey="Initialize" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_LoopCondition" displayKey="Condition" visible="true" required="true" />
+      <Property value="2" runtimeType="Integer" key="Conditions_UpdateIndex" displayKey="Update" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S2d902bd8a139406893f056c05e739063" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="4" result="Pass" start="2024-07-09T23:51:15.875" end="2024-07-09T23:51:15.968" displayTime="0.1s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="cusNum" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array1D" value="[]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.cusNum : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A1:A7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S04b8732fe31c47bab57aab8603c5aa0a" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="5" result="Pass" start="2024-07-09T23:51:15.983" end="2024-07-09T23:51:16.010" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="cusName" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array1D" value="[]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.cusName : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'B1:B7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sdb2ff21ec2ac47e1bb365e0b176e9c94" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="6" result="Pass" start="2024-07-09T23:51:16.015" end="2024-07-09T23:51:16.040" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="loc1" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array1D" value="[]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.loc1 : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'C1:C7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd27bd142102644878828f184f58daa24" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="7" result="Pass" start="2024-07-09T23:51:16.046" end="2024-07-09T23:51:16.073" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="loc2" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array1D" value="[]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.loc2 : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'D1:D7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb199f2474cc84189baf76024b565aa22" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="8" result="Pass" start="2024-07-09T23:51:16.077" end="2024-07-09T23:51:16.109" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="loc3" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array1D" value="[]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.loc3 : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'E1:E7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S3e6575205a794d468d0aeb0700a8dd72" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="9" result="Pass" start="2024-07-09T23:51:16.123" end="2024-07-09T23:51:16.150" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="aptName" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array1D" value="[]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.aptName : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'F1:F7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb840f88098e142c789f1e4a77f416445" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="10" result="Pass" start="2024-07-09T23:51:16.155" end="2024-07-09T23:51:16.183" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="dong" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array1D" value="[]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.dong : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'G1:G7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sa80a5ba9aa63490fa9b7b836e6ee334a" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="11" result="Pass" start="2024-07-09T23:51:16.186" end="2024-07-09T23:51:16.215" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="hosu" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.hosu : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'H1:H7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S2d902bd8a139406893f056c05e739063" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="4" result="Pass" start="2024-07-09T23:51:16.217" end="2024-07-09T23:51:16.256" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="cusNum" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;고객번호&quot;],[1.0],[24.0],[47.0],[51.0],[77.0],[99.0]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.cusNum : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A1:A7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S04b8732fe31c47bab57aab8603c5aa0a" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="5" result="Pass" start="2024-07-09T23:51:16.265" end="2024-07-09T23:51:16.290" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="cusName" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;고객명&quot;],[&quot;회원0D0&quot;],[&quot;회원0E7&quot;],[&quot;회원116&quot;],[&quot;회원119&quot;],[&quot;회원777&quot;],[&quot;회원999&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.cusName : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'B1:B7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sdb2ff21ec2ac47e1bb365e0b176e9c94" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="6" result="Pass" start="2024-07-09T23:51:16.296" end="2024-07-09T23:51:16.325" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="loc1" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;대분류&quot;],[&quot;부산광역시&quot;],[&quot;세종특별자치시&quot;],[&quot;경상남도&quot;],[&quot;경기도&quot;],[&quot;서울특별시&quot;],[&quot;경기도&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.loc1 : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'C1:C7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd27bd142102644878828f184f58daa24" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="7" result="Pass" start="2024-07-09T23:51:16.327" end="2024-07-09T23:51:16.355" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="loc2" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;중분류&quot;],[&quot;남구&quot;],[&quot;세종특별자치시&quot;],[&quot;통영시&quot;],[&quot;동두천시&quot;],[&quot;강남구&quot;],[&quot;광주시&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.loc2 : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'D1:D7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb199f2474cc84189baf76024b565aa22" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="8" result="Pass" start="2024-07-09T23:51:16.358" end="2024-07-09T23:51:16.388" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="loc3" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;소분류&quot;],[&quot;문현동&quot;],[&quot;종촌동&quot;],[&quot;북신동&quot;],[&quot;생연동&quot;],[&quot;청담동&quot;],[&quot;고산동&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.loc3 : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'E1:E7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S3e6575205a794d468d0aeb0700a8dd72" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="9" result="Pass" start="2024-07-09T23:51:16.404" end="2024-07-09T23:51:16.429" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="aptName" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;단지명&quot;],[&quot;문현가든빌라&quot;],[&quot;가재마을8단지&quot;],[&quot;종우아파트&quot;],[&quot;동양아파트&quot;],[&quot;청담아이파크&quot;],[&quot;오포자이디오브&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.aptName : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'F1:F7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb840f88098e142c789f1e4a77f416445" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="10" result="Pass" start="2024-07-09T23:51:16.436" end="2024-07-09T23:51:16.467" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="dong" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;동&quot;],[&quot;비&quot;],[802.0],[&quot;나동&quot;],[1.0],[1.0],[301.0]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.dong : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'G1:G7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sa80a5ba9aa63490fa9b7b836e6ee334a" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="11" result="Pass" start="2024-07-09T23:51:16.483" end="2024-07-09T23:51:16.516" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="hosu" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;호&quot;],[302.0],[1002.0],[301.0],[108.0],[201.0],[101.0]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.hosu : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'H1:H7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S2d902bd8a139406893f056c05e739063" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="4" result="Pass" start="2024-07-09T23:51:16.529" end="2024-07-09T23:51:16.568" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="cusNum" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;고객번호&quot;],[1.0],[24.0],[47.0],[51.0],[77.0],[99.0]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.cusNum : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A1:A7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S04b8732fe31c47bab57aab8603c5aa0a" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="5" result="Pass" start="2024-07-09T23:51:16.576" end="2024-07-09T23:51:16.606" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="cusName" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;고객명&quot;],[&quot;회원0D0&quot;],[&quot;회원0E7&quot;],[&quot;회원116&quot;],[&quot;회원119&quot;],[&quot;회원777&quot;],[&quot;회원999&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.cusName : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'B1:B7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sdb2ff21ec2ac47e1bb365e0b176e9c94" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="6" result="Pass" start="2024-07-09T23:51:16.622" end="2024-07-09T23:51:16.655" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="loc1" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;대분류&quot;],[&quot;부산광역시&quot;],[&quot;세종특별자치시&quot;],[&quot;경상남도&quot;],[&quot;경기도&quot;],[&quot;서울특별시&quot;],[&quot;경기도&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.loc1 : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'C1:C7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd27bd142102644878828f184f58daa24" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="7" result="Pass" start="2024-07-09T23:51:16.668" end="2024-07-09T23:51:16.694" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="loc2" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;중분류&quot;],[&quot;남구&quot;],[&quot;세종특별자치시&quot;],[&quot;통영시&quot;],[&quot;동두천시&quot;],[&quot;강남구&quot;],[&quot;광주시&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.loc2 : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'D1:D7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb199f2474cc84189baf76024b565aa22" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="8" result="Pass" start="2024-07-09T23:51:16.699" end="2024-07-09T23:51:16.727" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="loc3" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;소분류&quot;],[&quot;문현동&quot;],[&quot;종촌동&quot;],[&quot;북신동&quot;],[&quot;생연동&quot;],[&quot;청담동&quot;],[&quot;고산동&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.loc3 : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'E1:E7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S3e6575205a794d468d0aeb0700a8dd72" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="9" result="Pass" start="2024-07-09T23:51:16.731" end="2024-07-09T23:51:16.760" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="aptName" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;단지명&quot;],[&quot;문현가든빌라&quot;],[&quot;가재마을8단지&quot;],[&quot;종우아파트&quot;],[&quot;동양아파트&quot;],[&quot;청담아이파크&quot;],[&quot;오포자이디오브&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.aptName : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'F1:F7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb840f88098e142c789f1e4a77f416445" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="10" result="Pass" start="2024-07-09T23:51:16.762" end="2024-07-09T23:51:16.787" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="dong" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;동&quot;],[&quot;비&quot;],[802.0],[&quot;나동&quot;],[1.0],[1.0],[301.0]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.dong : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'G1:G7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sa80a5ba9aa63490fa9b7b836e6ee334a" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="11" result="Pass" start="2024-07-09T23:51:16.792" end="2024-07-09T23:51:16.821" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="hosu" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;호&quot;],[302.0],[1002.0],[301.0],[108.0],[201.0],[101.0]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.hosu : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'H1:H7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S2d902bd8a139406893f056c05e739063" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="4" result="Pass" start="2024-07-09T23:51:16.823" end="2024-07-09T23:51:16.852" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="cusNum" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;고객번호&quot;],[1.0],[24.0],[47.0],[51.0],[77.0],[99.0]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.cusNum : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A1:A7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S04b8732fe31c47bab57aab8603c5aa0a" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="5" result="Pass" start="2024-07-09T23:51:16.855" end="2024-07-09T23:51:16.893" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="cusName" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;고객명&quot;],[&quot;회원0D0&quot;],[&quot;회원0E7&quot;],[&quot;회원116&quot;],[&quot;회원119&quot;],[&quot;회원777&quot;],[&quot;회원999&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.cusName : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'B1:B7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sdb2ff21ec2ac47e1bb365e0b176e9c94" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="6" result="Pass" start="2024-07-09T23:51:16.903" end="2024-07-09T23:51:16.931" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="loc1" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;대분류&quot;],[&quot;부산광역시&quot;],[&quot;세종특별자치시&quot;],[&quot;경상남도&quot;],[&quot;경기도&quot;],[&quot;서울특별시&quot;],[&quot;경기도&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.loc1 : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'C1:C7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd27bd142102644878828f184f58daa24" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="7" result="Pass" start="2024-07-09T23:51:16.935" end="2024-07-09T23:51:16.962" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="loc2" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;중분류&quot;],[&quot;남구&quot;],[&quot;세종특별자치시&quot;],[&quot;통영시&quot;],[&quot;동두천시&quot;],[&quot;강남구&quot;],[&quot;광주시&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.loc2 : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'D1:D7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb199f2474cc84189baf76024b565aa22" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="8" result="Pass" start="2024-07-09T23:51:16.966" end="2024-07-09T23:51:16.994" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="loc3" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;소분류&quot;],[&quot;문현동&quot;],[&quot;종촌동&quot;],[&quot;북신동&quot;],[&quot;생연동&quot;],[&quot;청담동&quot;],[&quot;고산동&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.loc3 : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'E1:E7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S3e6575205a794d468d0aeb0700a8dd72" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="9" result="Pass" start="2024-07-09T23:51:16.997" end="2024-07-09T23:51:17.025" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="aptName" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;단지명&quot;],[&quot;문현가든빌라&quot;],[&quot;가재마을8단지&quot;],[&quot;종우아파트&quot;],[&quot;동양아파트&quot;],[&quot;청담아이파크&quot;],[&quot;오포자이디오브&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.aptName : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'F1:F7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb840f88098e142c789f1e4a77f416445" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="10" result="Pass" start="2024-07-09T23:51:17.028" end="2024-07-09T23:51:17.057" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="dong" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;동&quot;],[&quot;비&quot;],[802.0],[&quot;나동&quot;],[1.0],[1.0],[301.0]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.dong : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'G1:G7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sa80a5ba9aa63490fa9b7b836e6ee334a" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="11" result="Pass" start="2024-07-09T23:51:17.074" end="2024-07-09T23:51:17.104" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="hosu" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;호&quot;],[302.0],[1002.0],[301.0],[108.0],[201.0],[101.0]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.hosu : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'H1:H7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S2d902bd8a139406893f056c05e739063" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="4" result="Pass" start="2024-07-09T23:51:17.120" end="2024-07-09T23:51:17.153" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="cusNum" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;고객번호&quot;],[1.0],[24.0],[47.0],[51.0],[77.0],[99.0]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.cusNum : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A1:A7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S04b8732fe31c47bab57aab8603c5aa0a" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="5" result="Pass" start="2024-07-09T23:51:17.167" end="2024-07-09T23:51:17.200" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="cusName" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;고객명&quot;],[&quot;회원0D0&quot;],[&quot;회원0E7&quot;],[&quot;회원116&quot;],[&quot;회원119&quot;],[&quot;회원777&quot;],[&quot;회원999&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.cusName : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'B1:B7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sdb2ff21ec2ac47e1bb365e0b176e9c94" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="6" result="Pass" start="2024-07-09T23:51:17.214" end="2024-07-09T23:51:17.249" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="loc1" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;대분류&quot;],[&quot;부산광역시&quot;],[&quot;세종특별자치시&quot;],[&quot;경상남도&quot;],[&quot;경기도&quot;],[&quot;서울특별시&quot;],[&quot;경기도&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.loc1 : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'C1:C7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd27bd142102644878828f184f58daa24" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="7" result="Pass" start="2024-07-09T23:51:17.261" end="2024-07-09T23:51:17.305" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="loc2" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;중분류&quot;],[&quot;남구&quot;],[&quot;세종특별자치시&quot;],[&quot;통영시&quot;],[&quot;동두천시&quot;],[&quot;강남구&quot;],[&quot;광주시&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.loc2 : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'D1:D7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb199f2474cc84189baf76024b565aa22" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="8" result="Pass" start="2024-07-09T23:51:17.309" end="2024-07-09T23:51:17.356" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="loc3" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;소분류&quot;],[&quot;문현동&quot;],[&quot;종촌동&quot;],[&quot;북신동&quot;],[&quot;생연동&quot;],[&quot;청담동&quot;],[&quot;고산동&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.loc3 : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'E1:E7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S3e6575205a794d468d0aeb0700a8dd72" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="9" result="Pass" start="2024-07-09T23:51:17.372" end="2024-07-09T23:51:17.407" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="aptName" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;단지명&quot;],[&quot;문현가든빌라&quot;],[&quot;가재마을8단지&quot;],[&quot;종우아파트&quot;],[&quot;동양아파트&quot;],[&quot;청담아이파크&quot;],[&quot;오포자이디오브&quot;]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.aptName : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'F1:F7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb840f88098e142c789f1e4a77f416445" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="10" result="Pass" start="2024-07-09T23:51:17.420" end="2024-07-09T23:51:17.447" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="dong" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;동&quot;],[&quot;비&quot;],[802.0],[&quot;나동&quot;],[1.0],[1.0],[301.0]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.dong : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'G1:G7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sa80a5ba9aa63490fa9b7b836e6ee334a" taskName="T_openExcell" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="2" num="11" result="Pass" start="2024-07-09T23:51:17.452" end="2024-07-09T23:51:17.478" displayTime="0s">
+    <Variables>
+      <Variable name="xlsx1" scope="Global" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="Workbook" />
+      <Variable name="hosu" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="[[&quot;호&quot;],[302.0],[1002.0],[301.0],[108.0],[201.0],[101.0]]" />
+      <Variable name="rowCount" scope="Normal" owner="T_openExcell" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="7" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.hosu : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'H1:H7'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S74077ad569c9415a8602ebcffe11f851" taskName="T_openExcell" type="Flow" name="EndLoop" displayName="End-For" callDepth="2" depth="2" num="12" result="Pass" start="2024-07-09T23:51:17.482" end="2024-07-09T23:51:17.486" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S94b1ddaa344b4599841718dc845e3965" taskName="T_openExcell" type="Flow" name="InternalData" displayName="End-RunTask ('T_openExcell') / Return To 'P_부동산공시가격검색'" callDepth="2" depth="2" num="" result="Internal" start="2024-07-09T23:51:17.492" end="2024-07-09T23:51:17.492" displayTime="0s" />
+  <Step id="S7f09a40ca8464b01a548d2c84363b3f1" taskName="P_부동산공시가격검색" type="Flow" name="RunTask" displayName="RunTask ('T_openChrome')" callDepth="1" depth="1" num="2" result="Pass" start="2024-07-09T23:51:17.513" end="2024-07-09T23:51:17.539" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="T_openChrome" runtimeType="String" key="Conditions_TaskName" displayKey="Task Name" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd8267c5e18bc487c9ab059c276a1bd99" taskName="T_openChrome" type="Chrome" name="ChromeOpen" displayName="ChromeOpen" callDepth="2" depth="1" num="1" result="None" start="2024-07-09T23:51:17.544" end="2024-07-09T23:51:52.231" displayTime="34.7s">
+    <Variables>
+      <Variable name="brow1" scope="Normal" owner="T_openChrome" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="[output] this.brow1" runtimeType="String" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="Chrome" runtimeType="String" key="CHROME_TypeOfBrowser" displayKey="Browser Type" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_BrowserType" displayKey="Headless Mode" visible="true" required="false" />
+      <Property value="'https://www.realtyprice.kr/notice/town/nfSiteLink.htm'" runtimeType="String" key="CHROME_URL" displayKey="URL" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_ChromePath" displayKey="Browser Path" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="60" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ExtensionList" displayKey="Included Extensions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_DownloadPath" displayKey="Download Path" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_WindowsAccountPermissions" displayKey="Windows Account Permissions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_UserAgent" displayKey="User Agent" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_DisableAutomationControl" displayKey="Disable AutomationControl" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.100.11228" />
+    <Info name="Resolution" value="1920 x 1200" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-L9D9Y" />
+  </JobInfo>
+</Result>

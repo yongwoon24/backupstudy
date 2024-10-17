@@ -1,0 +1,585 @@
+﻿2024-07-11 13:55:44,912 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.100.11228 at 2024-07-11 오후 1:55:44
+EngineID: D_20240711_135543_769
+PID : 6728
+PPID: 13300
+Working Directory: C:\Users\3calss_15\AppData\Roaming\Brity RPA Designer
+
+2024-07-11 13:55:44,930 [T1] INFO  EngineStarter
+System Language: ko-KR
+Resolution: 1920 x 1200
+
+2024-07-11 13:55:45,187 [T1] INFO  Config
+Initialize Config
+
+2024-07-11 13:55:45,234 [T1] DEBUG Config
+Config Loaded
+
+2024-07-11 13:55:45,235 [T1] DEBUG Config
+Backup config file.
+
+2024-07-11 13:55:45,245 [T1] INFO  Config
+Orchestrator Service => https://bwrpa.samsungsds.com:8777
+
+2024-07-11 13:55:45,249 [T1] INFO  Config
+Initialize Resource Config
+
+2024-07-11 13:55:45,276 [T1] DEBUG Config
+Refresh Language Information
+
+2024-07-11 13:55:45,369 [T1] INFO  Config
+All Config Initialized.
+
+2024-07-11 13:55:45,376 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2024-07-11 13:55:45,379 [T1] DEBUG KeyManager
+Load device unique id.
+
+2024-07-11 13:55:45,386 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2024-07-11 13:55:45,562 [T5] DEBUG JobService
+Connect to agent service
+
+2024-07-11 13:55:45,667 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2024-07-11 13:55:45,669 [T5] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2024-07-11 13:55:45,670 [T5] DEBUG JobService
+Open connection
+
+2024-07-11 13:55:45,676 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2024-07-11 13:55:45,691 [T5] DEBUG JobService
+Register engine to agent
+
+2024-07-11 13:55:45,696 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2024-07-11 13:55:45,703 [T5] DEBUG JobService
+Engine is connected to agent service.
+
+2024-07-11 13:55:45,703 [T5] DEBUG JobService
+Owner Process PID: 13300
+
+2024-07-11 13:55:45,707 [T5] INFO  JobService
+Start monitoring owner process is terminated.
+
+2024-07-11 13:55:46,073 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2024-07-11 13:55:46,365 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2024-07-11 13:55:46,528 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2024-07-11 13:55:46,658 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2024-07-11 13:55:46,757 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2024-07-11 13:55:46,821 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2024-07-11 13:55:47,018 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2024-07-11 13:55:47,088 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2024-07-11 13:55:47,176 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2024-07-11 13:55:47,277 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2024-07-11 13:55:47,383 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2024-07-11 13:55:47,467 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2024-07-11 13:55:47,568 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2024-07-11 13:55:47,703 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: 0,0,1920,1200
+
+2024-07-11 13:55:47,735 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2024-07-11 13:55:47,860 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2024-07-11 13:55:47,949 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2024-07-11 13:55:48,056 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2024-07-11 13:55:48,072 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2024-07-11 13:55:48,088 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2024-07-11 13:55:48,104 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2024-07-11 13:55:48,120 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2024-07-11 13:55:48,136 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2024-07-11 13:55:48,152 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2024-07-11 13:55:48,168 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2024-07-11 13:55:48,184 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2024-07-11 13:55:48,200 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2024-07-11 13:55:48,216 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2024-07-11 13:55:48,231 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2024-07-11 13:55:48,247 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2024-07-11 13:55:48,263 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2024-07-11 13:55:48,279 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2024-07-11 13:55:48,295 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2024-07-11 13:55:48,311 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2024-07-11 13:55:48,315 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2024-07-11 13:55:48,401 [T6] INFO  JobService
+Start Job: P_Invoice_등록_및_pdf_다운로드 (Foreground)
+{
+  "JobType": 1,
+  "State": 0,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "StartTime": "2024-07-11 13:55:48",
+  "EndTime": null,
+  "JobId": "Designer_20240711_135547_926",
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\Invoice_등록_및_pdf_다운로드\\P_Invoice_등록_및_pdf_다운로드.proc",
+  "ProcessId": "5f0330cc-412d-4d6c-ab9d-697505864914",
+  "ProcessVer": "",
+  "ProcessArgs": null,
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 13300,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "EngineID": "D_20240711_135543_769",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobWorkDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\Invoice_등록_및_pdf_다운로드\\Histories\\20240711_135548_P_Invoice_등록_및_pdf_다운로드_Designer_20240711_135547_926",
+  "JobLogDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\Invoice_등록_및_pdf_다운로드\\Histories\\20240711_135548_P_Invoice_등록_및_pdf_다운로드_Designer_20240711_135547_926\\Log",
+  "JobScreenshotDir": "C:\\Users\\3calss_15\\Documents\\Brity RPA Projects\\Invoice_등록_및_pdf_다운로드\\Histories\\20240711_135548_P_Invoice_등록_및_pdf_다운로드_Designer_20240711_135547_926\\Log\\Screenshot"
+}
+
+2024-07-11 13:55:48,575 [T4] DEBUG JobService
+Waiting library loading...
+
+2024-07-11 13:55:48,801 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2024-07-11 13:55:48,836 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20240711_135543_769 -runtype ProcRunner -ppid 13300
+
+2024-07-11 13:55:48,837 [T1] DEBUG Config
+Refresh Language Information
+
+2024-07-11 13:55:48,838 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2024-07-11 13:55:48,852 [T4] DEBUG Config
+Reload User Settings
+
+2024-07-11 13:55:48,854 [T4] INFO  JobService
+Config Loading Completed.
+
+2024-07-11 13:55:48,854 [T4] DEBUG JobService
+Config Loading Time: 279 ms.
+
+2024-07-11 13:55:48,862 [T4] DEBUG JobService
+Check Shared Token
+
+2024-07-11 13:55:48,863 [T4] DEBUG TokenManager
+Load connection token
+
+2024-07-11 13:55:48,877 [T4] DEBUG TokenManager
+Clear Connection Token - No Shared Token
+
+2024-07-11 13:55:48,922 [T1] DEBUG ServerInformationClient
+Request server feature list
+
+2024-07-11 13:55:48,988 [T1] INFO  ServerInformationClient
+Server feature update successful
+
+2024-07-11 13:55:48,992 [T1] INFO  ServerInformationClient
+It takes 82 milliseconds to try to update the server feature list.
+
+2024-07-11 13:55:48,993 [T1] INFO  Config
+Update server features to config.
+
+2024-07-11 13:55:49,025 [T4] INFO  JobService
+Shared Token - No Token
+
+2024-07-11 13:55:49,031 [T4] INFO  JobManager
+Create JobManager instance for job P_Invoice_등록_및_pdf_다운로드(Designer_20240711_135547_926)
+
+2024-07-11 13:55:49,038 [T4] INFO  JobRequest
+Job ID : Designer_20240711_135547_926
+Project Path  : C:\Users\3calss_15\Documents\Brity RPA Projects\Invoice_등록_및_pdf_다운로드\Invoice_등록_및_pdf_다운로드.proj
+Process Name  : P_Invoice_등록_및_pdf_다운로드
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 13300
+
+2024-07-11 13:55:49,041 [T9] INFO  JobRequest
+Start Callback Sender
+
+2024-07-11 13:55:49,041 [T9] DEBUG JobRequest
+Step Callback Interval: 500
+
+2024-07-11 13:55:49,088 [T4] DEBUG ProjectManager
+Set Project Information
+
+2024-07-11 13:55:49,112 [T4] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2024-07-11 13:55:49,113 [T4] INFO  JobRunner
+Initialize Script Engine
+
+2024-07-11 13:55:49,129 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2024-07-11 13:55:49,145 [T9] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2024-07-11 13:55:49,985 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2024-07-11 13:55:49,991 [T9] DEBUG JobRequest
+Callback - State: Ready
+
+
+2024-07-11 13:55:49,997 [T4] INFO  JobRunnerHook
+HotKey Hook Started
+
+2024-07-11 13:55:49,998 [T4] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2024-07-11 13:55:49,999 [T14-ScriptEngine] INFO  JobRunner
+RunProcess start
+
+2024-07-11 13:55:50,001 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2024-07-11 13:55:50,001 [T14-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2024-07-11 13:55:50,007 [T9] DEBUG JobRequest
+Callback - State: Starting
+
+
+2024-07-11 13:55:50,008 [T9] DEBUG JobRequest
+Callback - State: Running
+
+
+2024-07-11 13:55:50,996 [T14-ScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2024-07-11 13:55:51,067 [T14-ScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2024-07-11 13:55:51,093 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - P_Invoice_등록_및_pdf_다운로드
+##############################################################
+5f0330cc-412d-4d6c-ab9d-697505864914
+P_Invoice_등록_및_pdf_다운로드
+
+
+2024-07-11 13:55:51,145 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_Invoice_등록_및_pdf_다운로드
+**************************************************************
+ - STEP 1: Sca17d68a1dae403ca2c482a77108cc75 (1/2) - (1/28)
+ - [1] RunTask
+
+
+2024-07-11 13:55:51,241 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_getData
+##############################################################
+3c85452d-f7af-4bb2-a919-32863d17dfbe
+T_getData
+
+
+2024-07-11 13:55:51,263 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_getData
+**************************************************************
+ - STEP 2: Se1ac0852647a4216b4f29a8aa1e6099b (1/4) - (2/28)
+ - [1] OpenExcel
+
+
+2024-07-11 13:55:52,979 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 3: S04e2193a3a1e438692f047a667997909 (2/4) - (3/28)
+ - [2] GetDataRange
+
+
+2024-07-11 13:55:53,042 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 4: Sa69c092f7c704471bf0d33b73f0cd85b (3/4) - (4/28)
+ - [3] ReadRange
+
+
+2024-07-11 13:55:53,137 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 5: S51e8f5e8c8154fdba52fd33e7a0467a1 (4/4) - (5/28)
+ - [4] MessageBox
+
+
+2024-07-11 13:55:53,214 [T14-ScriptEngine] INFO  ScriptSupport
+Array(Object[][])2=>
+0: Invoice Description  | Purchase Order No. | Description | Quantity | Rate
+1: PDX Invoice | 1 | Box | 1 | 100
+2: PDX Invoice | 2 | computer | 2 | 200
+3: PDX Invoice | 3 | board | 3 | 300
+
+
+2024-07-11 13:55:56,004 [T14-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_getData
+
+2024-07-11 13:55:56,041 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_getData
+##############################################################
+3c85452d-f7af-4bb2-a919-32863d17dfbe
+T_getData
+
+
+2024-07-11 13:55:56,066 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_Invoice_등록_및_pdf_다운로드
+**************************************************************
+ - STEP 6: S349b8777b2d846e898937627ebcfcb71 (2/2) - (6/28)
+ - [2] RunTask
+
+
+2024-07-11 13:55:56,121 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_openChrome
+##############################################################
+b6ea1598-d34c-409e-b81b-47fe3098902f
+T_openChrome
+
+
+2024-07-11 13:55:56,127 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_openChrome
+**************************************************************
+ - STEP 7: S12eee20f94634ddbab55a0c3a5c23cf7 (1/22) - (7/28)
+ - [1] ChromeOpen
+
+
+2024-07-11 13:55:57,245 [T14-ScriptEngine] DEBUG ChromeOpen
+변수 'this.mainBrow'에는 이미 ChromeOpen을 통해 설정된 브라우저가 존재하여 덮어쓸 수 없습니다.
+Output에 지정된 변수를 변경하거나 ChromeClose를 통해 브라우저를 종료 후 다시 시도하여 주시기 바랍니다.
+
+2024-07-11 13:56:00,871 [T14-ScriptEngine] WARN  ScriptSupport
+[CATCH_STEP_EXCEPTION] Process: P_Invoice_등록_및_pdf_다운로드
+Task: T_openChrome
+Step: ChromeOpen (1/22)
+
+Error: 변수 'this.mainBrow'에는 이미 ChromeOpen을 통해 설정된 브라우저가 존재하여 덮어쓸 수 없습니다.
+Output에 지정된 변수를 변경하거나 ChromeClose를 통해 브라우저를 종료 후 다시 시도하여 주시기 바랍니다.
+
+2024-07-11 13:56:00,885 [T14-ScriptEngine] FINE  JobRunner
+RunTask ExceptionOccured. TASK: T_openChrome => 변수 'this.mainBrow'에는 이미 ChromeOpen을 통해 설정된 브라우저가 존재하여 덮어쓸 수 없습니다.
+Output에 지정된 변수를 변경하거나 ChromeClose를 통해 브라우저를 종료 후 다시 시도하여 주시기 바랍니다.
+
+2024-07-11 13:56:00,893 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_openChrome
+##############################################################
+b6ea1598-d34c-409e-b81b-47fe3098902f
+T_openChrome
+
+
+2024-07-11 13:56:00,895 [T14-ScriptEngine] DEBUG JobRunner
+RunTask ExceptionOccured. TASK: P_Invoice_등록_및_pdf_다운로드 => Process: P_Invoice_등록_및_pdf_다운로드
+Task: T_openChrome
+Step: ChromeOpen (1/22)
+변수 'this.mainBrow'에는 이미 ChromeOpen을 통해 설정된 브라우저가 존재하여 덮어쓸 수 없습니다.
+Output에 지정된 변수를 변경하거나 ChromeClose를 통해 브라우저를 종료 후 다시 시도하여 주시기 바랍니다.
+
+2024-07-11 13:56:00,895 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - P_Invoice_등록_및_pdf_다운로드
+##############################################################
+5f0330cc-412d-4d6c-ab9d-697505864914
+P_Invoice_등록_및_pdf_다운로드
+
+
+2024-07-11 13:56:00,934 [T14-ScriptEngine] ERROR JobRunner
+Process: P_Invoice_등록_및_pdf_다운로드
+Task: T_openChrome
+Step: ChromeOpen (1/22)
+
+변수 'this.mainBrow'에는 이미 ChromeOpen을 통해 설정된 브라우저가 존재하여 덮어쓸 수 없습니다.
+Output에 지정된 변수를 변경하거나 ChromeClose를 통해 브라우저를 종료 후 다시 시도하여 주시기 바랍니다.
+
+[CallStack]
+  - T_openChrome: [1] ChromeOpen
+  - P_Invoice_등록_및_pdf_다운로드: [2] RunTask
+
+[Global Variables]
+  - dataArray = <Too Long> [["Invoice Description ","Purchase Order No.","Description","Quantity","Rate"],["PDX Invoice",1.0,"B ... 94 more (Array2D)
+  - RESULT = <null> (Any)
+
+2024-07-11 13:56:00,935 [T14-ScriptEngine] DEBUG JobManager
+Set Result State: ExceptionOccured
+
+2024-07-11 13:56:02,908 [T14-ScriptEngine] INFO  JobRunner
+Make report.
+
+2024-07-11 13:56:02,975 [T14-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-07-11 13:56:02,976 [T14-ScriptEngine] DEBUG JobRunner
+OnProcessFailed
+
+2024-07-11 13:56:02,976 [T4] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2024-07-11 13:56:02,983 [T14-ScriptEngine] DEBUG ExcelBase
+DisposeExcel
+
+2024-07-11 13:56:03,021 [T14-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-07-11 13:56:03,024 [T14-ScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2024-07-11 13:56:03,025 [T14-ScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2024-07-11 13:56:03,027 [T14-ScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2024-07-11 13:56:03,030 [T14-ScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2024-07-11 13:56:03,031 [T14-ScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2024-07-11 13:56:03,033 [T14-ScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2024-07-11 13:56:03,034 [T14-ScriptEngine] DEBUG JobRunner
+SendJobResult: ExceptionOccured
+
+2024-07-11 13:56:03,034 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: ExceptionOccured
+##############################################################
+Process: P_Invoice_등록_및_pdf_다운로드
+Task: T_openChrome
+Step: ChromeOpen (1/22)
+
+변수 'this.mainBrow'에는 이미 ChromeOpen을 통해 설정된 브라우저가 존재하여 덮어쓸 수 없습니다.
+Output에 지정된 변수를 변경하거나 ChromeClose를 통해 브라우저를 종료 후 다시 시도하여 주시기 바랍니다.
+
+[CallStack]
+  - T_openChrome: [1] ChromeOpen
+  - P_Invoice_등록_및_pdf_다운로드: [2] RunTask
+
+[Global Variables]
+  - dataArray = <Too Long> [["Invoice Description ","Purchase Order No.","Description","Quantity","Rate"],["PDX Invoice",1.0,"B ... 94 more (Array2D)
+  - RESULT = <null> (Any)
+
+
+2024-07-11 13:56:03,034 [T14-ScriptEngine] INFO  JobRequest
+Last job life cycle state: ExceptionOccured
+
+2024-07-11 13:56:03,041 [T9] DEBUG JobRequest
+Callback - State: ExceptionOccured
+Process: P_Invoice_등록_및_pdf_다운로드
+Task: T_openChrome
+Step: ChromeOpen (1/22)
+
+변수 'this.mainBrow'에는 이미 ChromeOpen을 통해 설정된 브라우저가 존재하여 덮어쓸 수 없습니다.
+Output에 지정된 변수를 변경하거나 ChromeClose를 통해 브라우저를 종료 후 다시 시도하여 주시기 바랍니다.
+
+[CallStack]
+  - T_openChrome: [1] ChromeOpen
+  - P_Invoice_등록_및_pdf_다운로드: [2] RunTask
+
+[Global Variables]
+  - dataArray = <Too Long> [["Invoice Description ","Purchase Order No.","Description","Quantity","Rate"],["PDX Invoice",1.0,"B ... 94 more (Array2D)
+  - RESULT = <null> (Any)
+
+2024-07-11 13:56:03,047 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2024-07-11 13:56:03,058 [T9] INFO  JobRequest
+Callback - EngineClosed
+
+2024-07-11 13:56:03,059 [T9] INFO  JobService
+Disconnect agent service
+
+2024-07-11 13:56:03,063 [T9] DEBUG JobRequest
+End of Callback Sender
+
+2024-07-11 13:56:03,073 [T14-ScriptEngine] INFO  JobRunner
+RunProcess end
+
+2024-07-11 13:56:03,073 [T1] INFO  JobService
+Exit - Shutdown Engine BOT
+

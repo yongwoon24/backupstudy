@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="f42c68a6-bc57-4d22-bfc1-3154f846eff6" name="T_kakaomap" result="Fail" detail="'T_kakaomap'의 스크립트를 초기화하는데 실패했습니다.&#xA;&#xA;Step[12] ExecuteScript&#xA;Error Script&#xA;-&gt; let arr=this.header[1:11];&#xA;=&gt; SyntaxError: Unexpected token :" start="2024-07-08T07:48:55.687" end="2024-07-08T07:48:55.752" jobId="Designer_20240708_164852_778">
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.100.11228" />
+    <Info name="Resolution" value="1920 x 1200" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-L9D9Y" />
+  </JobInfo>
+</Result>

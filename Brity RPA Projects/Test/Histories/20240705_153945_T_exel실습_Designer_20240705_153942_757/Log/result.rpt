@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="670e603a-d8bb-4026-8b4d-15b03a61d228" name="T_exel실습" result="Pass" detail="{}" start="2024-07-05T06:39:48.376" end="2024-07-05T06:39:58.812" jobId="Designer_20240705_153942_757">
+  <Step id="S8a4fb8b93ac449b9b852ed76477c9e6c" taskName="T_exel실습" type="Win" name="CloseAll" displayName="CloseAll" callDepth="1" depth="1" num="1" result="Pass" start="2024-07-05T06:39:48.433" end="2024-07-05T06:39:49.565" displayTime="1.1s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'Chrome.exe'" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Options_Force" displayKey="Force" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sf0463f886d3246558fc9d2e5c470a938" taskName="T_exel실습" type="Chrome" name="ChromeOpen" displayName="ChromeOpen" callDepth="1" depth="1" num="2" result="Pass" start="2024-07-05T06:39:49.579" end="2024-07-05T06:39:56.563" displayTime="7s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="RESULT : &lt;object:ChromeBrowserObject&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="Chrome" runtimeType="String" key="CHROME_TypeOfBrowser" displayKey="Browser Type" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_BrowserType" displayKey="Headless Mode" visible="true" required="false" />
+      <Property value="'https://data.gg.go.kr/portal/mainPage.do'" runtimeType="String" key="CHROME_URL" displayKey="URL" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_ChromePath" displayKey="Browser Path" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="60" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ExtensionList" displayKey="Included Extensions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_DownloadPath" displayKey="Download Path" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_WindowsAccountPermissions" displayKey="Windows Account Permissions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_UserAgent" displayKey="User Agent" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_DisableAutomationControl" displayKey="Disable AutomationControl" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S733d037c44d24c1cade8d5fa5e916efc" taskName="T_exel실습" type="Win" name="SetText" displayName="SetText" callDepth="1" depth="1" num="3" result="Pass" start="2024-07-05T06:39:56.582" end="2024-07-05T06:39:58.810" displayTime="2.2s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Target_Timeout" displayKey="Timeout(Sec)" visible="true" required="true" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Target_TargetNo" displayKey="Index (1번부터 시작)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseName" displayKey="Check Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseValue" displayKey="Check Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyName" displayKey="Check Legacy Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyValue" displayKey="Check Legacy Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyDesc" displayKey="Check Legacy Description" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyHelp" displayKey="Check Legacy Help" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseBounds" displayKey="Check Size" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseAppTitle" displayKey="Check Title" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseSetFocus" displayKey="Focus Before" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_DrawBounds" displayKey="Draw Bounds" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseObjectPath" displayKey="Check Path" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="Search Around" visible="false" required="false" />
+      <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="Use Image Match" visible="true" required="false" />
+      <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="Image Index Method" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="Select Image Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_SearchBounds" displayKey="Search Bounds" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IgnoreOffScreen" displayKey="Ignore off-screen objects" visible="true" required="false" />
+      <Property value="2408" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+      <Property value="chrome" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="Remote App Name" visible="false" required="false" />
+      <Property value="'경기데이터드림 - Chrome'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="Chrome_WidgetWin_1" runtimeType="String" key="Application_ClassName" displayKey="App Class Name" visible="false" required="false" />
+      <Property value="Pane" runtimeType="String" key="Application_ClassType" displayKey="앱 객체 타입" visible="false" required="false" />
+      <Property value="67182" runtimeType="Integer" key="Application_WindowHandle" displayKey="WindowHandle" visible="false" required="false" />
+      <Property value="-8,-8,1936,1176" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+      <Property value="Invoke;Value;Text;ScrollItem;LegacyIAccessible" runtimeType="String" key="Target_SupportedPatterns" displayKey="Supported Patterns" visible="true" required="false" />
+      <Property value="content" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+      <Property value="Chrome" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+      <Property value="42.1770800.4.-63300" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_ClassName" displayKey="Class Name" visible="false" required="false" />
+      <Property value="Edit" runtimeType="String" key="Target_ClassType" displayKey="Type" visible="true" required="true" />
+      <Property value="'경기도 공공데이터 검색'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; 'Pane|Chrome_WidgetWin_1||Win32/Document|Chrome_RenderWidgetHostHWND|12851920|Chrome/Group|||Chrome/ ... 21 more" runtimeType="String" key="Target_ObjectPath" displayKey="Object Path" visible="true" required="true" />
+      <Property value="499,235,921,50" runtimeType="Rect" key="Target_Bounds" displayKey="Size" visible="true" required="false" />
+      <Property value="824,247" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+      <Property value="832,255" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+      <Property value="'333, 20'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="false" required="false" />
+      <Property value="''" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+      <Property value="'경기도 공공데이터 검색'" runtimeType="String" key="Target_LegacyName" displayKey="Legacy Name" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyValue" displayKey="Legacy Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="Legacy Description" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="Legacy Help" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsReadOnly" displayKey="IsReadOnly" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IsEditable" displayKey="IsEditable" visible="false" required="false" />
+      <Property value="276,15" runtimeType="Size" key="Target_SizeTolerance" displayKey="Size Tolerance" visible="false" required="false" />
+      <Property value="2024-07-05 15:37:55.058" runtimeType="String" key="Target_TimeStamp" displayKey="TimeStamp" visible="false" required="false" />
+      <Property value="Center" runtimeType="String" key="Target_RelativeOrigin" displayKey="Relative Origin" visible="true" required="false" />
+      <Property value="'0, 0'" runtimeType="String" key="Target_RelativePoint" displayKey="Relative Point" visible="true" required="false" />
+      <Property value="'캠핑장'" runtimeType="String" key="Keyboard_NewText" displayKey="Input Text" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Keyboard_UseDone" displayKey="Done(Enter)" visible="true" required="false" />
+      <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="Captured By" visible="false" required="false" />
+      <Property value="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" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+      <Property value="0,0,200,100" runtimeType="Rect" key="Target_ImageCompareBounds" displayKey="Image Comp. Bounds" visible="false" required="false" />
+      <Property value="'100, 50'" runtimeType="String" key="Target_PointOnImage" displayKey="Point on Image" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsPassword" displayKey="IsPassword" visible="false" required="false" />
+    </Properties>
+    <SearchResult result="Found" tryCount="1" appFilter="Single" appCount="1" searchMethod="Point" candidateCount="1" targetFilter="Name" extraFilter="" targetImage="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" />
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.100.11228" />
+    <Info name="Resolution" value="1920 x 1200" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-L9D9Y" />
+  </JobInfo>
+</Result>

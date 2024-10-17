@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="670e603a-d8bb-4026-8b4d-15b03a61d228" name="T_exel실습" result="Fail" detail="변수 'RESULT'에는 이미 ChromeOpen을 통해 설정된 브라우저가 존재하여 덮어쓸 수 없습니다.&#xA;Output에 지정된 변수를 변경하거나 ChromeClose를 통해 브라우저를 종료 후 다시 시도하여 주시기 바랍니다.&#xA;&#xA;-- Recent Warning Messages --&#xA;Process: T_exel실습&#xA;Step: ChromeOpen (1/2)&#xA;&#xA;Error: 변수 'RESULT'에는 이미 ChromeOpen을 통해 설정된 브라우저가 존재하여 덮어쓸 수 없습니다.&#xA;Output에 지정된 변수를 변경하거나 ChromeClose를 통해 브라우저를 종료 후 다시 시도하여 주시기 바랍니다." start="2024-07-05T06:38:51.502" end="2024-07-05T06:38:58.360" jobId="Designer_20240705_153846_036">
+  <Step id="Sf0463f886d3246558fc9d2e5c470a938" taskName="T_exel실습" type="Chrome" name="ChromeOpen" displayName="ChromeOpen" callDepth="1" depth="1" num="1" result="Fail" detail="변수 'RESULT'에는 이미 ChromeOpen을 통해 설정된 브라우저가 존재하여 덮어쓸 수 없습니다.&#xA;Output에 지정된 변수를 변경하거나 ChromeClose를 통해 브라우저를 종료 후 다시 시도하여 주시기 바랍니다." start="2024-07-05T06:38:51.570" end="2024-07-05T06:38:58.345" displayTime="6.8s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="RESULT : " runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="Chrome" runtimeType="String" key="CHROME_TypeOfBrowser" displayKey="Browser Type" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_BrowserType" displayKey="Headless Mode" visible="true" required="false" />
+      <Property value="'https://data.gg.go.kr/portal/mainPage.do'" runtimeType="String" key="CHROME_URL" displayKey="URL" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_ChromePath" displayKey="Browser Path" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="60" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ExtensionList" displayKey="Included Extensions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_DownloadPath" displayKey="Download Path" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_WindowsAccountPermissions" displayKey="Windows Account Permissions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_UserAgent" displayKey="User Agent" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_DisableAutomationControl" displayKey="Disable AutomationControl" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.100.11228" />
+    <Info name="Resolution" value="1920 x 1200" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-L9D9Y" />
+  </JobInfo>
+</Result>

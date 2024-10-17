@@ -1,0 +1,47 @@
+<Project id="fd20f6ff-418e-4cdb-b0cb-85b007deaa59" namespace="" name="yongwoon0709" category="project" workType="foreground" version="1.00" lastPublishedDate="" lastPublishedBy="" createdDate="2024-07-09 09:10:57" createdBy="" latestProcess="T_test02" designerVersion="3.1.100.11228" DesignedBy="">
+  <SharedTask isExpended="false" />
+  <NormalTask isExpended="true">
+    <LinkItem id="80ec3c8a-d44e-4605-ae0f-b5d5ea19a7cd" category="NormalTask" isChanged="Y" desc="" stepCount="14" name="T_test01">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="6a100b18-dfd5-433f-b1ed-51fa1ae93dd7" category="NormalTask" isChanged="Y" desc="" stepCount="6" name="T_test02">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="83999f66-1d04-4b58-a072-cb93f73c9d3d" category="NormalTask" isChanged="Y" desc="" stepCount="7" name="T_test03">
+      <Properties />
+    </LinkItem>
+  </NormalTask>
+  <Event isExpended="false" />
+  <Process isExpended="true">
+    <LinkItem id="7fd43ed9-b7a5-459b-9c30-78ab74b9ce2f" category="Process" isChanged="Y" desc="" stepCount="2" name="P_test01">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="e76fd731-9863-42f8-97bd-e6a9e138d431" category="Process" isChanged="Y" desc="default process" stepCount="2" name="P_yongwoon0709">
+      <Properties />
+    </LinkItem>
+  </Process>
+  <CustomLibraries isExpended="false" />
+  <LibraryTemplate isExpended="false" />
+  <Resources isExpended="false" />
+  <RemoteProcess isExpended="false" />
+  <RecorderData isExpended="false" />
+  <Asset />
+  <Library />
+  <Variables />
+  <Properties>
+    <Property key="PlayOption_StepInterval" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="1" />
+    <Property key="PlayOption_DisableDrawBounds" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_InvokeFirst" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_AllowUploadDumpScreenResult" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+  </Properties>
+  <DisplayLibraries>
+    <string>Flow</string>
+    <string>Win</string>
+    <string>Net</string>
+    <string>Excel</string>
+    <string>Desktop</string>
+    <string>Chrome</string>
+    <string>ImageRecognition</string>
+    <string>DataConverter</string>
+  </DisplayLibraries>
+</Project>

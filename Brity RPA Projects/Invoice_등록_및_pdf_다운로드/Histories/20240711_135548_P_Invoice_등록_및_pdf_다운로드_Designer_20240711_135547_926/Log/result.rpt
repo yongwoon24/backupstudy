@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="5f0330cc-412d-4d6c-ab9d-697505864914" name="P_Invoice_등록_및_pdf_다운로드" result="Fail" detail="-- Recent Warning Messages --&#xA;Process: P_Invoice_등록_및_pdf_다운로드&#xA;Task: T_openChrome&#xA;Step: ChromeOpen (1/22)&#xA;&#xA;Error: 변수 'this.mainBrow'에는 이미 ChromeOpen을 통해 설정된 브라우저가 존재하여 덮어쓸 수 없습니다.&#xA;Output에 지정된 변수를 변경하거나 ChromeClose를 통해 브라우저를 종료 후 다시 시도하여 주시기 바랍니다." start="2024-07-11T04:55:51.088" end="2024-07-11T04:56:00.895" jobId="Designer_20240711_135547_926">
+  <Step id="Sca17d68a1dae403ca2c482a77108cc75" taskName="P_Invoice_등록_및_pdf_다운로드" type="Flow" name="RunTask" displayName="RunTask ('T_getData')" callDepth="1" depth="1" num="1" result="Pass" start="2024-07-11T04:55:51.147" end="2024-07-11T04:55:51.245" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="T_getData" runtimeType="String" key="Conditions_TaskName" displayKey="Task Name" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Se1ac0852647a4216b4f29a8aa1e6099b" taskName="T_getData" type="Excel" name="OpenExcel" displayName="OpenExcel" callDepth="2" depth="1" num="1" result="Pass" start="2024-07-11T04:55:51.263" end="2024-07-11T04:55:52.974" displayTime="1.7s">
+    <Variables>
+      <Variable name="newExcel" scope="Normal" owner="T_getData" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.newExcel : Workbook" runtimeType="Any" key="Output_OutputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="'C:\\Users\\3calss_15\\Desktop\\rpa\\실습과제 8 - Invoice 생성.xlsx'" runtimeType="String" key="File_Path" displayKey="Path" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="File_Invisible" displayKey="Invisible" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="File_ReadOnly" displayKey="ReadOnly" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="File_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="File_ExecuteShell" displayKey="Execute Shell" visible="true" required="false" />
+      <Property value="60" runtimeType="Integer" key="File_Timeout" displayKey="Timeout" visible="false" required="true" />
+      <Property value="false" runtimeType="Boolean" key="File_UsePassword" displayKey="UsePassword" visible="true" required="false" />
+      <Property value="&lt;Secure Data&gt;" runtimeType="String" key="File_OpenPassword" displayKey="OpenPassword" visible="false" required="false" />
+      <Property value="&lt;Secure Data&gt;" runtimeType="String" key="File_WritePassword" displayKey="WritePassword" visible="false" required="false" />
+      <Property value="Comma(,)" runtimeType="String" key="File_TextDelimiter" displayKey="Text Delimiter" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S04e2193a3a1e438692f047a667997909" taskName="T_getData" type="Excel" name="GetDataRange" displayName="GetDataRange" callDepth="2" depth="1" num="2" result="Pass" start="2024-07-11T04:55:52.979" end="2024-07-11T04:55:53.030" displayTime="0.1s">
+    <Variables>
+      <Variable name="dataRange" scope="Normal" owner="T_getData" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+      <Variable name="newExcel" scope="Normal" owner="T_getData" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="Workbook" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="this.dataRange : 'A1:E4'" runtimeType="String" key="Output_OutputRange" displayKey="Range" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="Sheet_VisibleDataOnly" displayKey="Data Only" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sa69c092f7c704471bf0d33b73f0cd85b" taskName="T_getData" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="2" depth="1" num="3" result="Pass" start="2024-07-11T04:55:53.042" end="2024-07-11T04:55:53.122" displayTime="0.1s">
+    <Variables>
+      <Variable name="dataArray" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+      <Variable name="dataRange" scope="Normal" owner="T_getData" declareType="Any" isChanged="false" isChangable="true" runtimeType="String" value="'A1:E4'" />
+      <Variable name="newExcel" scope="Normal" owner="T_getData" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="Workbook" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Workbook" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="Global.dataArray : &lt;undefined&gt;" runtimeType="Undefined" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="'시트1'" runtimeType="String" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A1:E4'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Data" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S51e8f5e8c8154fdba52fd33e7a0467a1" taskName="T_getData" type="Desktop" name="MessageBox" displayName="MessageBox" callDepth="2" depth="1" num="4" result="Pass" start="2024-07-11T04:55:53.137" end="2024-07-11T04:55:56.018" displayTime="2.9s">
+    <Variables>
+      <Variable name="dataArray" scope="Global" declareType="Any" isChanged="false" isChangable="true" runtimeType="Array2D" value="&lt;Too Long&gt; [[&quot;Invoice Description &quot;,&quot;Purchase Order No.&quot;,&quot;Description&quot;,&quot;Quantity&quot;,&quot;Rate&quot;],[&quot;PDX Invoice&quot;,1.0,&quot;B ... 94 more" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;Too Long&gt; [[&quot;Invoice Description &quot;,&quot;Purchase Order No.&quot;,&quot;Description&quot;,&quot;Quantity&quot;,&quot;Rate&quot;],[&quot;PDX Invoice&quot;,1.0,&quot;B ... 94 more" runtimeType="Array2D" key="Conditions_Arguments" displayKey="Arguments" visible="true" required="false" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Command_Timeout" displayKey="Timeout (Sec)" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S92663ddf1cb841e68c964326e8e66fff" taskName="T_getData" type="Flow" name="InternalData" displayName="End-RunTask ('T_getData') / Return To 'P_Invoice_등록_및_pdf_다운로드'" callDepth="2" depth="1" num="" result="Internal" start="2024-07-11T04:55:56.041" end="2024-07-11T04:55:56.041" displayTime="0s" />
+  <Step id="S349b8777b2d846e898937627ebcfcb71" taskName="P_Invoice_등록_및_pdf_다운로드" type="Flow" name="RunTask" displayName="RunTask ('T_openChrome')" callDepth="1" depth="1" num="2" result="Pass" start="2024-07-11T04:55:56.068" end="2024-07-11T04:55:56.123" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="T_openChrome" runtimeType="String" key="Conditions_TaskName" displayKey="Task Name" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S12eee20f94634ddbab55a0c3a5c23cf7" taskName="T_openChrome" type="Chrome" name="ChromeOpen" displayName="ChromeOpen" callDepth="2" depth="1" num="1" result="Fail" detail="변수 'this.mainBrow'에는 이미 ChromeOpen을 통해 설정된 브라우저가 존재하여 덮어쓸 수 없습니다.&#xA;Output에 지정된 변수를 변경하거나 ChromeClose를 통해 브라우저를 종료 후 다시 시도하여 주시기 바랍니다." start="2024-07-11T04:55:56.127" end="2024-07-11T04:56:00.892" displayTime="4.8s">
+    <Variables>
+      <Variable name="mainBrow" scope="Normal" owner="T_openChrome" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.mainBrow : &lt;undefined&gt;" runtimeType="Undefined" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="Chrome" runtimeType="String" key="CHROME_TypeOfBrowser" displayKey="Browser Type" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_BrowserType" displayKey="Headless Mode" visible="true" required="false" />
+      <Property value="'https://yongwoon24.invoicely.com/dashboard'" runtimeType="String" key="CHROME_URL" displayKey="URL" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_ChromePath" displayKey="Browser Path" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="60" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ExtensionList" displayKey="Included Extensions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_DownloadPath" displayKey="Download Path" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_WindowsAccountPermissions" displayKey="Windows Account Permissions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_UserAgent" displayKey="User Agent" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_DisableAutomationControl" displayKey="Disable AutomationControl" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S3901f7708c88421f9790b126622b487e" taskName="T_openChrome" type="Flow" name="InternalData" displayName="End-RunTask ('T_openChrome') / Return To 'P_Invoice_등록_및_pdf_다운로드'" callDepth="2" depth="1" num="" result="Internal" start="2024-07-11T04:56:00.893" end="2024-07-11T04:56:00.893" displayTime="0s" />
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.100.11228" />
+    <Info name="Resolution" value="1920 x 1200" />
+    <Info name="Language" value="한국어 (대한민국)" />
+    <Info name="BotID" value="S-DESIGNER-L9D9Y" />
+  </JobInfo>
+</Result>
